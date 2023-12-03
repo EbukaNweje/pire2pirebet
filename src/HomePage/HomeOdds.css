@@ -1,0 +1,336 @@
+/* 
+/* TEMPLATE FOR STYLINGS */
+
+/* Media Query Styling For Desktop Device */
+
+.HomeOddsBody{
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  overflow-y: auto;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.HomeOddsHeader{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.HomeOddsHeaderTop{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.HomeOddsHeaderTop p{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.HomeOddsHeaderTop p:hover{
+  color: rgb(126, 128, 130);
+}
+.HomeOddsHeaderTop span{
+  display: flex;
+  align-items: center;
+}
+
+.HomeOddsHeaderDown{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.HomeOddsWrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeOddsWrap::-webkit-scrollbar{
+ display: none;
+}
+
+.HomeOddsItem{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 30px;
+  font-size: 13px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.HomeOddsItemA{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #119702;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  padding: 15px 20px;
+  position: relative;
+}
+/* .HomeOddsItemA:hover{
+  background: #DCC708;
+  color: #000;
+} */
+.HomeOddsItemA span{
+ display: flex;
+ align-items: center;
+ position: absolute;
+ top: -10px;
+ right: -5px;
+ 
+}
+.HomeOddsItemA span .FaArrowLeftLong{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 20px;
+ height: 20px;
+}
+.HomeOddsItemA p{
+  position: absolute;
+  top: -30px;
+  right: -200px;
+  width: max-content;
+}
+
+.HomeOddsItemB{
+  width: 78%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #22252B;
+  color: #fff;
+  padding: 5px;
+}
+
+
+/* End of Media Query Styling For Desktop Device */
+
+/* Media Query Styling for Small Desktop  */
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+
+/* Media Query Styling for Big Tablet Device */
+
+@media only screen and (max-width: 900px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+/* Media Query Styling for Tablet Device */
+
+@media only screen and (max-width: 760px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 480px) {
+
+  .HomeOddsBody{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    overflow-y: auto;
+    margin-top: 80px;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .HomeOddsHeader{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .HomeOddsHeaderTop{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .HomeOddsHeaderTop p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .HomeOddsHeaderTop p:hover{
+    color: rgb(126, 128, 130);
+  }
+  .HomeOddsHeaderTop span{
+    display: flex;
+    align-items: center;
+  }
+  
+  .HomeOddsHeaderDown{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .HomeOddsWrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .HomeOddsWrap::-webkit-scrollbar{
+   display: none;
+  }
+  
+  .HomeOddsItem{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .HomeOddsItemA{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #119702;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+    /* padding: 15px 20px; */
+    position: relative;
+  }
+  /* .HomeOddsItemA:hover{
+    background: #DCC708;
+    color: #000;
+  } */
+  .HomeOddsItemA span{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: -10px;
+   right: -5px;
+   
+  }
+  .HomeOddsItemA span .FaArrowLeftLong{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 20px;
+   height: 20px;
+  }
+  .HomeOddsItemA p{
+    position: absolute;
+    top: -30px;
+    right: -200px;
+    width: max-content;
+  }
+  
+  .HomeOddsItemB{
+    width: 78%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #22252B;
+    color: #fff;
+    padding: 5px;
+  }
+  .OddsBodyPopUp{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #000000d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .OddsBodyPopUpContent{
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .OddsBodyPopUpCancel{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .MdOutlineCancel{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+}
+
+/* End of Media Query Styling for Mobile Device */
+
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 351px) {
+
+
+}
+
+/* End of Media Query Styling for Mobile Device */ 

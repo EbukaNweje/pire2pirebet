@@ -1,0 +1,1420 @@
+/* 
+/* TEMPLATE FOR STYLINGS */
+
+/* Media Query Styling For Desktop Device */
+
+.HomePageBody{
+  width: 100%;
+  height: max-content;
+}
+
+.HomeMainContents{
+  width: 100%;
+  height: max-content;
+  background: #22252B;
+  display: flex;
+}
+
+.HomeMainContentsA{
+  width: 19%;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.HomeMainContentsASearch{
+  width: 100%;
+  height: 35px;
+  background: #373A45;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.HomeMainContentsASearch input{
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.HomeMainContentsASearch .FaSearch{
+  width: 7%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.HomeMainContentsALinks{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.HomeMainContentsALinks::-webkit-scrollbar{
+display: none;
+}
+
+.HomeMainContentsALinksItem{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 0 0 auto;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.HomeMainContentsALinksItemFan{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 0 0 auto;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in;
+}
+
+.HomeMainContentsALinksItemP{
+  width: 100%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.HomeMainContentsALinksItem p{
+  font-size: 12px;
+}
+.HomeMainContentsALinksItem:hover{
+  background: rgb(28, 28, 28);
+}
+
+.HomeMainContentsALinksItemFP{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: max-content;
+  display: none;
+}
+.HomeMainContentsALinksItemFP.show{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 180px;
+  transition: all 2s ease-in-out;
+  -webkit-animation-name: fadeInUp;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  display: flex;
+  overflow-y: auto;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.HomeMainContentsALinksItemFP1{
+  width: 100%;
+  height: 40px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 13px;
+  flex: 0 0 auto;
+  color: #fff;
+}
+
+.HomeMainContentsB{
+  width: 60%;
+  height: max-content;
+}
+
+.HomeMainContentsBCarousel{
+  width: 100%;
+  height: 35vh;
+  background: #000;
+}
+
+.HomeMainContentsBCarouselImgDiv{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.HomeMainContentsBCarouselImgDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.HomeMainContentsBCarouselImgDiv .carouselBack{
+  position: absolute;
+  left: 10px;
+  background: #807c7c;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  top: 40%;
+  cursor: pointer;
+}
+.HomeMainContentsBCarouselImgDiv .carouselFront{
+  position: absolute;
+  right: 10px;
+  background: #807c7c;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  top: 40%;
+  cursor: pointer;
+}
+
+.HomeMainContentsBNav{
+  width: 100%;
+  height: max-content;
+}
+
+.HomeMainContentsBNavTop{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background: #373A45;
+  color: #fff;
+  font-size: 12px;
+}
+
+.HomeMainContentsBNavDown{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #373A45;
+  padding: 0 10px;
+  border-top: 2px solid #666;
+}
+
+.HomeMainContentsBNavDownItem{
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  color: #fff;
+  gap: 7px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.HomeMainContentsBNavDownItem p{
+ font-size: 12px;
+}
+.HomeMainContentsBNavDownItem.active{
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  color: green;
+  gap: 7px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.HomeMainContentsBNavDownItem:hover{
+  color: green;
+}
+
+.HomeMainContentsBNavDownIcon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeMainContentsBNavGames{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  /* display: none; */
+}
+.HomeMainContentsBNavGames h3{
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.HomeMainContentsBNavGamesItem{
+  width: 100%;
+  height: max-content;
+  border: 1px solid #666;
+}
+
+.HomeMainContentsBNavGamesItemTop{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ddd;
+  font-size: 13px;
+}
+
+.HomeMainContentsBNavGamesItem1{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 13px;
+  gap: 10px;
+}
+
+.HomeMainContentsBNavGamesItem1A, .HomeMainContentsBNavGamesItem1C{
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+  gap: 25px;
+}
+.HomeMainContentsBNavGamesItem1A span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.HomeMainContentsBNavGamesItem1B{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.HomeMainContentsBNavGamesItem1D{
+  width: 10%;
+  height: 100%;
+}
+
+
+.HomeMainContentsBNavGamesItem1B1st{
+  width: 42%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.HomeMainContentsBNavGamesItem1B1st span{
+  width: 100%;
+  height: 15px;
+  background: grey;
+}
+
+.HomeMainContentsBNavGamesItem1B2nd{
+  width: 44%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.HomeMainContentsBNavGamesItem1B2nd span{
+  width: 100%;
+  height: 15px;
+  background: grey;
+}
+
+.HomeMainContentsBNavGamesItem1B3rd{
+  width: 11%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.HomeMainContentsBNavGamesItem1B3rd span{
+  width: 100%;
+  height: 15px;
+  background: grey;
+}
+
+/* styles for 2nd picks */
+
+.HomeMainContentsBNavGamesSelect{
+  width: 100%;
+  height: max-content;
+  /* display: none; */
+}
+
+.HomeMainContentsBNavGamesSelectA{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #fff;
+  font-size: 13px;
+}
+
+.HomeMainContentsBNavGamesSelectA1, .HomeMainContentsBNavGamesSelectA2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeMainContentsBNavGamesSelectB{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #fff;
+  font-size: 13px;
+  gap: 10px;
+}
+
+.HomeMainContentsBNavGamesSelectB1, .HomeMainContentsBNavGamesSelectB2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeMainContentsBNavGamesSelectB1A, .HomeMainContentsBNavGamesSelectB1B, .HomeMainContentsBNavGamesSelectB1C{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.HomeMainContentsBNavGamesSelectB2A, .HomeMainContentsBNavGamesSelectB2B, .HomeMainContentsBNavGamesSelectB2C{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.HomeMainContentsBNavGamesSelectC{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.HomeMainContentsBNavGamesSelectCTeam1{
+  width: 100%;
+  height: 60px;
+  background: #2B2D36;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.HomeMainContentsBNavGamesSelectCTeams{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.HomeMainContentsBNavGamesSelectCTeams p{
+  width: 100%;
+  display: flex;
+ justify-content: center;
+ color: #fff;
+}
+
+.HomeMainContentsBNavGamesSelectCTeamsPick1, .HomeMainContentsBNavGamesSelectCTeamsPick2{
+  width: 28%;
+  height: 80%;
+  display: flex;
+  gap: 2px;
+}
+
+.HomeMainContentsBNavGamesSelectCTeamsPick3{
+  width: 4%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+}
+
+.IoMdInformationCircleOutline{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.IoMdInformationCircleOutline:hover{
+  color: #DCC708;
+}
+
+.HomeMainContentsBNavGamesSelectCTeamsPick1 div, .HomeMainContentsBNavGamesSelectCTeamsPick2 div{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  background: #119702;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.HomeMainContentsBNavGamesSelectCTeamsPick1 div:hover, .HomeMainContentsBNavGamesSelectCTeamsPick2 div:hover{
+  background: #DCC708;
+}
+
+.HomeMainContentsBNavGamesSelectCTeamsPick1 .active{
+  background: #DCC708;
+}
+
+/* end of styles for 2nd picks */
+
+
+.HomeMainContentsCSlip {
+  width: 21%;
+  height: max-content;
+  padding: 0 10px;
+  background: #1A1A1A;
+  color: #fff;
+}
+
+.HomeMainContentsCSlipA{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.HomeMainContentsCSlipB{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 13px;
+}
+
+.HomeMainContentsCSlipItems{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.HomeMainContentsCSlipItems1{
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  background: #373A45;
+  padding: 5px;
+}
+
+.HomeMainContentsCSlipItem1Name{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+}
+
+.HomeMainContentsCSlipItem1NameTeams{
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.HomeMainContentsCSlipItem1NameTeamsOdds{
+  color: greenyellow;
+}
+.HomeMainContentsCSlipItem1NameTeams p{
+  color: greenyellow;
+}
+
+.HomeMainContentsCSlipItem1Choice{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HomeMainContentsCSlipItem1Choice p{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.HomeMainContentsCSlipItemsType{
+  width: 100%;
+  height: 60px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.HomeMainContentsCSlipItemsType div{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.HomeMainContentsCSlipItemsType div.active{
+  padding: 5px 10px;
+  background: #666;
+  border-radius: 40px;
+}
+
+.HomeMainContentsCSlipC{
+  width: 100%;
+  height: max-content;
+  padding: 5px;
+}
+
+.HomeMainContentsCSlipCTop{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HomeMainContentsCSlipCTopA{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.HomeMainContentsCSlipCTopA input{
+  width: 100px;
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.HomeMainContentsCSlipCTopB{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HomeMainContentsCSlipCTopB button{
+  width: max-content;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #119702;
+  color: #fff;
+}
+
+.HomeMainContentsCSlipCDown{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 12px;
+}
+.HomeMainContentsCSlipCDown p{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.HomeMainContentsCSlipCDown button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #DCC708;
+  color: #fff;
+}
+
+.MobileFooter{
+  width: 100%;
+  height: 100px;
+  /* background: red; */
+  display: none;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/* End of Media Query Styling For Desktop Device */
+
+/* Media Query Styling for Small Desktop  */
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+
+/* Media Query Styling for Big Tablet Device */
+
+@media only screen and (max-width: 900px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+/* Media Query Styling for Tablet Device */
+
+@media only screen and (max-width: 760px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 480px) {
+
+  .HomePageBody{
+    width: 100%;
+    height: max-content;
+  }
+  
+  .HomeMainContents{
+    width: 100%;
+    height: max-content;
+    background: #22252B;
+    display: flex;
+    position: relative;
+  }
+  
+  .HomeMainContentsA{
+    width: 19%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+  
+  .HomeMainContentsASearch{
+    width: 100%;
+    height: 35px;
+    background: #373A45;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .HomeMainContentsASearch input{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .HomeMainContentsASearch .FaSearch{
+    width: 7%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .HomeMainContentsALinks{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    position: fixed;
+    /* background: #000; */
+  }
+  
+  .HomeMainContentsALinks::-webkit-scrollbar{
+  display: none;
+  }
+  
+  .HomeMainContentsALinksItem{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 0 0 auto;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .HomeMainContentsALinksItem p{
+    font-size: 12px;
+  }
+  .HomeMainContentsALinksItem:hover{
+    background: rgb(28, 28, 28);
+  }
+  
+  /* .HomeMainContentsALinksItemFan{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 0 0 auto;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in;
+  } */
+  
+  .HomeMainContentsALinksItemP{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .HomeMainContentsALinksItem p{
+    font-size: 12px;
+  }
+  .HomeMainContentsALinksItem:hover{
+    background: rgb(28, 28, 28);
+  }
+  
+  .HomeMainContentsALinksItemFP{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: max-content;
+    display: none;
+  }
+  .HomeMainContentsALinksItemFP.show{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 251px;
+    transition: all 2s ease-in-out;
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    overflow-y: auto;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 30px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .HomeMainContentsALinksItemFP1{
+    width: 100%;
+    height: 40px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 13px;
+    flex: 0 0 auto;
+  }
+  
+  
+  .HomeMainContentsB{
+    width: 100%;
+    height: max-content;
+    margin-top: 80px;
+  }
+  
+  .HomeMainContentsBCarousel{
+    width: 100%;
+    height: 35vh;
+    background: #000;
+  }
+  
+  .HomeMainContentsBCarouselImgDiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .HomeMainContentsBCarouselImgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .HomeMainContentsBCarouselImgDiv .carouselBack{
+    position: absolute;
+    left: 10px;
+    background: #807c7c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    top: 40%;
+    cursor: pointer;
+  }
+  .HomeMainContentsBCarouselImgDiv .carouselFront{
+    position: absolute;
+    right: 10px;
+    background: #807c7c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    top: 40%;
+    cursor: pointer;
+  }
+  
+  .HomeMainContentsBNav{
+    width: 100%;
+    height: max-content;
+  }
+  
+  .HomeMainContentsBNavTop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: #373A45;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .HomeMainContentsBNavDown{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #373A45;
+    padding: 0 10px;
+    border-top: 2px solid #666;
+  }
+  
+  .HomeMainContentsBNavDownItem{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    color: #fff;
+    gap: 7px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  .HomeMainContentsBNavDownItem p{
+   font-size: 12px;
+  }
+  .HomeMainContentsBNavDownItem.active{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    color: green;
+    gap: 7px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+  }
+  .HomeMainContentsBNavDownItem:hover{
+    color: green;
+  }
+  
+  .HomeMainContentsBNavDownIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HomeMainContentsBNavGames{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .HomeMainContentsBNavGames h3{
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .HomeMainContentsBNavGamesItem{
+    width: 100%;
+    height: max-content;
+    border: 1px solid #666;
+  }
+  
+  .HomeMainContentsBNavGamesItemTop{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HomeMainContentsBNavGamesItem1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 13px;
+    gap: 10px;
+  }
+  
+  .HomeMainContentsBNavGamesItem1A, .HomeMainContentsBNavGamesItem1C{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .HomeMainContentsBNavGamesItem1A:hover, .HomeMainContentsBNavGamesItem1C:hover{
+    background: #373A45;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .HomeMainContentsBNavGamesItem1B:hover{
+    background: #373A45;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B1st{
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .HomeMainContentsBNavGamesItem1B1st span{
+    width: 100%;
+    height: 15px;
+    background: grey;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B2nd{
+    width: 44%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B2nd span{
+    width: 100%;
+    height: 15px;
+    background: grey;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B3rd{
+    width: 11%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .HomeMainContentsBNavGamesItem1B3rd span{
+    width: 100%;
+    height: 15px;
+    background: grey;
+  }
+  
+  .HomeMainContentsCSlip {
+    width: 21%;
+    height: max-content;
+    padding: 0 10px;
+    background: #1A1A1A;
+    color: #fff;
+    display: none;
+  }
+  
+  .HomeMainContentsCSlipA{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .HomeMainContentsCSlipB{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .HomeMainContentsCSlipItems{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+  }
+  
+  .HomeMainContentsCSlipItems1{
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    background: #373A45;
+    padding: 5px;
+  }
+  
+  .HomeMainContentsCSlipItem1Name{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+  }
+  
+  .HomeMainContentsCSlipItem1NameTeams{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .HomeMainContentsCSlipItem1NameTeamsOdds{
+    color: greenyellow;
+  }
+  .HomeMainContentsCSlipItem1NameTeams p{
+    color: greenyellow;
+  }
+  
+  .HomeMainContentsCSlipItem1Choice{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .HomeMainContentsCSlipItem1Choice p{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .HomeMainContentsCSlipItemsType{
+    width: 100%;
+    height: 60px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .HomeMainContentsCSlipItemsType div{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .HomeMainContentsCSlipItemsType div.active{
+    padding: 5px 10px;
+    background: #666;
+    border-radius: 40px;
+  }
+  
+  .HomeMainContentsCSlipC{
+    width: 100%;
+    height: max-content;
+    padding: 5px;
+  }
+  
+  .HomeMainContentsCSlipCTop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .HomeMainContentsCSlipCTopA{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+  .HomeMainContentsCSlipCTopA input{
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .HomeMainContentsCSlipCTopB{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .HomeMainContentsCSlipCTopB button{
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #119702;
+    color: #fff;
+  }
+  
+  .HomeMainContentsCSlipCDown{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+  }
+  .HomeMainContentsCSlipCDown p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .HomeMainContentsCSlipCDown button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #DCC708;
+    color: #fff;
+  }
+
+  .MobileFooter{
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .MobileFooter div{
+    width: 30%;
+    height: 100%;
+    /* background: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  .MobileFooter div span{
+    width: 100%;
+    height: 100%;
+    /* background: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .MobileFooter div span p{
+   
+    color: #fff;
+  }
+
+
+
+  .MobileFooter div .FooterIcon {
+    width: 30%;
+    height: max-content;
+    /* background: beige; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-size: 30px;
+  }
+  .MobileFooter div .FooterIcon p{
+    font-size: 30px;
+    height: -6px;
+  }
+
+}
+
+/* End of Media Query Styling for Mobile Device */
+
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 351px) {
+
+
+}
+
+/* End of Media Query Styling for Mobile Device */ 

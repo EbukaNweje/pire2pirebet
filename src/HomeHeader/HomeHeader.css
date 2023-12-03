@@ -1,0 +1,569 @@
+/* 
+/* TEMPLATE FOR STYLINGS */
+
+/* Media Query Styling For Desktop Device */
+
+.HomeHeader{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #373A45;
+  padding: 10px 40px;
+}
+
+.HeaderHam{
+  width: 50px;
+  height: 40px;
+  background: #000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeHeaderLogo{
+  width: 110px;
+  height: 100%;
+}
+.HomeHeaderLogo img{
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.HeaderTextL{
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+.HeaderTextL button{
+  padding: 10px 20px;
+  background: #119702;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.HeaderTextL button:hover{
+  background: green;
+  cursor: pointer;
+}
+
+.HeaderTextL p{
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #119702;
+  transition: all 0.3s ease;
+}
+.HeaderTextL p:hover{
+  color: green;
+}
+.HeaderTextL h6{
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(196, 196, 196);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.HeaderTextL h6:hover{
+  color: #fff;
+}
+
+.HeaderTextLMyacc{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.FaRegUserCircle{
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.HeaderTextLMyaccContents{
+  position: absolute;
+  right: 0px;
+  /* bottom: -10px; */
+  width: 270px;
+  height: max-content;
+  background: #22252B;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 10;
+}
+.HeaderTextLMyaccContents div{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  background: #22252B;
+  padding-left: 10px;
+  color: #fff9;
+}
+.HeaderTextLMyaccContents .HeaderTextLMyaccContentsA, .HeaderTextLMyaccContents .HeaderTextLMyaccContentsB{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  background: #22252B;
+  padding-left: 10px;
+  gap: 10px;
+}
+.HeaderTextLMyaccContents div:hover{
+  background: #626262;
+}
+
+.HeaderTextL .HeaderTextLDrop{
+  position: absolute;
+  right: 0px;
+  /* bottom: -10px; */
+  width: 270px;
+  height: max-content;
+  background: #fff;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.HeaderTextLDropA{
+  width: 100%;
+  height: 70px;
+  /* background: #000; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.HeaderTextLDropA input{
+  width: 100%;
+  height: 55px;
+  border: 1px solid #22252B;
+  outline: none;
+  background: none;
+  padding-left: 10px;
+}
+.HeaderTextLDropB{
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.HeaderTextLDropB .HeaderTextLDropBInputDiv{
+  width: 100%;
+  height: 40px;
+  outline: none;
+  display: flex;
+  gap: 3px;
+  border: 1px solid #000;
+}
+.HeaderTextLDropB .HeaderTextLDropBInputDiv input{
+  width: 90%;
+  height: 100%;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+}
+.HeaderTextLDropB .HeaderTextLDropBInputDiv .FaEye{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.HeaderTextLDropC{
+  width: 100%;
+  height: 50px;
+}
+.HeaderTextLDropC button{
+  width: 100%;
+  height: 42px;
+}
+
+.HeaderTextLDropD{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+}
+.HeaderTextLDropD span{
+  color:#119702;
+  cursor: pointer;
+}
+
+.HomeSideDrawer{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background: #22252B;
+  z-index: 2;
+  display: none;
+}
+
+
+
+
+/* End of Media Query Styling For Desktop Device */
+
+/* Media Query Styling for Small Desktop  */
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+
+/* Media Query Styling for Big Tablet Device */
+
+@media only screen and (max-width: 900px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+/* Media Query Styling for Tablet Device */
+
+@media only screen and (max-width: 760px){
+
+
+
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 480px) {
+
+  .HomeHeader{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #373A45;
+    padding: 10px 20px;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .HomeHeaderLogo{
+    width: 60px;
+    height: 100%;
+  }
+  .HomeHeaderLogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .HeaderHam{
+    width: max-content;
+    background: #767676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 15px;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .HeaderTextL{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+  }
+  .HeaderTextL button{
+    padding: 10px 20px;
+    background: #119702;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  .HeaderTextL button:hover{
+    background: green;
+    cursor: pointer;
+  }
+  
+  .HeaderTextL p{
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #119702;
+    transition: all 0.3s ease;
+  }
+  .HeaderTextL p:hover{
+    color: green;
+  }
+  .HeaderTextL h6{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+  }
+  .HeaderTextL h6{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+  }
+  .HeaderTextL h6:hover{
+    color: #fff;
+  }
+
+  .HeaderTextLMyacc{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+  .HeaderTextLMyaccContents{
+    position: absolute;
+    right: 0px;
+    /* bottom: -10px; */
+    width: 270px;
+    height: max-content;
+    background: #3b3e45;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  .HeaderTextLMyaccContents div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    background: #373b42;
+    padding-left: 10px;
+    color: #fff9;
+  }
+  .HeaderTextLMyaccContents .HeaderTextLMyaccContentsA, .HeaderTextLMyaccContents .HeaderTextLMyaccContentsB{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    background: #373b42;
+    padding-left: 10px;
+    gap: 10px;
+  }
+  .HeaderTextLMyaccContents div:hover{
+    background: #626262;
+  }
+  
+
+  .HeaderTextLMyacc .FaRegUserCircle{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .HeaderTextL .HeaderTextLDrop{
+    position: absolute;
+    right: 0px;
+    /* bottom: -10px; */
+    width: 270px;
+    height: max-content;
+    background: #fff;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .HeaderTextLDropA{
+    width: 100%;
+    height: 70px;
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .HeaderTextLDropA input{
+    width: 100%;
+    height: 55px;
+    border: 1px solid #22252B;
+    outline: none;
+    background: none;
+    padding-left: 10px;
+  }
+  .HeaderTextLDropB{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .HeaderTextLDropB .HeaderTextLDropBInputDiv{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    display: flex;
+    gap: 3px;
+    border: 1px solid #000;
+  }
+  .HeaderTextLDropB .HeaderTextLDropBInputDiv input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+  }
+  .HeaderTextLDropB .HeaderTextLDropBInputDiv .FaEye{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .HeaderTextLDropC{
+    width: 100%;
+    height: 50px;
+  }
+  .HeaderTextLDropC button{
+    width: 100%;
+    height: 42px;
+  }
+  
+  .HeaderTextLDropD{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+  }
+  .HeaderTextLDropD span{
+    color:#119702;
+    cursor: pointer;
+  }
+  
+
+  .HomeSideDrawer{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: #22252B;
+    z-index: 2;
+    display: none;
+  }
+  .HomeSideDrawer.active{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: #22252B;
+    z-index: 2;
+    display: block;
+  }
+
+  .HomeMainContentsALinks{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    z-index: 3;
+  }
+  
+  .HomeMainContentsALinks::-webkit-scrollbar{
+  display: none;
+  }
+  
+  .HomeMainContentsALinksItem{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 0 0 auto;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .HomeMainContentsALinksItem p{
+    font-size: 12px;
+  }
+  .HomeMainContentsALinksItem:hover{
+    background: rgb(28, 28, 28);
+  }
+}
+
+/* End of Media Query Styling for Mobile Device */
+
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 351px) {
+
+
+}
+
+/* End of Media Query Styling for Mobile Device */ 

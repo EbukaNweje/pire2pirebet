@@ -1,0 +1,9 @@
+[
+    {
+        "England": ["Premier League", "Championship"],
+        "Spain": ["La Liga"],
+        "Germany": ["Bundesliga"],
+        "France": ["Ligue 1"],
+        "Italy": ["Serie A"]
+    }
+]

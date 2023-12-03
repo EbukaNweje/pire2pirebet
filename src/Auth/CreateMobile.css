@@ -1,0 +1,90 @@
+@media screen and (max-width: 767px){
+    .Create-container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Create-Left{
+        display: none;
+    }
+
+    .Create-holder{
+        width: 90%;
+        height: 70%;
+        justify-content: center;
+    }
+
+    
+.Createinputholder{
+    width: 100%;
+    height: 70%;
+   
+}
+
+.Create-right{
+    width: 89%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .Create-Input{
+        width: 100%;
+        height: 50px;
+    }
+
+    .Createbutton{
+        width: 100%;
+        height: 50px;
+    }
+}
+ 
+ 
+ @media screen and (min-width: 767px ) and (max-width: 1024px){
+    .Create-container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Create-Left{
+        display: none;
+    }
+
+    .Create-holder{
+        width: 90%;
+        height: 70%;
+        justify-content: center;
+    }
+
+    
+.Createinputholder{
+    width: 100%;
+    height: 70%;
+   
+}
+
+.Create-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .Create-Input{
+        width: 100%;
+        height: 70px;
+    }
+
+    .Createbutton{
+        width: 100%;
+        height: 60px;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+ }

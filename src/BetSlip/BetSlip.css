@@ -1,0 +1,300 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Betslip-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+.bestslip-up {
+    height: 80px;
+    width: 100%;
+    background-color: #4e5261;
+    display: flex;
+    padding-inline-start: 10px;
+    align-items: center;
+    background-color: green;
+}
+
+.bestslip-up h5 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bestslip-mid {
+    height: 350px;
+    width: 100%;
+    /* background-color: red; */
+    background-color: #1a1a1a;
+}
+
+.bestslip-mid-title {
+    width: 100%;
+    /* background-color: #d91f1f; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bestslip-mid-title p {
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bestslip-mid-detail {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Betslip {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.Betslip-up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Betslip-up h5 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.Betslip-up p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.checkbet {
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.Betslip-down input {
+    width: 220px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #d9d9d9;
+}
+
+.betslip-accept {
+    width: 100%;
+    height: 30px;
+    background-color: #4e5261;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.betslip-accept h5 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.slip {
+    width: 100%;
+}
+
+.slip-up {
+    width: 100%;
+    border-bottom: 2px solid #8A8A8A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+}
+
+.slip-up span {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.slip h3 {
+    color: #1CB60B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Betslip-down button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: #119702;
+    border: none;
+}
+
+.Betslip-down {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.slip-down {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    /* background-color: green; */
+    gap: 20px;
+}
+
+.slip-down span {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    gap: 5px;
+}
+
+.bestslip-down {
+    height: 300px;
+    width: 100%;
+    background: #1A1A1A;
+    padding: 10px;
+}
+
+.bestslip-single {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    background: #161616;
+}
+
+.Single {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background: #373A45;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.hastag {
+    width: 100%;
+}
+
+.hastag-up {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.hastag-box {
+    width: 40%;
+    background: #2B2D36;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hastag-boxinput {
+    width: 80px;
+    height: 23px;
+    outline: none;
+}
+
+.hastag-down {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hastag-down-boxes {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background: #119702;
+    color: #FFF;
+    border: none;
+}
+
+.stack {
+    height: 100px;
+    width: 100%;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.stack-up {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stack-up span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+.stack-up span h3{
+    font-size: 12px;
+}
+.stake-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stake-btn button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #DCC708;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+ */

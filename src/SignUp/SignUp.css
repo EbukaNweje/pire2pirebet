@@ -1,0 +1,298 @@
+.SignUpPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpPop {
+    width: 75%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.SignUpImg {
+    width: 33%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.EnjoyText {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.SignUpImg span {
+    color: white;
+    font-size: 25px;
+    z-index: 99;
+}
+
+.LogoPart {
+    z-index: 99;
+    width: 100%;
+    height: 55%;
+}
+
+.LogoBody {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.SignUpForm {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.SignUpFormHeader {
+    width: 100%;
+    height: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.SignUpFormHeader img{
+    width: 40px;
+    height: 40px;
+}
+
+.SignUpFormHeader span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.SignUPFormData {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.SignUpInputs {
+    width: 90%;
+    position: relative;
+    height: 12%;
+}
+
+.SignUpInputs input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    padding-inline: 14px;
+    border: 1.5px solid rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+}
+
+.ShowPaswordIcon {
+    position: absolute;
+    top: 40%;
+    right:3%;
+    cursor: pointer;
+}
+
+.SignUpDateInputs {
+    width: 90%;
+    height: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SignUpDateInputs span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.DateInput {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    gap: 10%;
+}
+
+.DateInput input {
+    width: 25%;
+    height: 100%;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.568);
+    outline: none;
+}
+
+.SignUpBtnDiv {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.SignUpBtn {
+    width: 100%;
+    height: 80%;
+    background: #119702;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none
+}
+.LoginRoute {
+    width: 100%;
+    height: 7%;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmailSentPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmailSentPop {
+    width: 55%;
+    height: 70%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9%;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.EmailSentPop h2{
+    font-size: 18px;
+}
+
+.EmailSentPop span{
+    font-size: 15px;
+}
+
+.EmailSentNextBtn {
+    width: 50%;
+    height: 10%;
+    background: #119702;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.OTPPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.OTPPop {
+    width: 55%;
+    height: 70%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.OTPPopHeader {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OTPPopHeader h2{
+    font-size: 18px;
+}
+
+.OTPPopHeader span{
+    font-size: 15px;
+}
+
+.OTPCodes {
+    width: 100%;
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.OTPCodes input{
+    width: 5.5%;
+    height: 64%;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+}
+
+.OTPVerifyBtn {
+    width: 100%;
+    height: 58%;
+    background: #119702;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ReceiveOTP {
+    width: 50%;
+    height: 19%;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}

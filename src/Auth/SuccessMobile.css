@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px){
+ .successp{
+    font-size: 15px;
+ }
+
+ .successptage{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+
+.Success-text{
+    width: 90%;
+}
+
+.success-button{
+    width: 160px;
+    height: 40px;
+}
+
+.arrow2{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    top: 5%;
+    font-size: 20px;
+}
+
+}
+ 
+ 
+ @media screen and (min-width: 767px ) and (max-width: 1024px){
+   
+ }

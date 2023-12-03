@@ -1,0 +1,110 @@
+.Forget-container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.forget-holder{
+    width: 60%;
+    height: 95%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget-Left{
+    width: 32%;
+    height: 100%;
+    background: linear-gradient(#2D473D,#3E6A53, #46795B,#4A7B5F);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.forgettext{
+    width: 50%;
+    height: 60%;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+
+}
+
+.forgettextholder{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.forgetdownimage{
+    width: 100%;
+    height: 50%;
+    background-image: url(./src/image/world-cub.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.forgetallspan{
+    color: #DCC708 ;
+}
+
+.forgetinputholder{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.forget-right{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.forget-Input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgb(185, 179, 179);
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.forgetbutton{
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color:#1CB60B ;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.forget-p-text{
+    font-weight: 600;
+}
+
+.arrow{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 20px;
+}

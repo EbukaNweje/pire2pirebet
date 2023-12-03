@@ -1,0 +1,377 @@
+.MainSettings {
+    width: 100%;
+    height: 100vh;
+    background: #0000006e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    left: 0;
+}
+
+.SettingsPopUp {
+    width: 95%;
+    height: 95%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+}
+
+.SettingsPopUpClose{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.MdOutlineCancel{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.SettingsNav {
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.MobilePopUp {
+    display: none;
+}
+
+.SettingsNavHolder {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.AccountNav {
+    width: 70%;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.AccountNav span{
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-left: 5%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.NavLineSeperator {
+    width: 100%;
+    height: 1px;
+    background: #737070;
+}
+
+.SettingsNavPage {
+    width: 60%;
+    height: 100%;
+}
+
+.NavPageHeader {
+    width: 100%;
+    height: 15%;
+    background: #373A45;
+    display: flex;
+    align-items: center;
+}
+
+.NavPageHeader span{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.NavPageContent {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ContentInfo {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+}
+
+.ContentInfoBtn {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContentInfo span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.SettingsInput {
+    width: 100%;
+    height: 65%;
+    border: none;
+    outline: none;
+    padding-inline: 14px;
+    border-radius: 3px;
+    background: #F8F7F7;
+}
+
+.PasteText {
+    position: absolute;
+    right: 4%;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 50%;
+}
+
+.SaveAccountBtn {
+    width: 40%;
+    border-radius: 10px;
+    height: 70%;
+    background: #119702;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.HistoryNavPage {
+    width: 60%;
+    height: 100%;
+}
+
+.HistoryNavPageContent {
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+}
+
+.HistoryNavPageContent::-webkit-scrollbar{
+    display: none;
+}
+
+.HistoryContents {
+    width: 100%;
+    height: 75px;
+    background: #E9E9E9;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.LeftHistoryContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.RightHistoryContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.LeftHistoryContent span{
+    margin-left: 5%;
+}
+
+.LeftHistoryContent p{
+    margin-left: 5%;
+    color: #737070;
+}
+
+.RightHistoryContent span{
+    margin-right: 5%;
+}
+
+.DepositNavPage {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5%;
+}
+
+.DepositContent {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.DepositContent span{
+    width: 80%;
+    font-weight: bold;
+}
+
+.BurgerMenu {
+    display: none;
+}
+
+.DepositSelection {
+    width: 80%;
+    height: 65%;
+    background: transparent;
+    border-radius: 15px;
+    outline: none   ;
+    font-size: 17px;
+    padding-inline: 40px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.DepositInput {
+    width: 80%;
+    height: 65%;
+    background: transparent;
+    border-radius: 15px;
+    outline: none   ;
+    padding-inline: 14px;
+    font-size: 16px;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.DepositQR {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DepositQRCode {
+    width: 180px;
+    height: 180px;
+}
+
+.WithdrawNavPage {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.WithdrawalContent {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WithdrawalContentBtn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WaitingPaymentContent {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.WaitingPaymentContent span {
+    font-size: 15px; 
+    color: grey;
+}
+
+.CrytpoImages {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10.4%;
+    top: 46%;
+}
+
+.WithdrawalContent span{
+    width: 80%;
+    font-weight: bold;
+}
+
+.WithdrawalSelection {
+    width: 80%;
+    height: 65%;
+    background: transparent;
+    border-radius: 15px;
+    outline: none   ;
+    font-size: 17px;
+    padding-inline: 40px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.WithdrawalInput {
+    width: 80%;
+    height: 65%;
+    background: transparent;
+    border-radius: 15px;
+    outline: none   ;
+    padding-inline: 14px;
+    font-size: 16px;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.MaxPlaceHolder {
+    position: absolute;
+    right: 13%;
+    font-size: 14px;
+    font-weight: bold;
+    top: 58%;
+}
+
+.WithdrawFundsBtn {
+    width: 80%;
+    height: 45%;
+    color: white;
+    background: #119702;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none   ;
+    font-size: 16px;
+    border: none;
+}

@@ -1,0 +1,32 @@
+.Hero_Main_Page {
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/BgImg.png");
+}
+
+.Hero_Page_Wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #000000c4;
+}
+
+.PierLogo {
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.Heropage_Text {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+}

@@ -1,0 +1,196 @@
+@media screen and (max-width:480px) {
+
+    .MobilePopUp {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        z-index: 9;
+        color: white;
+        background: #000;
+        position: absolute;
+        top: 80px;
+    }
+    
+    .AccountNav {
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    
+    .AccountNav span{
+        font-size: 16px;
+    }
+
+    .MainSettings {
+        align-items: flex-start;
+    }
+    .SettingsPopUp {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    
+    .SettingsNav {
+        width: 40%;
+        height: 100%;
+        background: #fff;
+        border-radius: 20px 0px 0px 20px;
+        display: none;
+    }
+
+    .SettingsNavPage {
+        width: 100%;
+    }
+    
+    .NavPageContent {
+        width: 100%;
+        height: 75%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .ContentInfo {
+        width: 95%;
+        height: 15%;
+    }
+    
+    .HistoryNavPage {
+        width: 100%;
+    }
+
+    .NavPageHeader {
+        height: 10%;
+    }
+    
+    .NavPageHeader span{
+        margin-left: 3%;
+    }
+    
+    .HistoryNavPageContent {
+        width: 100%;
+        height: 89.3%;
+    }
+
+    .ContentInfoBtn {
+        width: 100%;
+        height: 18%;
+    }
+
+    .SaveAccountBtn {
+        width: 68%;
+        border-radius: 10px;
+        height: 57%;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    
+    .WithdrawNavPage {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        gap: 6%;
+        align-items: center;
+    }
+
+    .WithdrawalContent {
+        width: 95%;
+        height: 12%;
+    }
+    .WithdrawalSelection {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+    }
+    
+    .CrytpoImages {
+        width: 35px;
+        height: 35px;
+        left: 1.5%;
+        top:54%;
+    }
+
+    .WithdrawalContent span{
+        width: 100%;
+    }
+
+    .MaxPlaceHolder {
+        right: 3%;
+        top: 65%;
+    }    
+
+    .WithdrawalInput {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+    }    
+
+    .WithdrawalContentBtn {
+        width: 95%;
+        height: 10%;
+    }
+
+    .WithdrawFundsBtn {
+        width: 70%;
+        height: 70%;
+    }
+
+    .WaitingPaymentContent {
+        height: 10%;
+        align-items: flex-start;
+        gap: 1%;
+    }
+
+    .DepositNavPage {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        gap: .5%;
+        align-items: center;
+    }
+
+    .BurgerMenu {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .BurgerMenu img {
+        cursor: pointer;
+    }
+
+    .DepositContent {
+        width: 95%;
+        height: 12%;    
+    }
+
+    .DepositContent span{
+        width: 80%;
+        font-weight: 900;
+    }
+    
+    .DepositSelection {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+    }
+    
+    .DepositInput {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px
+    }
+
+    .DepositQR {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+
+}

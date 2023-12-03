@@ -1,0 +1,34 @@
+
+
+[
+  {
+    "homeTeam" : "arsenal",
+    "awayTeam:":  "liverpool",
+    "oddsPick" :  "",
+    "oddsValue":  "2.0"
+  },
+  {
+    "homeTeam" : "madrid",
+    "awayTeam:":  "barcelona",
+    "oddsPick" :  "",
+    "oddsValue":  "2.0"
+  },
+  {
+    "homeTeam" : "chalsea",
+    "awayTeam:":  "manUtd",
+    "oddsPick" :  "",
+    "oddsValue":  "2.0"
+  },
+  {
+    "homeTeam" : "man city",
+    "awayTeam:":  "spurs",
+    "oddsPick" :  "",
+    "oddsValue":  "2.0"
+  },
+  {
+    "homeTeam" : "juventus",
+    "awayTeam:":  "napoli",
+    "oddsPick" :  "",
+    "oddsValue":  "2.0"
+  }
+]
