@@ -10,17 +10,17 @@ const features = createSlice({
     initialState,
     reducers: {
         userData: (state, {payload}) => {
-            state.userData = payload
+            state.userData = payload;
             console.log("User Data:", payload);
         },
-        betSlip: (state, {payload})=>{
-            state.slip.push({
-                team1: payload.team1,
-                team2: payload.team2,
-                odds: payload.odds,
-            });
-            console.log("betSlip", payload.userPick.team1);
-         },
+        betSlip: (state, {payload}) => {
+                state.slip.push({
+                    team1: payload,
+                    team2: payload,
+                    odds: payload,
+                });
+            console.log("betSlip", state.slip);
+        },
     },
 });
 

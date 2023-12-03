@@ -127,7 +127,7 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                                     data?.map((item, index)=>(
                                         <div className="HomeMainContentsBNavGamesSelectCTeam1" key={index}>
                                         <div className="HomeMainContentsBNavGamesSelectCTeams">
-                                            <p>{item?.userName}</p>
+                                            <p>{item?.userName}</p> 
                                         </div>
                                         <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
                                             <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[0]}</div>
