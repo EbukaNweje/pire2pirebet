@@ -148,73 +148,14 @@ const HomeContents = () => {
 
                 <div className="HomeMainContentsCSlip">
                     <div className="HomeMainContentsCSlipA">
-                        <h4>Betslip (4)</h4>
+                        <h4>Betslip (0)</h4>
                     </div>
                     <div className="HomeMainContentsCSlipB">
                         <p>Accept odds changes</p>
                         <p>Clean Slip</p>
                     </div>
                     <div className="HomeMainContentsCSlipItems">
-                        <div className="HomeMainContentsCSlipItems1">
-                            <div className="HomeMainContentsCSlipItem1Name">
-                                <input type="checkbox" />
-                                <div className="HomeMainContentsCSlipItem1NameTeams">
-                                    <div className="HomeMainContentsCSlipItem1NameTeamsOdds">
-                                        2.09
-                                    </div>
-                                    <div>Cameroon</div>
-                                    <div>VS</div>
-                                    <div>Ukraine</div>
-                                </div>
-                                <p>X</p>
-                            </div>
-                            <div className="HomeMainContentsCSlipItem1Choice">
-                                <p>
-                                    1/2 <span>Double Chance</span>
-                                </p>
-                                <p>2.09</p>
-                            </div>
-                        </div>
-                        <div className="HomeMainContentsCSlipItems1">
-                            <div className="HomeMainContentsCSlipItem1Name">
-                                <input type="checkbox" />
-                                <div className="HomeMainContentsCSlipItem1NameTeams">
-                                    <div className="HomeMainContentsCSlipItem1NameTeamsOdds">
-                                        2.09
-                                    </div>
-                                    <div>Cameroon</div>
-                                    <div>VS</div>
-                                    <div>Ukraine</div>
-                                </div>
-                                <p>X</p>
-                            </div>
-                            <div className="HomeMainContentsCSlipItem1Choice">
-                                <p>
-                                    1/2 <span>Double Chance</span>
-                                </p>
-                                <p>2.09</p>
-                            </div>
-                        </div>
-                        <div className="HomeMainContentsCSlipItems1">
-                            <div className="HomeMainContentsCSlipItem1Name">
-                                <input type="checkbox" />
-                                <div className="HomeMainContentsCSlipItem1NameTeams">
-                                    <div className="HomeMainContentsCSlipItem1NameTeamsOdds">
-                                        2.09
-                                    </div>
-                                    <div>Cameroon</div>
-                                    <div>VS</div>
-                                    <div>Ukraine</div>
-                                </div>
-                                <p>X</p>
-                            </div>
-                            <div className="HomeMainContentsCSlipItem1Choice">
-                                <p>
-                                    1/2 <span>Double Chance</span>
-                                </p>
-                                <p>2.09</p>
-                            </div>
-                        </div>
+                       <p>Empty slip</p>
                         <div className="HomeMainContentsCSlipItemsType">
                             <div className="active">Single</div>
                             <div>Multiple</div>

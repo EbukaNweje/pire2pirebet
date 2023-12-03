@@ -14,8 +14,12 @@ const features = createSlice({
             console.log("User Data:", payload);
         },
         betSlip: (state, {payload})=>{
-            state.slip.push(payload)
-            console.log("betSlip", payload);
+            state.slip.push({
+                team1: payload.team1,
+                team2: payload.team2,
+                odds: payload.odds,
+            });
+            console.log("betSlip", payload.userPick.team1);
          },
     },
 });
