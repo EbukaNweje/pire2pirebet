@@ -156,7 +156,7 @@ const HomeContents = () => {
 
                 <div className="HomeMainContentsCSlip">
                     <div className="HomeMainContentsCSlipA">
-                        <h4>Betslip (0)</h4>
+                        <h4>Betslip {betslipData.length}</h4>
                     </div>
                     <div className="HomeMainContentsCSlipB">
                         <p>Accept odds changes</p>
@@ -176,19 +176,11 @@ const HomeContents = () => {
                                     <div className="HomeMainContentsCSlipItem1Name">
                                         <input type="checkbox" />
                                         <div className="HomeMainContentsCSlipItem1NameTeams">
-                                            <div className="HomeMainContentsCSlipItem1NameTeamsOdds">
-                                                2.09
-                                            </div>
-                                            <div>{item.team1}</div>
-                                            <div>VS</div>
-                                            <div>{item?.team2}</div>
+                                           {item?.bettor}
                                         </div>
                                         <p>X</p>
                                     </div>
                                     <div className="HomeMainContentsCSlipItem1Choice">
-                                        <p>
-                                            {/* 1/2 <span>Double Chance</span> */}
-                                        </p>
                                         <p>{item?.oddsSelected}</p>
                                     </div>
                                 </div>
