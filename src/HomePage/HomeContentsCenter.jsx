@@ -6,7 +6,7 @@ import { LuFileSearch2 } from "react-icons/lu";
 import { useEffect, useState } from "react";
 import {useDispatch} from "react-redux"
 import { betSlip } from "../Redux/Features";
-// import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import data from '../assets/data.json'
 
 
@@ -34,21 +34,21 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
       );
   };
 
-//   useEffect(() => {
-//       const intervalId = setInterval(() => {
-//           handleNextImage();
-//       }, 3000);
+  useEffect(() => {
+      const intervalId = setInterval(() => {
+          handleNextImage();
+      }, 3000);
 
-//       return () => clearInterval(intervalId);
-//   }, [currentImageIndex]);
+      return () => clearInterval(intervalId);
+  }, [currentImageIndex]);
 
-//   const nav = useNavigate();
+  const nav = useNavigate();
 
-//   const handleSeeMoreOdds = () => {
-//       nav("/more-odds");
-//   };
+  const handleSeeMoreOdds = () => {
+      nav("/more-odds");
+  };
 
-//   console.log(handleSeeMoreOdds);
+  console.log(handleSeeMoreOdds);
 
     return (
         <>
@@ -127,17 +127,18 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                                     data?.map((item, index)=>(
                                         <div className="HomeMainContentsBNavGamesSelectCTeam1" key={index}>
                                         <div className="HomeMainContentsBNavGamesSelectCTeams">
-                                            <p>{item?.userName}</p> 
+                                            <p>{item?.userName}</p>
                                         </div>
                                         <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[0]}</div>
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[1]}</div>
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[2]}</div>
-                                        </div>
-                                        <div className="HomeMainContentsBNavGamesSelectCTeamsPick2">
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[3]}</div>
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[4]}</div>
-                                            <div className="" onClick={()=>dispatch(betSlip(item))}>{item?.odds5[5]}</div>
+                                            {
+                                                item?.odds5.map((e, ind) => (
+                                                    <div key={ind} className="" onClick={() => dispatch(betSlip({
+                                                        team1: item.userPick.team1,
+                                                        team2: item.userPick.team2,
+                                                        oddsSelected: e
+                                                    }))}>{e}</div>
+                                                ))
+                                            }
                                         </div>
                                         <div className="HomeMainContentsBNavGamesSelectCTeamsPick3">
                                             <FaCaretRight

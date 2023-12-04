@@ -481,7 +481,7 @@ display: none;
 }
 
 .HomeMainContentsBNavGamesSelectCTeams{
-  width: 40%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -494,7 +494,7 @@ display: none;
 }
 
 .HomeMainContentsBNavGamesSelectCTeamsPick1, .HomeMainContentsBNavGamesSelectCTeamsPick2{
-  width: 28%;
+  width: 68%;
   height: 80%;
   display: flex;
   gap: 2px;

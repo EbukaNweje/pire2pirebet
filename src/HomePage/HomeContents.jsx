@@ -5,13 +5,16 @@ import {MdOutlineSportsSoccer} from "react-icons/md";
 import {useState} from "react";
 import HomeContentsCenter from "./HomeContentsCenter";
 import HomeOdds from "./HomeOdds";
+import {useSelector, useDispatch} from "react-redux";
 import HomeHeader from "../HomeHeader/HomeHeader";
+import {clearSlip} from "../Redux/Features";
 
 const HomeContents = () => {
     const [showFan, setShowFan] = useState(false);
     const [showFanContent, setShowFanContent] = useState(false);
     const [showFanPick, setShowFanPick] = useState(true);
     console.log(showFanPick);
+    const dispatch = useDispatch();
 
     const handleShowFanDrop = () => {
         setShowFan(!showFan);
@@ -37,11 +40,16 @@ const HomeContents = () => {
         setMainContentB(true);
     };
 
+    const betslipData = useSelector((state) => state.Pier.slip);
+    console.log("BetSlip", betslipData);
+
     return (
         <>
-            <HomeHeader  showFanC={handleShowFanContent}
-                        ShowMainContentB={showMainContentB}
-                        ShowFanPicksA={handleShowFanPick}/>
+            <HomeHeader
+                showFanC={handleShowFanContent}
+                ShowMainContentB={showMainContentB}
+                ShowFanPicksA={handleShowFanPick}
+            />
             <div className="HomeMainContents">
                 <div className="HomeMainContentsA">
                     <div className="HomeMainContentsASearch">
@@ -152,10 +160,44 @@ const HomeContents = () => {
                     </div>
                     <div className="HomeMainContentsCSlipB">
                         <p>Accept odds changes</p>
-                        <p>Clean Slip</p>
+                        <p onClick={() => dispatch(clearSlip())} style={{cursor:'pointer', background:'red', padding:'3px', borderRadius:'3px'}}>Clear Betslip</p>
                     </div>
                     <div className="HomeMainContentsCSlipItems">
-                       <p>Empty slip</p>
+                        {betslipData.length === 0 ? (
+                            <>
+                                {" "}
+                                <h3>Empty slip, Please select a odds from the fan page</h3>
+                            </>
+                        ) : (
+                            <>
+                            {
+                                betslipData.map((item, index)=>(
+                                    <div className="HomeMainContentsCSlipItems1" key={index}>
+                                    <div className="HomeMainContentsCSlipItem1Name">
+                                        <input type="checkbox" />
+                                        <div className="HomeMainContentsCSlipItem1NameTeams">
+                                            <div className="HomeMainContentsCSlipItem1NameTeamsOdds">
+                                                2.09
+                                            </div>
+                                            <div>{item.team1}</div>
+                                            <div>VS</div>
+                                            <div>{item?.team2}</div>
+                                        </div>
+                                        <p>X</p>
+                                    </div>
+                                    <div className="HomeMainContentsCSlipItem1Choice">
+                                        <p>
+                                            {/* 1/2 <span>Double Chance</span> */}
+                                        </p>
+                                        <p>{item?.oddsSelected}</p>
+                                    </div>
+                                </div>
+                                ))
+                            }
+                               
+                            </>
+                        )}
+
                         <div className="HomeMainContentsCSlipItemsType">
                             <div className="active">Single</div>
                             <div>Multiple</div>

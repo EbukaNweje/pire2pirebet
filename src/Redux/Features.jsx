@@ -5,21 +5,30 @@ const initialState = {
     slip: []
 };
 
+// console.log("BetSlip", initialState.slip);
+
 const features = createSlice({
     name: "Pier",
     initialState,
     reducers: {
         userData: (state, {payload}) => {
-            state.userData = payload;
+            state.userData = payload
             console.log("User Data:", payload);
         },
-        betSlip: (state, {payload}) => {
-                state.slip.push({
-                    team1: payload,
-                    team2: payload,
-                    odds: payload,
-                });
-            console.log("betSlip", state.slip);
+        betSlip: (state, { payload }) => {
+            const existingOddsIndex = state.slip.findIndex(
+                (item) => item.team1 === payload.team1 && item.team2 === payload.team2
+            );
+
+            if (existingOddsIndex !== -1) {
+                state.slip[existingOddsIndex] = payload;
+            } else {
+                state.slip.push(payload);
+            }
+            console.log("Updated betSlip:", state.slip);
+        },
+        clearSlip: (state) => {
+            state.slip = [];
         },
     },
 });
@@ -27,6 +36,7 @@ const features = createSlice({
 export const {
     userData,
     betSlip,
+    clearSlip,
 } = features.actions;
 
 export default features.reducer;
