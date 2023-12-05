@@ -120,31 +120,47 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                             </div>
 
                             <div className="HomeMainContentsBNavGamesSelectC">
-      {data?.map((item, index) => (
-        <div className="HomeMainContentsBNavGamesSelectCTeam1" key={index}>
-          <div className="HomeMainContentsBNavGamesSelectCTeams">
-            <p>{item?.userName}</p>
-          </div>
-          <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
-            <div
-              className=""
-              onClick={() =>
-                dispatch(
-                  betSlip({
-                    bettor: item.userName,
-                    team1: item.userPick.team1,
-                    team2: item.userPick.team2,
-                    oddsSelected: item.oddsData[selectedOddsIndices[index]].oddsPick,
-                  })
-                )
-              }
-            >
-              {item.oddsData[selectedOddsIndices[index]].oddsPick}
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
+                                {data?.map((item, index) => (
+                                    <div
+                                        className="HomeMainContentsBNavGamesSelectCTeam1"
+                                        key={index}
+                                    >
+                                        <div className="HomeMainContentsBNavGamesSelectCTeams">
+                                            <p>{item?.userName}</p>
+                                        </div>
+                                        <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
+                                            <div
+                                                className=""
+                                                onClick={() =>
+                                                    dispatch(
+                                                        betSlip({
+                                                            bettor: item.userName,
+                                                            team1: item.userPick
+                                                                .team1,
+                                                            team2: item.userPick
+                                                                .team2,
+                                                            oddsSelected:
+                                                                item.oddsData[
+                                                                    selectedOddsIndices[
+                                                                        index
+                                                                    ]
+                                                                ].oddsPick,
+                                                        })
+                                                    )
+                                                }
+                                            >
+                                                {
+                                                    item.oddsData[
+                                                        selectedOddsIndices[
+                                                            index
+                                                        ]
+                                                    ].oddsPick
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </>
                 ) : ShowFanPicksA ? (

@@ -1346,9 +1346,9 @@ display: none;
   .MobileFooter{
     width: 100%;
     height: 55px;
-    background:#666;
+    background:#000;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
     position: fixed;
     bottom: 0;
@@ -1356,7 +1356,7 @@ display: none;
 
   }
   .MobileFooter div{
-    width: 30%;
+    width: 20%;
     height: 100%;
     /* background: beige; */
     display: flex;
