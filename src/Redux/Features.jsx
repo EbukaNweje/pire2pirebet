@@ -25,7 +25,6 @@ const features = createSlice({
             } else {
                 state.slip.push(payload);
             }
-            console.log("Updated betSlip:", state.slip);
         },
         clearSlip: (state) => {
             state.slip = [];

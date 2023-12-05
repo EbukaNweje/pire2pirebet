@@ -413,35 +413,20 @@ display: none;
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: end;
+  /* justify-content: end; */
   color: #fff;
   font-size: 13px;
 }
-
-.HomeMainContentsBNavGamesSelectA1, .HomeMainContentsBNavGamesSelectA2{
+.HomeMainContentsBNavGamesSelectA h5{
   width: 30%;
-  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
 }
-
-.HomeMainContentsBNavGamesSelectB{
-  width: 100%;
-  height: 50px;
+.HomeMainContentsBNavGamesSelectA p{
+  width: 70%;
   display: flex;
-  align-items: center;
-  justify-content: end;
-  color: #fff;
-  font-size: 13px;
-  gap: 10px;
-}
-
-.HomeMainContentsBNavGamesSelectB1, .HomeMainContentsBNavGamesSelectB2{
-  width: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -477,7 +462,7 @@ display: none;
   padding: 5px;
   display: flex;
   align-items: center;
-  gap: 3px;
+  /* gap: 3px; */
 }
 
 .HomeMainContentsBNavGamesSelectCTeams{
@@ -494,10 +479,11 @@ display: none;
 }
 
 .HomeMainContentsBNavGamesSelectCTeamsPick1, .HomeMainContentsBNavGamesSelectCTeamsPick2{
-  width: 68%;
+  width: 70%;
   height: 80%;
   display: flex;
-  gap: 2px;
+  /* gap: 2px; */
+  justify-content: center;
 }
 
 .HomeMainContentsBNavGamesSelectCTeamsPick3{
@@ -1359,13 +1345,14 @@ display: none;
 
   .MobileFooter{
     width: 100%;
-    height: 70px;
+    height: 55px;
     background:#666;
     display: flex;
     justify-content: space-between;
     color: #fff;
     position: fixed;
     bottom: 0;
+    align-items: center;
 
   }
   .MobileFooter div{
@@ -1385,7 +1372,7 @@ display: none;
   }
   .MobileFooter div span{
     width: 100%;
-    height: 100%;
+    height: 80%;
     /* background: beige; */
     display: flex;
     flex-direction: column;
@@ -1404,7 +1391,7 @@ display: none;
 
   .MobileFooter div .FooterIcon {
     width: 30%;
-    height: max-content;
+    height: 30px;
     /* background: beige; */
     display: flex;
     flex-direction: column;
@@ -1422,7 +1409,7 @@ display: none;
     width: 100%;
     height: 83vh;
     position: fixed;
-    bottom: 70px;
+    bottom: 56px;
     left: 0px;
     z-index: 10;
     
@@ -1605,7 +1592,7 @@ display: none;
   
   .BetSlipPageMobileCDown{
     width: 100%;
-    height: 120px;
+    height: 150px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1658,7 +1645,7 @@ display: none;
   }
   
   .BetSlipPageMobileCLoser span:hover{
-    padding: 16px;
+    padding: 15px;
     background: #2e6e95;
     color: #fff;
   }

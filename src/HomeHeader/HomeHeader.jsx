@@ -19,8 +19,8 @@ const HomeHeader = ({accPops, showFanC, ShowFanPicksA}) => {
         setOpenSide(!openSide);
     };
 
-    const [isUser, setIsUser] = useState(true);
-    console.log(setIsUser);
+    const [isUser, setIsUser] = useState(false);
+    // console.log(isUser);
     const [showDrop, setShowDrop] = useState(false);
 
     const handleShowDrop = () => {

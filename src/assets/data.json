@@ -7,7 +7,7 @@
             "team2": "Manchester United"
         },
         "userId": "pier100",
-        "odds5": ["-0/x1", "-1/x1", "-2x1", "-3x1", "-4x1", "-0x2"],
+        "odds5": ["-0/x1"],
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
@@ -247,7 +247,6 @@
             "team2": "Liverpool"
         },
         "userId": "pier200",
-        "odds5": ["-0/x1", "-1/x1", "-2x1", "-3x1", "-4x1", "-0x2"],
         "oddsData": [
             {
                 "oddsPick": "-0 / x1",

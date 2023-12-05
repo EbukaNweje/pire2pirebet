@@ -1,7 +1,7 @@
-import { FaAngleLeft, FaAngleRight, FaCaretRight, FaHome } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight, FaHome } from "react-icons/fa";
 import "./HomePage.css";
 import { MdOutlineSportsSoccer } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { LuFileSearch2 } from "react-icons/lu";
 import { useEffect, useState } from "react";
 import {useDispatch, useSelector} from "react-redux";
@@ -11,7 +11,7 @@ import data from '../assets/data.json'
 
 
 const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
-    console.log(data);
+    // console.log(data);
   
     const dispatch = useDispatch()
 
@@ -44,11 +44,7 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
 
   const nav = useNavigate();
 
-  const handleSeeMoreOdds = () => {
-      nav("/more-odds");
-  };
-
-  console.log(handleSeeMoreOdds);
+//   console.log(handleSeeMoreOdds);
   const betslipData = useSelector((state) => state.Pier.slip);
 
   const handleShowHome = () =>{
@@ -63,6 +59,21 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
   };
 
   const [stakeAmount, setStakeAmount] = useState("0 ")
+
+  const [selectedOddsIndices, setSelectedOddsIndices] = useState(() =>
+    data.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
+  );
+
+  useEffect(() => {
+    
+    const intervalId = setInterval(() => {
+      setSelectedOddsIndices((prevIndices) =>
+        prevIndices.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
+      );
+    }, 3600000); 
+
+    return () => clearInterval(intervalId);
+  }, [data]);
 
     return (
         <>
@@ -104,79 +115,36 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                         {" "}
                         <div className="HomeMainContentsBNavGamesSelect">
                             <div className="HomeMainContentsBNavGamesSelectA">
-                                <div className="HomeMainContentsBNavGamesSelectA1">
-                                    3way
-                                </div>
-                                <div className="HomeMainContentsBNavGamesSelectA2">
-                                    Double chance
-                                </div>
+                                <h5>Punter</h5>
+                                <p>Available picks</p>
                             </div>
-                            <div className="HomeMainContentsBNavGamesSelectB">
-                                <div className="HomeMainContentsBNavGamesSelectB1">
-                                    <div className="HomeMainContentsBNavGamesSelectB1A">
-                                        1
-                                    </div>
-                                    <div className="HomeMainContentsBNavGamesSelectB1B">
-                                        X
-                                    </div>
-                                    <div className="HomeMainContentsBNavGamesSelectB1C">
-                                        2
-                                    </div>
-                                </div>
-                                <div className="HomeMainContentsBNavGamesSelectB2">
-                                    <div className="HomeMainContentsBNavGamesSelectB2A">
-                                        1X
-                                    </div>
-                                    <div className="HomeMainContentsBNavGamesSelectB2B">
-                                        12
-                                    </div>
-                                    <div className="HomeMainContentsBNavGamesSelectB2C">
-                                        X2
-                                    </div>
-                                </div>
-                            </div>
+
                             <div className="HomeMainContentsBNavGamesSelectC">
-                                {data?.map((item, index) => (
-                                    <div
-                                        className="HomeMainContentsBNavGamesSelectCTeam1"
-                                        key={index}
-                                    >
-                                        <div className="HomeMainContentsBNavGamesSelectCTeams">
-                                            <p>{item?.userName}</p>
-                                        </div>
-                                        <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
-                                            {item?.odds5.map((e, ind) => (
-                                                <div
-                                                    key={ind}
-                                                    className=""
-                                                    onClick={() =>
-                                                        dispatch(
-                                                            betSlip({
-                                                                bettor: item.userName,
-                                                                team1: item
-                                                                    .userPick
-                                                                    .team1,
-                                                                team2: item
-                                                                    .userPick
-                                                                    .team2,
-                                                                oddsSelected: e,
-                                                            })
-                                                        )
-                                                    }
-                                                >
-                                                    {e}
-                                                </div>
-                                            ))}
-                                        </div>
-                                        <div className="HomeMainContentsBNavGamesSelectCTeamsPick3">
-                                            <FaCaretRight
-                                                onClick={ShowMainContentB}
-                                                className="IoMdInformationCircleOutline"
-                                            />
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
+      {data?.map((item, index) => (
+        <div className="HomeMainContentsBNavGamesSelectCTeam1" key={index}>
+          <div className="HomeMainContentsBNavGamesSelectCTeams">
+            <p>{item?.userName}</p>
+          </div>
+          <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
+            <div
+              className=""
+              onClick={() =>
+                dispatch(
+                  betSlip({
+                    bettor: item.userName,
+                    team1: item.userPick.team1,
+                    team2: item.userPick.team2,
+                    oddsSelected: item.oddsData[selectedOddsIndices[index]].oddsPick,
+                  })
+                )
+              }
+            >
+              {item.oddsData[selectedOddsIndices[index]].oddsPick}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
                         </div>
                     </>
                 ) : ShowFanPicksA ? (
@@ -324,7 +292,9 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                     <div className="BetSlipPageMobile">
                         <div className="BetSlipPageMobileWr">
                             <div className="BetSlipPageMobileCLoser">
-                                <span onClick={()=>setShowBetslip(false)}>Close Betslip</span>
+                                <span onClick={() => setShowBetslip(false)}>
+                                    Close Betslip
+                                </span>
                             </div>
                             <div className="BetSlipPageMobileA">
                                 <h4>Betslip {betslipData.length}</h4>
@@ -379,13 +349,18 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                                 <div className="BetSlipPageMobileCTop">
                                     <div className="BetSlipPageMobileCTopA">
                                         <p>All Single stakes are:</p>
-                                        <input type="text" onChange={(e)=>setStakeAmount(e.target.value)}/>
+                                        <input
+                                            type="text"
+                                            onChange={(e) =>
+                                                setStakeAmount(e.target.value)
+                                            }
+                                        />
                                     </div>
-                                    
                                 </div>
                                 <div className="BetSlipPageMobileCDown">
                                     <p>
-                                        Total Stake: <span>BTC: {stakeAmount}</span>
+                                        Total Stake:{" "}
+                                        <span>BTC: {stakeAmount}</span>
                                     </p>
                                     <p>
                                         Total Returns: <span>BTC: 0.13320</span>
