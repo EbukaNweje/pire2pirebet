@@ -12,7 +12,7 @@ import Account from "../Settings/Account";
 // import {FaAngleDown} from "react-icons/fa6";
 // import {MdOutlineSportsSoccer} from "react-icons/md";
 
-const HomeHeader = ({accPops, showFanC, ShowFanPicksA}) => {
+const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,handleArsenalFan,handleBarcaFan , handleManUFan, handleCityFan, handleMadridFan}) => {
     const [openSide, setOpenSide] = useState(false);
 
     const handleOpenSideBar = () => {
@@ -51,9 +51,33 @@ const HomeHeader = ({accPops, showFanC, ShowFanPicksA}) => {
       const handleShowFanDrop = () => {
           setShowFanDropdown(!showFanDropDown);
       };
-      const handleShowFanContent = () => {
+      const handleShowChelseaFan = () => {
           handleOpenSideBar();
-          showFanC()
+          handleChelseaFan()
+      }; 
+      const handleShowBarcaFan = () => {
+          handleOpenSideBar();
+          handleBarcaFan()
+      };
+      const handleShowMadridFan = () => {
+          handleOpenSideBar();
+          handleMadridFan()
+      };
+      const handleShowManUFan = () => {
+          handleOpenSideBar();
+          handleManUFan()
+      };
+      const handleShowPoolFan = () => {
+          handleOpenSideBar();
+          handlePoolFan()
+      };
+      const handleShowArsenalFan = () => {
+          handleOpenSideBar();
+          handleArsenalFan()
+      };
+      const handleShowCity = () => {
+          handleOpenSideBar();
+          handleCityFan()
       };
 
       const handleShowMainContent = () =>{
@@ -193,43 +217,43 @@ const HomeHeader = ({accPops, showFanC, ShowFanPicksA}) => {
                         >
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowChelseaFan}
                             >
                                 Chelsea
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowBarcaFan}
                             >
                                 Barcelona
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowMadridFan}
                             >
                                 Real Madrid
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowManUFan}
                             >
                                 Manchester United
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowPoolFan}
                             >
                                 Liverpool
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowArsenalFan}
                             >
                                 Arsenal
                             </div>
                             <div
                                 className="HomeMainContentsALinksItemFP1"
-                                onClick={handleShowFanContent}
+                                onClick={handleShowCity}
                             >
                                 Man City
                             </div>

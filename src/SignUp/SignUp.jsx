@@ -1,69 +1,312 @@
-
-import { NavLink } from 'react-router-dom'
-import './SignUp.css'
-import './SignUpRes.css'
-import icon from './assets/icon.png'
-import logoBody from './assets/logoBody.png'
-import logoPart from './assets/logoPart2.png'
-import { FiEye } from "react-icons/fi";
-import {useNavigate} from 'react-router-dom'
+import {NavLink} from "react-router-dom";
+import "./SignUp.css";
+import "./SignUpRes.css";
+import icon from "./assets/icon.png";
+import logoBody from "./assets/logoBody.png";
+import logoPart from "./assets/logoPart2.png";
+import {FiEye} from "react-icons/fi";
+import {useNavigate} from "react-router-dom";
+import {useState} from "react";
+import {ClipLoader} from "react-spinners";
+import axios from "axios";
 
 function SignUp() {
-    const nav = useNavigate()
+    const nav = useNavigate();
 
-    const handleSignUp = () =>{
-        nav('/register-info')
-    }
+    const [firstName, setFirstName] = useState("");
+    const [lastName, setLastName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [confirmPassword, setConfirmPassword] = useState("");
+    const [birthDay, setBirthDay] = useState();
+    const [birthMonth, setBirthMonth] = useState("");
+    const [birthYear, setBirthYear] = useState("");
+    const [error, setError] = useState({errorState: false, errMessage: ""});
+    const [loading, setLoading] = useState(false);
 
-  return (
-    <div className='SignUpPage'>
-        <div className='SignUpPop'>
-            <div className='SignUpImg'>
-                <img className='LogoBody' src={logoBody} alt="" />
-                <div className='EnjoyText'>
-                <span>ENJOY</span><span style={{color:"#DCC708"}}>THE MOST</span> <span>EPL</span> <span> MARKET </span><span>IN</span><span style={{color:"#DCC708"}}>NIGERIA</span>
+    const handleSignUp = () => {
+        setLoading(true);
+        if (!firstName) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Input First Name"});
+        } else if (!lastName) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Input Last Name"});
+        } else if (!email) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Input Email Address"});
+        } else if (!email.includes("@")) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Email must contain @"});
+        } else if (!password) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Input Password"});
+        } else if (
+            !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
+                password
+            )
+        ) {
+            setLoading(false);
+            setError({
+                errorState: true,
+                errMessage:
+                    "* Password must contain uppercase, lowercase, digit, and special character",
+            });
+        } else if (password !== confirmPassword) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Passwords do not match"});
+        } else if (!birthDay || !birthMonth || !birthYear) {
+            setLoading(false);
+            setError({errorState: true, errMessage: "Select Birth Date"});
+        } else {
+            setLoading(true);
+            const url = "https://pire2pirebet-back-end.vercel.app/api/sign-up";
+            const data = {
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                confirmPassword: confirmPassword,
+                password: password,
+                birthday: {day: birthDay, month: birthMonth, year: birthYear},
+            };
+            axios
+                .post(url, data)
+                .then((response) => {
+                    console.log(response.data);
+                    setLoading(false)
+                })
+                .catch((error) => {
+                    console.log(error);
+                    setLoading(false)
+                });
+        }
+        // nav("/register-info");
+    };
+
+    return (
+        <div className="SignUpPage">
+            <div className="SignUpPop">
+                <div className="SignUpImg">
+                    <img className="LogoBody" src={logoBody} alt="" />
+                    <div className="EnjoyText">
+                        <span>ENJOY</span>
+                        <span style={{color: "#DCC708"}}>THE MOST</span>{" "}
+                        <span>EPL</span> <span> MARKET </span>
+                        <span>IN</span>
+                        <span style={{color: "#DCC708"}}>NIGERIA</span>
+                    </div>
+                    <img className="LogoPart" src={logoPart} alt="" />
                 </div>
-                <img className='LogoPart' src={logoPart} alt="" />
-            </div>
-            <div className='SignUpForm'>
-                <div className='SignUpFormHeader'>
-                    <img src={icon} alt="" />
-                    <span>Your Details should appear the same  with Bank your Account</span>
-                </div>
-                <div className='SignUPFormData'>
-                    <div className='SignUpInputs'>
-                        <input type="text" placeholder='First Name' />
+                <div className="SignUpForm">
+                    <div className="SignUpFormHeader">
+                        <img src={icon} alt="" />
+                        <span>
+                            Your Details should appear the same with Bank your
+                            Account
+                        </span>
                     </div>
-                    <div className='SignUpInputs'>
-                        <input type="text" placeholder='Last Name' />
-                    </div>
-                    <div className='SignUpInputs'>
-                        <input type="text" placeholder='Email Address' />
-                    </div>
-                    <div className='SignUpInputs'>
-                        <input type="text" placeholder='Password' />
-                        <FiEye className='ShowPaswordIcon'/>
-                    </div>
-                    <div className='SignUpDateInputs'>
-                      <span>Birth Day</span>
-                        <div className='DateInput'>
-                          <input type='text' placeholder='DD' />
-                          <input type='text' placeholder='MM' />
-                          <input type='text' placeholder='YYYY' />
+                    {error.errorState === true ? (
+                        <>
+                            <div
+                                className="SignUpErrorDiv"
+                                style={{
+                                    width: "100%",
+                                    height: 'maxContent',
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    background: "red",
+                                    padding:'7px'
+                                }}
+                            >
+                                <p style={{color: "white", fontSize: "12px"}}>
+                                    {error.errMessage}
+                                </p>
+                            </div>
+                        </>
+                    ) : null}
+                    <div className="SignUPFormData">
+                        <div className="SignUpInputs">
+                            <input
+                                type="text"
+                                placeholder="First Name"
+                                value={firstName}
+                                onChange={(e) => {
+                                    setFirstName(e.target.value);
+                                    setError((prevState) => ({
+                                        ...prevState,
+                                        errorState: false,
+                                        errMessage: "",
+                                    }));
+                                }}
+                            />
+                        </div>
+                        <div className="SignUpInputs">
+                            <input
+                                type="text"
+                                placeholder="Last Name"
+                                value={lastName}
+                                onChange={(e) => {
+                                    setLastName(e.target.value);
+                                    setError((prevState) => ({
+                                        ...prevState,
+                                        errorState: false,
+                                        errMessage: "",
+                                    }));
+                                }}
+                            />
+                        </div>
+                        <div className="SignUpInputs">
+                            <input
+                                type="text"
+                                placeholder="Email Address"
+                                value={email}
+                                onChange={(e) => {
+                                    setEmail(e.target.value);
+                                    setError((prevState) => ({
+                                        ...prevState,
+                                        errorState: false,
+                                        errMessage: "",
+                                    }));
+                                }}
+                            />
+                        </div>
+                        <div className="SignUpInputs">
+                            <input
+                                type="text"
+                                placeholder="Password"
+                                value={password}
+                                onChange={(e) => {
+                                    setPassword(e.target.value);
+                                    setError((prevState) => ({
+                                        ...prevState,
+                                        errorState: false,
+                                        errMessage: "",
+                                    }));
+                                }}
+                            />
+                            <FiEye className="ShowPaswordIcon" />
+                        </div>
+                        <div className="SignUpInputs">
+                            <input
+                                type="text"
+                                placeholder="Confirm password"
+                                value={confirmPassword}
+                                onChange={(e) => {
+                                    setConfirmPassword(e.target.value);
+                                    setError((prevState) => ({
+                                        ...prevState,
+                                        errorState: false,
+                                        errMessage: "",
+                                    }));
+                                }}
+                            />
+                            <FiEye className="ShowPaswordIcon" />
+                        </div>
+                        <div className="SignUpDateInputs">
+                            <span>Birth Day</span>
+                            <div className="DateInput">
+    {/* Day Select */}
+    <select
+        style={{ color: "#000" }}
+        value={birthDay}
+        onChange={(e) => {
+            setBirthDay(e.target.value);
+            setError((prevState) => ({
+                ...prevState,
+                errorState: false,
+                errMessage: "",
+            }));
+        }}
+    >
+        {[...Array(31).keys()].map((day) => (
+            <option key={day + 1} value={day + 1}>
+                {day + 1}
+            </option>
+        ))}
+    </select>
+
+    {/* Month Select */}
+    <select
+        style={{ color: "#000" }}
+        value={birthMonth}
+        onChange={(e) => {
+            setBirthMonth(e.target.value);
+            setError((prevState) => ({
+                ...prevState,
+                errorState: false,
+                errMessage: "",
+            }));
+        }}
+    >
+        {[
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+        ].map((month, index) => (
+            <option key={index + 1} value={month}>
+                {month}
+            </option>
+        ))}
+    </select>
+
+    {/* Year Input */}
+    <input
+        type="number"
+        style={{ color: "#000" }}
+        placeholder="YYYY"
+        value={birthYear}
+        onChange={(e) => {
+            setBirthYear(e.target.value);
+            setError((prevState) => ({
+                ...prevState,
+                errorState: false,
+                errMessage: "",
+            }));
+        }}
+    />
+</div>
+
                         </div>
                     </div>
-                </div>
 
-                <div className='SignUpBtnDiv'>
-                    <button className='SignUpBtn' onClick={handleSignUp}>Continue</button>
+                    <div className="SignUpBtnDiv">
+                        <button className="SignUpBtn" onClick={handleSignUp}>
+                            {loading ? (
+                                <ClipLoader color="#36d7b7" />
+                            ) : (
+                                "Continue"
+                            )}
+                        </button>
+                    </div>
+                    <div className="LoginRoute">
+                        <span>
+                            Already have an account?{" "}
+                            <NavLink to={"/home"}>
+                                <span
+                                    style={{
+                                        color: "#119702",
+                                        cursor: "pointer",
+                                    }}
+                                >
+                                    Login
+                                </span>
+                            </NavLink>
+                        </span>
+                    </div>
                 </div>
-                <div className='LoginRoute'>
-                    <span>Already have an account? <NavLink to={'/home'}><span style={{color:"#119702", cursor:'pointer'}} >Login</span></NavLink></span>
-                </div>
-            </div>  
+            </div>
         </div>
-    </div>
-  )
+    );
 }
 
-export default SignUp
+export default SignUp;

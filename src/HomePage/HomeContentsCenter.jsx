@@ -5,12 +5,19 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { LuFileSearch2 } from "react-icons/lu";
 import { useEffect, useState } from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {betSlip, clearSlip} from "../Redux/Features";
+import {clearSlip} from "../Redux/Features";
 import {useNavigate} from "react-router-dom";
-import data from '../assets/data.json'
+// import data from '../assets/data.json'
+import BarcaFanPage from "./BarcaFanPage";
+import MadridFanPage from "./MadridFanPage";
+import ManUtdFanPage from "./ManUtdFanPage";
+import PoolFanPage from "./PoolFanPage";
+import ArsenalFanPage from "./ArsenalFanPage";
+import CityFanPage from "./CityFanPage";
+import ChealseaFanPage from "./ChealseaFanPage";
 
 
-const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
+const HomeContentsCenter = ({showChelseaFan, showPoolFan, showArsenalFan, showBarcaFan, showManUFan, showCityFan, showMadridFan ,  ShowMainContentB, ShowFanPicksA}) => {
     // console.log(data);
   
     const dispatch = useDispatch()
@@ -60,20 +67,20 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
 
   const [stakeAmount, setStakeAmount] = useState("0 ")
 
-  const [selectedOddsIndices, setSelectedOddsIndices] = useState(() =>
-    data.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
-  );
+//   const [selectedOddsIndices, setSelectedOddsIndices] = useState(() =>
+//     data.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
+//   );
 
-  useEffect(() => {
+//   useEffect(() => {
     
-    const intervalId = setInterval(() => {
-      setSelectedOddsIndices((prevIndices) =>
-        prevIndices.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
-      );
-    }, 3600000); 
+//     const intervalId = setInterval(() => {
+//       setSelectedOddsIndices((prevIndices) =>
+//         prevIndices.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
+//       );
+//     }, 3600000); 
 
-    return () => clearInterval(intervalId);
-  }, [data]);
+//     return () => clearInterval(intervalId);
+//   }, [data]);
 
     return (
         <>
@@ -110,60 +117,63 @@ const HomeContentsCenter = ({showFanC,  ShowMainContentB, ShowFanPicksA}) => {
                         </div>
                     </div>
                 </div>
-                {showFanC ? (
-                    <>
-                        {" "}
-                        <div className="HomeMainContentsBNavGamesSelect">
-                            <div className="HomeMainContentsBNavGamesSelectA">
-                                <h5>Punter</h5>
-                                <p>Available picks</p>
-                            </div>
+                {showChelseaFan ? (
+                    // <>
+                    //     <div className="HomeMainContentsBNavGamesSelect">
+                    //         <div className="HomeMainContentsBNavGamesSelectA1">
+                    //             <p>Chelsea FanPage</p>
+                    //         </div>
+                    //         <div className="HomeMainContentsBNavGamesSelectA">
+                    //             <h5>Punter</h5>
+                    //             <p>Available picks</p>
+                    //         </div>
 
-                            <div className="HomeMainContentsBNavGamesSelectC">
-                                {data?.map((item, index) => (
-                                    <div
-                                        className="HomeMainContentsBNavGamesSelectCTeam1"
-                                        key={index}
-                                    >
-                                        <div className="HomeMainContentsBNavGamesSelectCTeams">
-                                            <p>{item?.userName}</p>
-                                        </div>
-                                        <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
-                                            <div
-                                                className=""
-                                                onClick={() =>
-                                                    dispatch(
-                                                        betSlip({
-                                                            bettor: item.userName,
-                                                            team1: item.userPick
-                                                                .team1,
-                                                            team2: item.userPick
-                                                                .team2,
-                                                            oddsSelected:
-                                                                item.oddsData[
-                                                                    selectedOddsIndices[
-                                                                        index
-                                                                    ]
-                                                                ].oddsPick,
-                                                        })
-                                                    )
-                                                }
-                                            >
-                                                {
-                                                    item.oddsData[
-                                                        selectedOddsIndices[
-                                                            index
-                                                        ]
-                                                    ].oddsPick
-                                                }
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </>
-                ) : ShowFanPicksA ? (
+                    //         <div className="HomeMainContentsBNavGamesSelectC">
+                    //             {data?.map((item, index) => (
+                    //                 <div
+                    //                     className="HomeMainContentsBNavGamesSelectCTeam1"
+                    //                     key={index}
+                    //                 >
+                    //                     <div className="HomeMainContentsBNavGamesSelectCTeams">
+                    //                         <p>{item?.userName}</p>
+                    //                     </div>
+                    //                     <div className="HomeMainContentsBNavGamesSelectCTeamsPick1">
+                    //                         <div
+                    //                             className=""
+                    //                             onClick={() =>
+                    //                                 dispatch(
+                    //                                     betSlip({
+                    //                                         bettor: item.userName,
+                    //                                         team1: item.userPick
+                    //                                             .team1,
+                    //                                         team2: item.userPick
+                    //                                             .team2,
+                    //                                         oddsSelected:
+                    //                                             item.oddsData[
+                    //                                                 selectedOddsIndices[
+                    //                                                     index
+                    //                                                 ]
+                    //                                             ].oddsPick,
+                    //                                     })
+                    //                                 )
+                    //                             }
+                    //                         >
+                    //                             {
+                    //                                 item.oddsData[
+                    //                                     selectedOddsIndices[
+                    //                                         index
+                    //                                     ]
+                    //                                 ].oddsPick
+                    //                             }
+                    //                         </div>
+                    //                     </div>
+                    //                 </div>
+                    //             ))}
+                    //         </div>
+                    //     </div>
+                    // </>
+                    <ChealseaFanPage/>
+                ) : showBarcaFan ? <BarcaFanPage/> : showMadridFan ? <MadridFanPage/> : showManUFan ? <ManUtdFanPage/> : showPoolFan ? <PoolFanPage/> : showArsenalFan? <ArsenalFanPage/> : showCityFan ? <CityFanPage/>  : ShowFanPicksA ? (
                     <>
                         <div className="HomeMainContentsBNavGames">
                             <h3>Top Games for the day</h3>

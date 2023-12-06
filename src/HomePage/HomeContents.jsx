@@ -11,7 +11,13 @@ import {clearSlip} from "../Redux/Features";
 
 const HomeContents = () => {
     const [showFan, setShowFan] = useState(false);
-    const [showFanContent, setShowFanContent] = useState(false);
+    const [showChelseaFan, setShowChelseaFan] = useState(false);
+    const [showBarcaFan, setShowBarcaFan] = useState(false)
+    const [showCityFan, setShowCityFan] = useState(false)
+    const [showMadridFan, setShowMadridFan] = useState(false)
+    const [showArsenalFan, setShowArsenalFan] = useState(false)
+    const [showManUFan, setShowManUFan] = useState(false)
+    const [showPoolFan, setShowPoolFan] = useState(false)
     const [showFanPick, setShowFanPick] = useState(true);
     console.log(showFanPick);
     const dispatch = useDispatch();
@@ -19,13 +25,85 @@ const HomeContents = () => {
     const handleShowFanDrop = () => {
         setShowFan(!showFan);
     };
-    const handleShowFanContent = () => {
-        setShowFanContent(true);
-        setShowFanPick(false);
-    };
     const handleShowFanPick = () => {
         setShowFanPick(true);
-        setShowFanContent(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowChelseaFan = () => {
+        setShowChelseaFan(true);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowBarcaFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(true)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowCityFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(true)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowMadridFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(true)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowManUFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(true)
+        setShowPoolFan(false)
+    };
+    const handleShowArsenalFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(true)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+    };
+    const handleShowPoolFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(true)
     };
 
     const [mainContentA, setMainContentA] = useState(true);
@@ -46,7 +124,13 @@ const HomeContents = () => {
     return (
         <>
             <HomeHeader
-                showFanC={handleShowFanContent}
+                handleChelseaFan={handleShowChelseaFan}
+                handlePoolFan={handleShowPoolFan}
+                handleArsenalFan={handleShowArsenalFan}
+                handleBarcaFan={handleShowBarcaFan}
+                handleManUFan={handleShowManUFan}
+                handleCityFan={handleShowCityFan}
+                handleMadridFan={handleShowMadridFan}
                 ShowMainContentB={showMainContentB}
                 ShowFanPicksA={handleShowFanPick}
             />
@@ -100,43 +184,43 @@ const HomeContents = () => {
                             >
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowChelseaFan}
                                 >
                                     Chelsea
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowBarcaFan}
                                 >
                                     Barcelona
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowMadridFan}
                                 >
                                     Real Madrid
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowManUFan}
                                 >
                                     Manchester United
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowPoolFan}
                                 >
                                     Liverpool
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowArsenalFan}
                                 >
                                     Arsenal
                                 </div>
                                 <div
                                     className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFanContent}
+                                    onClick={handleShowCityFan}
                                 >
                                     Man City
                                 </div>
@@ -146,7 +230,13 @@ const HomeContents = () => {
                 </div>
                 {mainContentA ? (
                     <HomeContentsCenter
-                        showFanC={showFanContent}
+                        showChelseaFan={showChelseaFan}
+                        showPoolFan={showPoolFan}
+                        showArsenalFan={showArsenalFan}
+                        showBarcaFan={showBarcaFan}
+                        showManUFan={showManUFan}
+                        showCityFan={showCityFan}
+                        showMadridFan={showMadridFan}
                         ShowMainContentB={showMainContentB}
                         ShowFanPicksA={handleShowFanPick}
                     />

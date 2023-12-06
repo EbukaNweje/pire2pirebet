@@ -70,6 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: #fff;
 }
 
 .SignUpFormHeader img{
@@ -102,8 +103,9 @@
     background: transparent;
     outline: none;
     padding-inline: 14px;
-    border: 1.5px solid rgba(0, 0, 0, 0.568);
+    border: 1.5px solid #b7b7b791;
     border-radius: 5px;
+    color: #fff;
 }
 
 .ShowPaswordIcon {
@@ -119,6 +121,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #fff;
 }
 
 .SignUpDateInputs span{
@@ -140,6 +143,7 @@
     border-radius: 5px;
     border: 1.5px solid rgba(0, 0, 0, 0.568);
     outline: none;
+    color: #fff;
 }
 
 .SignUpBtnDiv {
@@ -160,7 +164,10 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border: none
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .LoginRoute {
     width: 100%;
@@ -170,6 +177,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .EmailSentPage {
@@ -284,6 +292,7 @@
     color: white;
     font-size: 17px;
     font-weight: bold;
+    
 }
 
 .ReceiveOTP {
