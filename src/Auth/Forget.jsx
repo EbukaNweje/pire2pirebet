@@ -8,7 +8,7 @@ const Forget = () => {
   const navigate = useNavigate(); 
 
   const handleNextClick = () => {
-    navigate('/create');
+    navigate('/create-new-password');
   };
 
   return (
@@ -33,7 +33,7 @@ const Forget = () => {
 
         <div className='forget-right'>
 
-          <IoIosArrowBack className='arrow' />
+          <IoIosArrowBack className='arrow' onClick={()=>navigate("/home")} style={{cursor:'pointer'}}/>
 
           <div className='forgetinputholder'>
 

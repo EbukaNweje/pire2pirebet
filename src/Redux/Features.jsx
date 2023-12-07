@@ -2,7 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     user: [],
-    slip: []
+    slip: [],
+    isLoggedIn: false,
+    logout: []
 };
 
 // console.log("BetSlip", initialState.slip);
@@ -12,8 +14,15 @@ const features = createSlice({
     initialState,
     reducers: {
       userData: (state, { payload }) => {
-        state.userData = payload;
+        state.user = payload;
         console.log("User Data:", payload);
+      },
+      isLoggedInUser: (state, { payload }) => {
+        state.isLoggedIn = payload;
+        console.log("Is Logged In?", payload);
+      },
+      logOut: (state) => {
+        state.user = [];
       },
       betSlip: (state, { payload }) => {
         const existingOddsIndex = state.slip.findIndex(
@@ -38,6 +47,8 @@ const features = createSlice({
 
 export const {
     userData,
+    isLoggedInUser,
+    logOut,
     betSlip,
     clearSlip,
 } = features.actions;

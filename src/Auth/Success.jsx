@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Success.css'
 import './SuccessMobile.css'
 import { IoIosArrowBack } from 'react-icons/io';

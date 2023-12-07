@@ -4,7 +4,7 @@ import './CreateMobile.css';
 import { IoIosArrowBack } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom'; 
 
-const Forget = () => {
+const Create = () => {
   const navigate = useNavigate(); 
 
   const handleNextClick = () => {
@@ -53,4 +53,4 @@ const Forget = () => {
   );
 };
 
-export default Forget;
+export default Create;

@@ -204,6 +204,10 @@
   width: 100%;
   height: 42px;
 }
+.HeaderTextLDropC button:disabled{
+  background: #2cb41d;
+  cursor: not-allowed;
+}
 
 .HeaderTextLDropD{
   width: 100%;
@@ -487,6 +491,10 @@
   .HeaderTextLDropC button{
     width: 100%;
     height: 42px;
+  }
+  .HeaderTextLDropC button:disabled{
+      background: #2cb41d;
+      cursor: not-allowed;
   }
   
   .HeaderTextLDropD{

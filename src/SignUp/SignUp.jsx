@@ -9,6 +9,10 @@ import {useNavigate} from "react-router-dom";
 import {useState} from "react";
 import {ClipLoader} from "react-spinners";
 import axios from "axios";
+// import {toast} from "react-toastify";
+import toast, {Toaster} from "react-hot-toast";
+
+
 
 function SignUp() {
     const nav = useNavigate();
@@ -23,6 +27,28 @@ function SignUp() {
     const [birthYear, setBirthYear] = useState("");
     const [error, setError] = useState({errorState: false, errMessage: ""});
     const [loading, setLoading] = useState(false);
+    
+    if (email){
+        localStorage.setItem("email", email)
+    }
+
+    const handleMailSender = () =>{
+        // toast.loading("generating OTP code")
+        const url = "https://pier2pier.onrender.com/api/signupmail"
+        const data = {email:email}
+        axios.post(url, data)
+             .then((response)=>{
+                console.log(response);
+                toast.success(`${response.data.message}`)
+                setTimeout(() => {
+                    nav(`/register-info/${data.email}`);
+                }, 5000);
+             })
+             .catch((error)=>{
+                console.log(error);
+                toast.error("Error sending code, please try again")
+             })
+    }
 
     const handleSignUp = () => {
         setLoading(true);
@@ -69,22 +95,36 @@ function SignUp() {
                 password: password,
                 birthday: {day: birthDay, month: birthMonth, year: birthYear},
             };
+            toast.loading("Creating User...")
             axios
                 .post(url, data)
                 .then((response) => {
-                    console.log(response.data);
+                    toast.success(`User created successfully ${response.data.message}`)
+                    localStorage.setItem("verifyToken", response.data.data.token)
+                    console.log(response);
+                    const created = true
+                    if (created) {
+                        handleMailSender()
+                    }else{
+                        console.log("Error Creating User");
+                    }
                     setLoading(false)
+                    
                 })
                 .catch((error) => {
                     console.log(error);
                     setLoading(false)
+                    toast.error("Error creating User, please try again")
                 });
         }
-        // nav("/register-info");
     };
+
+
 
     return (
         <div className="SignUpPage">
+            <Toaster toastOptions={{duration: 4000}} />
+
             <div className="SignUpPop">
                 <div className="SignUpImg">
                     <img className="LogoBody" src={logoBody} alt="" />
@@ -101,7 +141,7 @@ function SignUp() {
                     <div className="SignUpFormHeader">
                         <img src={icon} alt="" />
                         <span>
-                            Your Details should appear the same with Bank your
+                            Your Details should appear the same with your Bank
                             Account
                         </span>
                     </div>
@@ -173,7 +213,7 @@ function SignUp() {
                         </div>
                         <div className="SignUpInputs">
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Password"
                                 value={password}
                                 onChange={(e) => {
@@ -189,7 +229,7 @@ function SignUp() {
                         </div>
                         <div className="SignUpInputs">
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Confirm password"
                                 value={confirmPassword}
                                 onChange={(e) => {
@@ -262,6 +302,7 @@ function SignUp() {
     {/* Year Input */}
     <input
         type="number"
+        maxLength={4}
         style={{ color: "#000" }}
         placeholder="YYYY"
         value={birthYear}
