@@ -94,6 +94,7 @@ function SignUp() {
                 confirmPassword: confirmPassword,
                 password: password,
                 birthday: {day: birthDay, month: birthMonth, year: birthYear},
+                fanClub: fanClub
             };
             toast.loading("Creating User...");
             axios
