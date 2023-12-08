@@ -41,6 +41,12 @@ const features = createSlice({
       clearSlip: (state) => {
         state.slip = [];
       },
+      removeSingle: (state, { payload }) => {
+        const updatedSlip = state.slip.filter(
+          (item) => item.bettor !== payload.bettor
+        );
+        state.slip = updatedSlip;
+      },
     },
   });
   
@@ -51,6 +57,7 @@ export const {
     logOut,
     betSlip,
     clearSlip,
+    removeSingle,
 } = features.actions;
 
 export default features.reducer;

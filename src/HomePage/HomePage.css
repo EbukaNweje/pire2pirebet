@@ -494,6 +494,12 @@ display: none;
   /* gap: 2px; */
   justify-content: center;
 }
+.selected-odds{
+  background: #DCC708;
+}
+.none-selected{
+  background: #119702;
+}
 
 .HomeMainContentsBNavGamesSelectCTeamsPick3{
   width: 4%;
@@ -522,7 +528,6 @@ display: none;
   align-items: center;
   justify-content: center;
   font-size: 13px;
-  background: #119702;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -1511,12 +1516,17 @@ display: none;
     height: 35px;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: space-around ;
   }
   .BetSlipPageMobileItem1Choice p{
+    width: 30%;
     display: flex;
     align-items: center;
     gap: 15px;
+  }
+  .BetSlipPageMobileItem1Choice p input{
+    width: 50%;
+    height: 100%;
   }
   
   .BetSlipPageMobileItemsType{

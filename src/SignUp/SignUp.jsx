@@ -12,8 +12,6 @@ import axios from "axios";
 // import {toast} from "react-toastify";
 import toast, {Toaster} from "react-hot-toast";
 
-
-
 function SignUp() {
     const nav = useNavigate();
 
@@ -25,30 +23,32 @@ function SignUp() {
     const [birthDay, setBirthDay] = useState();
     const [birthMonth, setBirthMonth] = useState("");
     const [birthYear, setBirthYear] = useState("");
+    const [fanClub, setFanClub] = useState("");
     const [error, setError] = useState({errorState: false, errMessage: ""});
     const [loading, setLoading] = useState(false);
-    
-    if (email){
-        localStorage.setItem("email", email)
+
+    if (email) {
+        localStorage.setItem("email", email);
     }
 
-    const handleMailSender = () =>{
+    const handleMailSender = () => {
         // toast.loading("generating OTP code")
-        const url = "https://pier2pier.onrender.com/api/signupmail"
-        const data = {email:email}
-        axios.post(url, data)
-             .then((response)=>{
+        const url = "https://pier2pier.onrender.com/api/signupmail";
+        const data = {email: email};
+        axios
+            .post(url, data)
+            .then((response) => {
                 console.log(response);
-                toast.success(`${response.data.message}`)
+                toast.success(`${response.data.message}`);
                 setTimeout(() => {
                     nav(`/register-info/${data.email}`);
                 }, 5000);
-             })
-             .catch((error)=>{
+            })
+            .catch((error) => {
                 console.log(error);
-                toast.error("Error sending code, please try again")
-             })
-    }
+                toast.error("Error sending code, please try again");
+            });
+    };
 
     const handleSignUp = () => {
         setLoading(true);
@@ -95,31 +95,33 @@ function SignUp() {
                 password: password,
                 birthday: {day: birthDay, month: birthMonth, year: birthYear},
             };
-            toast.loading("Creating User...")
+            toast.loading("Creating User...");
             axios
                 .post(url, data)
                 .then((response) => {
-                    toast.success(`User created successfully ${response.data.message}`)
-                    localStorage.setItem("verifyToken", response.data.data.token)
+                    toast.success(
+                        `User created successfully ${response.data.message}`
+                    );
+                    localStorage.setItem(
+                        "verifyToken",
+                        response?.data?.data?.token
+                    );
                     console.log(response);
-                    const created = true
+                    const created = true;
                     if (created) {
-                        handleMailSender()
-                    }else{
+                        handleMailSender();
+                    } else {
                         console.log("Error Creating User");
                     }
-                    setLoading(false)
-                    
+                    setLoading(false);
                 })
                 .catch((error) => {
                     console.log(error);
-                    setLoading(false)
-                    toast.error("Error creating User, please try again")
+                    setLoading(false);
+                    toast.error("Error creating User, please try again");
                 });
         }
     };
-
-
 
     return (
         <div className="SignUpPage">
@@ -151,12 +153,12 @@ function SignUp() {
                                 className="SignUpErrorDiv"
                                 style={{
                                     width: "100%",
-                                    height: 'maxContent',
+                                    height: "maxContent",
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center",
                                     background: "red",
-                                    padding:'7px'
+                                    padding: "7px",
                                 }}
                             >
                                 <p style={{color: "white", fontSize: "12px"}}>
@@ -246,77 +248,108 @@ function SignUp() {
                         <div className="SignUpDateInputs">
                             <span>Birth Day</span>
                             <div className="DateInput">
-    {/* Day Select */}
-    <select
-        style={{ color: "#000" }}
-        value={birthDay}
-        onChange={(e) => {
-            setBirthDay(e.target.value);
-            setError((prevState) => ({
-                ...prevState,
-                errorState: false,
-                errMessage: "",
-            }));
-        }}
-    >
-        {[...Array(31).keys()].map((day) => (
-            <option key={day + 1} value={day + 1}>
-                {day + 1}
-            </option>
-        ))}
-    </select>
+                                {/* Day Select */}
+                                <select
+                                    style={{color: "#000"}}
+                                    value={birthDay}
+                                    onChange={(e) => {
+                                        setBirthDay(e.target.value);
+                                        setError((prevState) => ({
+                                            ...prevState,
+                                            errorState: false,
+                                            errMessage: "",
+                                        }));
+                                    }}
+                                >
+                                    {[...Array(31).keys()].map((day) => (
+                                        <option key={day + 1} value={day + 1}>
+                                            {day + 1}
+                                        </option>
+                                    ))}
+                                </select>
 
-    {/* Month Select */}
-    <select
-        style={{ color: "#000" }}
-        value={birthMonth}
-        onChange={(e) => {
-            setBirthMonth(e.target.value);
-            setError((prevState) => ({
-                ...prevState,
-                errorState: false,
-                errMessage: "",
-            }));
-        }}
-    >
-        {[
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "October",
-            "November",
-            "December",
-        ].map((month, index) => (
-            <option key={index + 1} value={month}>
-                {month}
-            </option>
-        ))}
-    </select>
+                                {/* Month Select */}
+                                <select
+                                    style={{color: "#000"}}
+                                    value={birthMonth}
+                                    onChange={(e) => {
+                                        setBirthMonth(e.target.value);
+                                        setError((prevState) => ({
+                                            ...prevState,
+                                            errorState: false,
+                                            errMessage: "",
+                                        }));
+                                    }}
+                                >
+                                    {[
+                                        "January",
+                                        "February",
+                                        "March",
+                                        "April",
+                                        "May",
+                                        "June",
+                                        "July",
+                                        "August",
+                                        "September",
+                                        "October",
+                                        "November",
+                                        "December",
+                                    ].map((month, index) => (
+                                        <option key={index + 1} value={month}>
+                                            {month}
+                                        </option>
+                                    ))}
+                                </select>
+                              
 
-    {/* Year Input */}
-    <input
-        type="number"
-        maxLength={4}
-        style={{ color: "#000" }}
-        placeholder="YYYY"
-        value={birthYear}
-        onChange={(e) => {
-            setBirthYear(e.target.value);
-            setError((prevState) => ({
-                ...prevState,
-                errorState: false,
-                errMessage: "",
-            }));
-        }}
-    />
-</div>
-
+                                {/* Year Input */}
+                                <input
+                                    type="number"
+                                    maxLength={4}
+                                    style={{color: "#000"}}
+                                    placeholder="YYYY"
+                                    value={birthYear}
+                                    onChange={(e) => {
+                                        setBirthYear(e.target.value);
+                                        setError((prevState) => ({
+                                            ...prevState,
+                                            errorState: false,
+                                            errMessage: "",
+                                        }));
+                                    }}
+                                />
+                            </div>
+                            
+                        </div>
+                        <div style={{width:'100%', height:'50px'}}>
+                        <select
+                                    style={{color: "#000", width:'100%', height:'90%'}}
+                                    value={fanClub}
+                                    onChange={(e) => {
+                                        setFanClub(e.target.value);
+                                        setError((prevState) => ({
+                                            ...prevState,
+                                            errorState: false,
+                                            errMessage: "",
+                                        }));
+                                    }}
+                                >
+                                    {[
+                                        "Chelsea",
+                                        "Barca",
+                                        "Madrid",
+                                        "Man Utd",
+                                        "Liverpool",
+                                        "Man City",
+                                        "Bayern",
+                                        "Arsenal",
+                                        
+                                    ].map((club, index) => (
+                                        <option key={index + 1} value={club}>
+                                            {club}
+                                        </option>
+                                    ))}
+                                </select>
                         </div>
                     </div>
 

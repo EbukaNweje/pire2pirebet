@@ -5,7 +5,7 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { LuFileSearch2 } from "react-icons/lu";
 import { useEffect, useState } from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {clearSlip} from "../Redux/Features";
+import {betSlip, clearSlip, removeSingle} from "../Redux/Features";
 import {useNavigate} from "react-router-dom";
 // import data from '../assets/data.json'
 import BarcaFanPage from "./BarcaFanPage";
@@ -16,71 +16,84 @@ import ArsenalFanPage from "./ArsenalFanPage";
 import CityFanPage from "./CityFanPage";
 import ChealseaFanPage from "./ChealseaFanPage";
 
-
-const HomeContentsCenter = ({showChelseaFan, showPoolFan, showArsenalFan, showBarcaFan, showManUFan, showCityFan, showMadridFan ,  ShowMainContentB, ShowFanPicksA}) => {
+const HomeContentsCenter = ({
+    showChelseaFan,
+    showPoolFan,
+    showArsenalFan,
+    showBarcaFan,
+    showManUFan,
+    showCityFan,
+    showMadridFan,
+    ShowMainContentB,
+    ShowFanPicksA,
+}) => {
     // console.log(data);
-  
-    const dispatch = useDispatch()
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const imageArray = [
-      "https://cdn3.f-cdn.com//files/download/80772190/Facebook-Cover-Design-4.png?width=780&height=403&fit=crop",
-      "https://img.freepik.com/premium-vector/woman-basketball-banner-sports-banner-design-premium-template-vector_356357-70.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc_SDVxiMfHA2PEhZZJaPE-xAua07vZD0hA&usqp=CAU",
-      "https://img.freepik.com/free-vector/gradient-halftone-basketball-twitch-banner_23-2149346315.jpg",
-  ];
-  const totalImages = imageArray.length;
+    const dispatch = useDispatch();
 
-  const handleNextImage = () => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % totalImages);
-  };
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const imageArray = [
+        "https://cdn3.f-cdn.com//files/download/80772190/Facebook-Cover-Design-4.png?width=780&height=403&fit=crop",
+        "https://img.freepik.com/premium-vector/woman-basketball-banner-sports-banner-design-premium-template-vector_356357-70.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc_SDVxiMfHA2PEhZZJaPE-xAua07vZD0hA&usqp=CAU",
+        "https://img.freepik.com/free-vector/gradient-halftone-basketball-twitch-banner_23-2149346315.jpg",
+    ];
+    const totalImages = imageArray.length;
 
-  const handlePrevImage = () => {
-      setCurrentImageIndex(
-          (prevIndex) => (prevIndex - 1 + totalImages) % totalImages
-      );
-  };
+    const handleNextImage = () => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % totalImages);
+    };
 
-  useEffect(() => {
-      const intervalId = setInterval(() => {
-          handleNextImage();
-      }, 3000);
+    const handlePrevImage = () => {
+        setCurrentImageIndex(
+            (prevIndex) => (prevIndex - 1 + totalImages) % totalImages
+        );
+    };
 
-      return () => clearInterval(intervalId);
-  }, [currentImageIndex]);
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            handleNextImage();
+        }, 3000);
 
-  const nav = useNavigate();
+        return () => clearInterval(intervalId);
+    }, [currentImageIndex]);
 
-//   console.log(handleSeeMoreOdds);
-  const betslipData = useSelector((state) => state.Pier.slip);
+    const nav = useNavigate();
 
-  const handleShowHome = () =>{
-    setShowBetslip(false)
-    nav("/home")
-  }
+    //   console.log(handleSeeMoreOdds);
+    const betslipData = useSelector((state) => state.Pier.slip);
 
-  const [showBetslip, setShowBetslip] = useState(false);
+    const handleShowHome = () => {
+        setShowBetslip(false);
+        nav("/home");
+    };
 
-  const handleSHowBetslip = () => {
-      setShowBetslip(!showBetslip);
-  };
+    const [showBetslip, setShowBetslip] = useState(false);
 
-  const [stakeAmount, setStakeAmount] = useState("0 ")
+    const handleSHowBetslip = () => {
+        setShowBetslip(!showBetslip);
+    };
 
-//   const [selectedOddsIndices, setSelectedOddsIndices] = useState(() =>
-//     data.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
-//   );
+    const handleRemoveItem = (bettor) => {
+        dispatch(removeSingle({bettor}));
+    };
 
-//   useEffect(() => {
-    
-//     const intervalId = setInterval(() => {
-//       setSelectedOddsIndices((prevIndices) =>
-//         prevIndices.map(() => Math.floor(Math.random() * data[0]?.oddsData.length))
-//       );
-//     }, 3600000); 
+    const [stakeAmounts, setStakeAmounts] = useState({});
 
-//     return () => clearInterval(intervalId);
-//   }, [data]);
+    const handleStakeChange = (bettor, value) => {
+        setStakeAmounts((prevAmounts) => ({
+            ...prevAmounts,
+            [bettor]: value,
+        }));
+    };
+
+    const calculateTotalStake = () => {
+        return betslipData.reduce(
+            (total, item) => total + parseFloat(stakeAmounts[item.bettor] || 0),
+            0
+        );
+    };
+
 
     return (
         <>
@@ -172,8 +185,20 @@ const HomeContentsCenter = ({showChelseaFan, showPoolFan, showArsenalFan, showBa
                     //         </div>
                     //     </div>
                     // </>
-                    <ChealseaFanPage/>
-                ) : showBarcaFan ? <BarcaFanPage/> : showMadridFan ? <MadridFanPage/> : showManUFan ? <ManUtdFanPage/> : showPoolFan ? <PoolFanPage/> : showArsenalFan? <ArsenalFanPage/> : showCityFan ? <CityFanPage/>  : ShowFanPicksA ? (
+                    <ChealseaFanPage />
+                ) : showBarcaFan ? (
+                    <BarcaFanPage />
+                ) : showMadridFan ? (
+                    <MadridFanPage />
+                ) : showManUFan ? (
+                    <ManUtdFanPage />
+                ) : showPoolFan ? (
+                    <PoolFanPage />
+                ) : showArsenalFan ? (
+                    <ArsenalFanPage />
+                ) : showCityFan ? (
+                    <CityFanPage />
+                ) : ShowFanPicksA ? (
                     <>
                         <div className="HomeMainContentsBNavGames">
                             <h3>Top Games for the day</h3>
@@ -355,10 +380,40 @@ const HomeContentsCenter = ({showChelseaFan, showPoolFan, showArsenalFan, showBa
                                                     <div className="BetSlipPageMobileItem1NameTeams">
                                                         {item?.bettor}
                                                     </div>
-                                                    <p>X</p>
+                                                    <p
+                                                        style={{
+                                                            cursor: "pointer",
+                                                        }}
+                                                        onClick={() =>
+                                                            handleRemoveItem(
+                                                                item?.bettor
+                                                            )
+                                                        }
+                                                    >
+                                                        X
+                                                    </p>
                                                 </div>
                                                 <div className="BetSlipPageMobileItem1Choice">
                                                     <p>{item?.oddsSelected}</p>
+                                                    <p>
+                                                        <input
+                                                            type="text"
+                                                            placeholder="stake"
+                                                            value={
+                                                                stakeAmounts[
+                                                                    item.bettor
+                                                                ] || ""
+                                                            }
+                                                            onChange={(e) =>
+                                                                handleStakeChange(
+                                                                    item.bettor,
+                                                                    e.target
+                                                                        .value
+                                                                )
+                                                            }
+                                                        />
+                                                        BTC
+                                                    </p>
                                                 </div>
                                             </div>
                                         ))}
@@ -366,27 +421,44 @@ const HomeContentsCenter = ({showChelseaFan, showPoolFan, showArsenalFan, showBa
                                 )}
 
                                 <div className="BetSlipPageMobileItemsType">
-                                    <div className="active">Single</div>
-                                    <div className="">Multiple</div>
-                                    <div className="">System</div>
+                                    {/* {
+                                        betslipData.length > 1 ? 
+                                    } */}
+                                    <div
+                                        className={`${
+                                            betslipData.length <= 1
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                    >
+                                        Single
+                                    </div>
+                                    <div
+                                        className={`${
+                                            betslipData.length > 1
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                    >
+                                        Multiple
+                                    </div>
                                 </div>
                             </div>
                             <div className="BetSlipPageMobileC">
                                 <div className="BetSlipPageMobileCTop">
                                     <div className="BetSlipPageMobileCTopA">
-                                        <p>All Single stakes are:</p>
+                                        <p>All {betslipData.length > 1? "Multiple" : "Single"} stakes are:</p>
                                         <input
                                             type="text"
-                                            onChange={(e) =>
-                                                setStakeAmount(e.target.value)
-                                            }
+                                            value={calculateTotalStake()}
+                                           
                                         />
                                     </div>
                                 </div>
                                 <div className="BetSlipPageMobileCDown">
                                     <p>
                                         Total Stake:{" "}
-                                        <span>BTC: {stakeAmount}</span>
+                                        <span>BTC:{calculateTotalStake()}</span>
                                     </p>
                                     <p>
                                         Total Returns: <span>BTC: 0.13320</span>

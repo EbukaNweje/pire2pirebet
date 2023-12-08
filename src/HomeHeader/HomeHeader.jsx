@@ -110,8 +110,8 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
         axios.post(url, data)
              .then((response)=>{
                 console.log(response);
-                toast.success(`${response.data.message}`)
-                localStorage.setItem("verifyToken", response.data.token)
+                toast.success(`${response?.data?.message}`)
+                localStorage.setItem("verifyToken", response?.data?.token)
                 setTimeout(() => {
                     nav(`/register-info/${data.email}`);
                 }, 2000);
@@ -138,16 +138,16 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
               axios
                   .post(url, data)
                   .then((response) => {
-                      dispatch(userData(response.data))
+                      dispatch(userData(response?.data))
                       dispatch(isLoggedInUser(true))
                       console.log(response);
-                      toast.success(`Welcome back ${response.data.user.firstName}`);
+                      toast.success(`Welcome back ${response?.data?.user?.firstName}`);
                       setLoading(false)
                       toast.dismiss(loadingToast);
                   })
                   .catch((error) => {
                       console.log(error);
-                      toast.error(`${error.response.data.message}`);
+                      toast.error(`${error?.response?.data?.message}`);
                       setLoading(false);
                       if (error.response.data.message === "Email Not Verified, Please verify your email to log in."){
                         handleResendOTP()
@@ -172,7 +172,7 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
                 console.log(response);
                 dispatch(logOut())
                 dispatch(isLoggedInUser(false))
-                toast.success(response.data.message)
+                toast.success(response?.data?.message)
                 setShowDrop(false)
              })
              .catch((error)=>{

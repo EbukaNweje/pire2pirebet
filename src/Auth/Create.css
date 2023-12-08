@@ -98,6 +98,10 @@
     border: none;
     cursor: pointer;
 }
+.Createbutton:disabled{
+   cursor: not-allowed;
+   background: rgb(195, 208, 195);
+}
 
 .Create-p-text{
     font-weight: 600;
