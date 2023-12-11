@@ -491,8 +491,9 @@ display: none;
   width: 70%;
   height: 80%;
   display: flex;
-  /* gap: 2px; */
+  gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 .selected-odds{
   background: #DCC708;
@@ -531,6 +532,11 @@ display: none;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+.HomeMainContentsBNavGamesSelectCTeamsPick1 span{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .HomeMainContentsBNavGamesSelectCTeamsPick1 div:hover, .HomeMainContentsBNavGamesSelectCTeamsPick2 div:hover{
@@ -1618,10 +1624,19 @@ display: none;
     gap: 20px;
     font-size: 12px;
   }
-  .BetSlipPageMobileCDown p{
+
+  .BetSlipPageMobileCDownDiv1{
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .BetSlipPageMobileCDown p{
+    width: 50%;
+    display: flex;
+    /* justify-content: space-between; */
   }
   .BetSlipPageMobileCDown button{
     display: flex;

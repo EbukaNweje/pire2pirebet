@@ -180,10 +180,10 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
              })
       }
 
-      console.log(user);
+    //   console.log(user);
       
       const isLoggedIn = useSelector((state) => state.Pier.isLoggedIn);
-    console.log(isLoggedIn);
+    // console.log(isLoggedIn);
 
 
     return (
@@ -216,8 +216,8 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
                                             <p>ID:{user?.user?._id.slice(0, 6).toUpperCase()}</p>
                                         </div>
                                         <div className="HeaderTextLMyaccContentsB">
-                                            <p>WITHDRAWABLE</p>
-                                            <p>$200</p>
+                                            <p>Account Balance</p>
+                                            <p style={{display:'flex', justifyContent:'space-between', width:'100%'}}>$200 <span>0.00319 BTC</span></p>
                                         </div>
                                         <div
                                             className="HeaderTextLMyaccContentsC"

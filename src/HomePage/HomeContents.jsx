@@ -19,7 +19,7 @@ const HomeContents = () => {
     const [showManUFan, setShowManUFan] = useState(false)
     const [showPoolFan, setShowPoolFan] = useState(false)
     const [showFanPick, setShowFanPick] = useState(true);
-    console.log(showFanPick);
+    console.log(showFanPick); 
     const dispatch = useDispatch();
 
     const handleShowFanDrop = () => {
@@ -119,7 +119,7 @@ const HomeContents = () => {
     };
 
     const betslipData = useSelector((state) => state.Pier.slip);
-    console.log("BetSlip", betslipData);
+    // console.log("BetSlip", betslipData);
 
     return (
         <>
