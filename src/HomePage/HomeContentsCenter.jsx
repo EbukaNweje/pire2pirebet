@@ -436,6 +436,7 @@ const HomeContentsCenter = ({
                                                             {item?.oddsSelected}
                                                         </p>
                                                         <p>
+                                                            USD
                                                             <input
                                                                 type="text"
                                                                 placeholder="stake"
@@ -453,7 +454,6 @@ const HomeContentsCenter = ({
                                                                     )
                                                                 }
                                                             />
-                                                            USD
                                                         </p>
                                                         <p>
                                                             {calculateBTCValue(
