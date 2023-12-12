@@ -128,6 +128,9 @@ const ChealseaFanPage = () => {
                                         const selectedOdds =
                                             item.oddsData[selectedOddsIndex]
                                                 .oddsPick;
+                                        const stake =
+                                            item.oddsData[selectedOddsIndex]
+                                                .stake;
 
                                         const existingOddsIndex =
                                             betslipData.findIndex(
@@ -151,6 +154,7 @@ const ChealseaFanPage = () => {
                                                     team1: item.userPick.team1,
                                                     team2: item.userPick.team2,
                                                     oddsSelected: selectedOdds,
+                                                    stake: stake,
                                                 })
                                             );
                                         }

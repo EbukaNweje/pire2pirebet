@@ -36,6 +36,7 @@ const features = createSlice({
         } else {
           // If the bettor's odds don't exist, add the new odds to the slip array
           state.slip.push(payload);
+          console.log(payload);
         }
       },
       clearSlip: (state) => {

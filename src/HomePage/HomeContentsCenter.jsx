@@ -113,13 +113,24 @@ const HomeContentsCenter = ({
 
     const stakeValueBTC = calculateTotalStake() / exchangeRate;
     const roundedTotalBTCStake = parseFloat(stakeValueBTC.toFixed(8));
-    console.log("Total BTC:",roundedTotalBTCStake);
+    // console.log("Total BTC:",roundedTotalBTCStake);
 
     const calculateBTCValue = (bettor) => {
-        const stakeValueBTC = (parseFloat(stakeAmounts[bettor]) || 0) / exchangeRate;
+        const stakeValueBTC =
+            (parseFloat(stakeAmounts[bettor]) || 0) / exchangeRate;
         return parseFloat(stakeValueBTC.toFixed(8));
-      };
+    };
 
+    const calculateTotalReturns = () => {
+        return betslipData.reduce(
+            (totalReturns, item) =>
+                totalReturns +
+                item.stake * parseFloat(stakeAmounts[item.bettor] || 0),
+            0
+        );
+    };
+    const totalReturnBTC = calculateTotalReturns() / exchangeRate;
+    const roundedTotalReturn = parseFloat(totalReturnBTC.toFixed(8));
 
     return (
         <>
@@ -420,17 +431,54 @@ const HomeContentsCenter = ({
                                                     </p>
                                                 </div>
                                                 <div className="BetSlipPageMobileItem1Choice">
-                                                <p>{item?.oddsSelected}</p>
-                  <p>
-                    <input
-                      type="text"
-                      placeholder="stake"
-                      value={stakeAmounts[item.bettor] || ""}
-                      onChange={(e) => handleStakeChange(item.bettor, e.target.value)}
-                    />
-                    USD
-                  </p>
-                  <p>{calculateBTCValue(item.bettor)} BTC</p>
+                                                    <div>
+                                                        <p>
+                                                            {item?.oddsSelected}
+                                                        </p>
+                                                        <p>
+                                                            <input
+                                                                type="text"
+                                                                placeholder="stake"
+                                                                value={
+                                                                    stakeAmounts[
+                                                                        item
+                                                                            .bettor
+                                                                    ] || ""
+                                                                }
+                                                                onChange={(e) =>
+                                                                    handleStakeChange(
+                                                                        item.bettor,
+                                                                        e.target
+                                                                            .value
+                                                                    )
+                                                                }
+                                                            />
+                                                            USD
+                                                        </p>
+                                                        <p>
+                                                            {calculateBTCValue(
+                                                                item.bettor
+                                                            )}{" "}
+                                                            BTC
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h4>
+                                                            Stake Value:{" "}
+                                                            {item?.stake}
+                                                            <span>
+                                                                potential
+                                                                winnings:{" "}
+                                                                {item?.stake *
+                                                                    (stakeAmounts[
+                                                                        item
+                                                                            .bettor
+                                                                    ] ||
+                                                                        0)}{" "}
+                                                                USD <h5></h5>
+                                                            </span>
+                                                        </h4>
+                                                    </div>
                                                 </div>
                                             </div>
                                         ))}
@@ -485,7 +533,9 @@ const HomeContentsCenter = ({
                                 </div>
                                 <div className="BetSlipPageMobileCDown">
                                     <div className="BetSlipPageMobileCDownDiv1">
-                                        <h5>Total Stake ${calculateTotalStake()}</h5>
+                                        <h5>
+                                            Total Stake ${calculateTotalStake()}
+                                        </h5>
                                         <p>
                                             Total Stake:{" "}
                                             <span>
@@ -494,11 +544,14 @@ const HomeContentsCenter = ({
                                         </p>
                                     </div>
                                     <div className="BetSlipPageMobileCDownDiv1">
-                                        <h5>Total Returns $400</h5>
+                                        <h5>
+                                            Total Returns $
+                                            {calculateTotalReturns()}
+                                        </h5>
                                         <p>
-                                            Total Returns: 
+                                            Total Returns:
                                             <span>
-                                                BTC: 0.00821130
+                                                BTC: {roundedTotalReturn}
                                             </span>
                                         </p>
                                     </div>
