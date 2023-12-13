@@ -2,12 +2,13 @@ import "./HomePage.css";
 import {FaSearch, FaAngleDown} from "react-icons/fa";
 import {MdOutlineSportsSoccer} from "react-icons/md";
 // import bigImg from "../assets/carousel1.png";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import HomeContentsCenter from "./HomeContentsCenter";
 import HomeOdds from "./HomeOdds";
 import {useSelector, useDispatch} from "react-redux";
 import HomeHeader from "../HomeHeader/HomeHeader";
-import {clearSlip} from "../Redux/Features";
+import {clearSlip, removeSingle} from "../Redux/Features";
+import axios from "axios"
 
 const HomeContents = () => {
     const [showFan, setShowFan] = useState(false);
@@ -120,6 +121,77 @@ const HomeContents = () => {
 
     const betslipData = useSelector((state) => state.Pier.slip);
     // console.log("BetSlip", betslipData);
+
+    // const betslipData = useSelector((state) => state.Pier.slip);
+
+    // const handleShowHome = () => {
+    //     setShowBetslip(false);
+    //     ShowFanPicksA(false);
+    //     nav("/home");
+    // };
+
+    // const [showBetslip, setShowBetslip] = useState(false);
+
+    // const handleSHowBetslip = () => {
+    //     setShowBetslip(!showBetslip);
+    // };
+
+    const handleRemoveItem = (bettor) => {
+        dispatch(removeSingle({bettor}));
+    };
+
+    const [stakeAmounts, setStakeAmounts] = useState({});
+
+    const handleStakeChange = (bettor, value) => {
+        setStakeAmounts((prevAmounts) => ({
+            ...prevAmounts,
+            [bettor]: value,
+        }));
+    };
+
+    const calculateTotalStake = () => {
+        return betslipData.reduce(
+            (total, item) => total + parseFloat(stakeAmounts[item.bettor] || 0),
+            0
+        );
+    };
+
+    const [exchangeRate, setExchangeRate] = useState(null);
+
+    useEffect(() => {
+        // Fetch the current exchange rate from an API (replace with a reliable API)
+        axios
+            .get("https://api.coindesk.com/v1/bpi/currentprice.json")
+            .then((response) => {
+                const rate = response.data.bpi.USD.rate.replace(",", ""); // assuming USD rate
+                setExchangeRate(parseFloat(rate));
+            })
+            .catch((error) => {
+                console.error("Error fetching exchange rate:", error);
+            });
+    }, []); // Empty dependency array ensures useEffect runs only once on component mount
+
+    const stakeValueBTC = calculateTotalStake() / exchangeRate;
+    const roundedTotalBTCStake = parseFloat(stakeValueBTC.toFixed(8));
+    // console.log("Total BTC:",roundedTotalBTCStake);
+
+    const calculateBTCValue = (bettor) => {
+        const stakeValueBTC =
+            (parseFloat(stakeAmounts[bettor]) || 0) / exchangeRate;
+        return parseFloat(stakeValueBTC.toFixed(8));
+    };
+
+    const calculateTotalReturns = () => {
+        return betslipData.reduce(
+            (totalReturns, item) =>
+                totalReturns +
+                item.stake * parseFloat(stakeAmounts[item.bettor] || 0),
+            0
+        );
+    };
+    const totalReturnBTC = calculateTotalReturns() / exchangeRate;
+    const roundedTotalReturn = parseFloat(totalReturnBTC.toFixed(8));
+
 
     return (
         <>
@@ -245,7 +317,7 @@ const HomeContents = () => {
                 ) : null}
 
                 <div className="HomeMainContentsCSlip">
-                    <div className="HomeMainContentsCSlipA">
+                    {/* <div className="HomeMainContentsCSlipA">
                         <h4>Betslip {betslipData.length}</h4>
                     </div>
                     <div className="HomeMainContentsCSlipB">
@@ -306,7 +378,192 @@ const HomeContents = () => {
                             </p>
                             <button>Book bet</button>
                         </div>
-                    </div>
+                    </div> */}
+                     <div className="BetSlipPageMobileWr">
+                            <div className="BetSlipPageMobileCLoser">
+                                <span >
+                                    Close Betslip
+                                </span>
+                            </div>
+                            <div className="BetSlipPageMobileA">
+                                <h4>Betslip {betslipData.length}</h4>
+                            </div>
+                            <div className="BetSlipPageMobileB">
+                                <p>Accept odds changes</p>
+                                {
+                                    betslipData.length === 0 ? null : <p
+                                    className="ClearBtn"
+                                    onClick={() => dispatch(clearSlip())}
+                                >
+                                    Clear Betslip
+                                </p>
+                                }
+                                
+                            </div>
+                            <div className="BetSlipPageMobileItems">
+                                {betslipData.length === 0 ? (
+                                    <>
+                                        {" "}
+                                        <h3>
+                                            Empty slip, Please select a odds
+                                            from the fan page
+                                        </h3>
+                                    </>
+                                ) : (
+                                    <>
+                                        {betslipData.map((item, index) => (
+                                            <div
+                                                className="BetSlipPageMobileItems1"
+                                                key={index}
+                                            >
+                                                <div className="BetSlipPageMobileItem1Name">
+                                                    <input type="checkbox" />
+                                                    <div className="BetSlipPageMobileItem1NameTeams">
+                                                        {item?.bettor}
+                                                    </div>
+                                                    <p
+                                                        style={{
+                                                            cursor: "pointer",
+                                                        }}
+                                                        onClick={() =>
+                                                            handleRemoveItem(
+                                                                item?.bettor
+                                                            )
+                                                        }
+                                                    >
+                                                        X
+                                                    </p>
+                                                </div>
+                                                <div className="BetSlipPageMobileItem1Choice">
+                                                    <div>
+                                                        <p>
+                                                            {item?.oddsSelected}
+                                                        </p>
+                                                        <p>
+                                                            USD
+                                                            <input
+                                                                type="text"
+                                                                placeholder="stake"
+                                                                value={
+                                                                    stakeAmounts[
+                                                                        item
+                                                                            .bettor
+                                                                    ] || ""
+                                                                }
+                                                                onChange={(e) =>
+                                                                    handleStakeChange(
+                                                                        item.bettor,
+                                                                        e.target
+                                                                            .value
+                                                                    )
+                                                                }
+                                                            />
+                                                        </p>
+                                                        <p>
+                                                            {calculateBTCValue(
+                                                                item.bettor
+                                                            )}{" "}
+                                                            BTC
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h4>
+                                                            Stake Value:{" "}
+                                                            {item?.stake}
+                                                            <span>
+                                                                potential
+                                                                winnings:{" "}
+                                                                {item?.stake *
+                                                                    (stakeAmounts[
+                                                                        item
+                                                                            .bettor
+                                                                    ] ||
+                                                                        0)}{" "}
+                                                                USD <h5></h5>
+                                                            </span>
+                                                        </h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+
+                                <div className="BetSlipPageMobileItemsType">
+                                    {/* {
+                                        betslipData.length > 1 ? 
+                                    } */}
+                                    <div
+                                        className={`${
+                                            betslipData.length <= 1
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                    >
+                                        Single
+                                    </div>
+                                    <div
+                                        className={`${
+                                            betslipData.length > 1
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                    >
+                                        Multiple
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="BetSlipPageMobileC">
+                                <div className="BetSlipPageMobileCTop">
+                                    <div className="BetSlipPageMobileCTopA">
+                                        <p>
+                                            {betslipData.length > 1
+                                                ? "Multiple"
+                                                : "Single"}{" "}
+                                            stake
+                                            {betslipData.length > 1
+                                                ? "s"
+                                                : "Single"}{" "}
+                                            {betslipData.length > 1
+                                                ? "are"
+                                                : "is"}
+                                        </p>
+                                        <input
+                                            type="text"
+                                            value={calculateTotalStake()}
+                                            readOnly
+                                        />
+                                    </div>
+                                </div>
+                                <div className="BetSlipPageMobileCDown">
+                                    <div className="BetSlipPageMobileCDownDiv1">
+                                        <h5>
+                                            Total Stake ${calculateTotalStake()}
+                                        </h5>
+                                        <p>
+                                            Total Stake:{" "}
+                                            <span>
+                                                BTC: {roundedTotalBTCStake}
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div className="BetSlipPageMobileCDownDiv1">
+                                        <h5>
+                                            Total Returns $
+                                            {calculateTotalReturns()}
+                                        </h5>
+                                        <p>
+                                            Total Returns:
+                                            <span>
+                                                BTC: {roundedTotalReturn}
+                                            </span>
+                                        </p>
+                                    </div>
+
+                                    <button>Book bet</button>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </>

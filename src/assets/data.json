@@ -31,7 +31,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -306,19 +307,19 @@
         "odds5": ["-0/x1", "-1/x1", "-2x1", "-3x1", "-4x1", "-0x2"],
         "oddsData": [
             {
-                "oddsPick": "-0 / x1",
+                "oddsPick": "-0/x1",
                 "pickInfo": "No goal down and no extra stake offer",
-                "stake": 1
+                "stake": "1"
             },
             {
-                "oddsPick": "-1 / x1",
+                "oddsPick": "-1/x1",
                 "pickInfo": "A goal down and no extra stake offer",
                 "stake": 1
             },
             {
                 "oddsPick": "-2x1",
                 "pickInfo": "Two goals down and no extra stake offer",
-                "stake": 2
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
@@ -502,42 +503,42 @@
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe",
+                "pickInfo": "Already leading by two goals and no extra stake offer",
                 "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake",
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
                 "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake",
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
                 "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake",
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
                 "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake",
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
                 "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake",
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
                 "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe",
+                "pickInfo": "Already leading by three goals and no extra stake offre",
                 "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake",
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
                 "stake": 2
             },
             {
@@ -547,12 +548,12 @@
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake",
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
                 "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake",
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
                 "stake": 5
             },
             {
@@ -562,27 +563,27 @@
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe",
+                "pickInfo": "Already leading by four goals and no extra stake offer",
                 "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake",
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
                 "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake",
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
                 "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake",
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
                 "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake",
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
                 "stake": 5
             },
             {
@@ -624,7 +625,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -920,7 +922,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -1216,7 +1219,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -1492,231 +1496,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -1752,7 +1813,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -2048,7 +2110,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -2344,7 +2407,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -2640,7 +2704,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -2916,231 +2981,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -3176,7 +3298,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -3472,7 +3595,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -3768,7 +3892,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -4064,7 +4189,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -4340,231 +4466,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -4600,7 +4783,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -4896,7 +5080,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -5192,7 +5377,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -5488,7 +5674,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -5764,231 +5951,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -6024,7 +6268,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -6320,7 +6565,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -6616,7 +6862,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -6912,7 +7159,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -7177,246 +7425,6 @@
         ]
     },
     {
-        "userName": "Ulysses",
-        "userPick": {
-            "pickType": "soccer",
-            "team1": "Bayern Munich",
-            "team2": "Manchester United"
-        },
-        "userId": "pier100",
-        "odds5": ["-0/x1", "-1/x1", "-2x1", "-3x1", "-4x1", "-0x2"],
-        "oddsData": [
-            {
-                "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
-            },
-            {
-                "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
-            },
-            {
-                "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
-            },
-            {
-                "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
-            },
-            {
-                "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
-            },
-            {
-                "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
-            },
-            {
-                "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
-            },
-            {
-                "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
-            },
-            {
-                "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
-            },
-            {
-                "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
-            },
-            {
-                "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
-            },
-            {
-                "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
-            },
-            {
-                "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
-            },
-            {
-                "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
-            },
-            {
-                "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
-            },
-            {
-                "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
-            },
-            {
-                "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
-            },
-            {
-                "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
-            },
-            {
-                "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
-            },
-            {
-                "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
-            },
-            {
-                "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
-            },
-            {
-                "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
-            },
-            {
-                "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
-            },
-            {
-                "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
-            },
-            {
-                "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
-            },
-            {
-                "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
-            },
-            {
-                "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
-            },
-            {
-                "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
-            },
-            {
-                "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
-            },
-            {
-                "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
-            },
-            {
-                "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
-            },
-            {
-                "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
-            },
-            {
-                "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
-            },
-            {
-                "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
-            },
-            {
-                "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
-            },
-            {
-                "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
-            },
-            {
-                "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
-            },
-            {
-                "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
-            },
-            {
-                "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
-            },
-            {
-                "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
-            },
-            {
-                "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
-            },
-            {
-                "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
-            },
-            {
-                "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
-            },
-            {
-                "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
-            },
-            {
-                "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
-            },
-            {
-                "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
-            },
-            {
-                "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
-            },
-            {
-                "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
-            },
-            {
-                "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
-            },
-            {
-                "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
-            }
-        ]
-    },
-    {
         "userName": "Victor",
         "userPick": {
             "pickType": "soccer",
@@ -7448,7 +7456,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -7744,7 +7753,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -8040,7 +8050,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -8336,7 +8347,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -8612,231 +8624,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -8872,7 +8941,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -9168,7 +9238,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -9464,7 +9535,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -9760,7 +9832,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -10056,7 +10129,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -10352,7 +10426,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -10648,7 +10723,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -10924,231 +11000,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -11184,7 +11317,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -11480,7 +11614,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -11776,7 +11911,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -12072,7 +12208,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -12348,231 +12485,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -12608,7 +12802,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -12904,7 +13099,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -13200,7 +13396,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -13496,7 +13693,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -13772,231 +13970,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -14032,7 +14287,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -14328,7 +14584,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -14624,7 +14881,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -14920,7 +15178,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -15196,231 +15455,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -15456,7 +15772,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -15752,7 +16069,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -16048,7 +16366,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -16344,7 +16663,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -16620,231 +16940,288 @@
         "oddsData": [
             {
                 "oddsPick": "-0/x1",
-                "pickInfo": "No goal down and no extra stake offer"
+                "pickInfo": "No goal down and no extra stake offer",
+                "stake": "1"
             },
             {
                 "oddsPick": "-1/x1",
-                "pickInfo": "A goal down and no extra stake offer"
+                "pickInfo": "A goal down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
-                "pickInfo": "No goal down but I can twofold your stake"
+                "pickInfo": "No goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-0x3",
-                "pickInfo": "No goal down but I can threefold your stake"
+                "pickInfo": "No goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-0x4",
-                "pickInfo": "No goal down but I can fourfold your stake"
+                "pickInfo": "No goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-0x5",
-                "pickInfo": "No goal down but I can fivefold your stake"
+                "pickInfo": "No goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-0x6",
-                "pickInfo": "No goal down but I can sixfold your stake"
+                "pickInfo": "No goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-1x2",
-                "pickInfo": "A goal down but I can twofold your stake"
+                "pickInfo": "A goal down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-1x3",
-                "pickInfo": "A goal down but I can threefold your stake"
+                "pickInfo": "A goal down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-1x4",
-                "pickInfo": "A goal down but I can fourfold your stake"
+                "pickInfo": "A goal down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-1x5",
-                "pickInfo": "A goal down but I can fivefold your stake"
+                "pickInfo": "A goal down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-1x6",
-                "pickInfo": "A goal down but I can sixfold your stake"
+                "pickInfo": "A goal down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-2x1",
-                "pickInfo": "Two goals down and no extra stake offer"
+                "pickInfo": "Two goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-2x2",
-                "pickInfo": "Two goals down but I can twofold your stake"
+                "pickInfo": "Two goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-2x3",
-                "pickInfo": "Two goals down but I can threefold your stake"
+                "pickInfo": "Two goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-2x4",
-                "pickInfo": "Two goals down but I can fourfold your stake"
+                "pickInfo": "Two goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-2x5",
-                "pickInfo": "Two goals down but I can fivefold your stake"
+                "pickInfo": "Two goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-2x6",
-                "pickInfo": "Two goals down but I can sixfold your stake"
+                "pickInfo": "Two goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-3x1",
-                "pickInfo": "Three goals down and no extra stake offer"
+                "pickInfo": "Three goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-3x2",
-                "pickInfo": "Three goals down but I can twofold your stake"
+                "pickInfo": "Three goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-3x3",
-                "pickInfo": "Three goals down but I can threefold your stake"
+                "pickInfo": "Three goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-3x4",
-                "pickInfo": "Three goals down but I can fourfold your stake"
+                "pickInfo": "Three goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-3x5",
-                "pickInfo": "Three goals down but I can fivefold your stake"
+                "pickInfo": "Three goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-3x6",
-                "pickInfo": "Three goals down but I can sixfold your stake"
+                "pickInfo": "Three goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
-                "pickInfo": "Four goals down but I can twofold your stake"
+                "pickInfo": "Four goals down but I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "-4x3",
-                "pickInfo": "Four goals down but I can threefold your stake"
+                "pickInfo": "Four goals down but I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "-4x4",
-                "pickInfo": "Four goals down but I can fourfold your stake"
+                "pickInfo": "Four goals down but I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "-4x5",
-                "pickInfo": "Four goals down but I can fivefold your stake"
+                "pickInfo": "Four goals down but I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "-4x6",
-                "pickInfo": "Four goals down but I can sixfold your stake"
+                "pickInfo": "Four goals down but I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+1x1",
-                "pickInfo": "Already leading by a goal and no extra stake offer"
+                "pickInfo": "Already leading by a goal and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+1x2",
-                "pickInfo": "Already leading by a goal and I can twofold your stake"
+                "pickInfo": "Already leading by a goal and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+1x3",
-                "pickInfo": "Already leading by a goal and I can threefod your stake"
+                "pickInfo": "Already leading by a goal and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+1x4",
-                "pickInfo": "Already leading by a goal and I can fourfold your stake"
+                "pickInfo": "Already leading by a goal and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+1x5",
-                "pickInfo": "Already leading by a goal and I can fivefold your stake"
+                "pickInfo": "Already leading by a goal and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+1x6",
-                "pickInfo": "Already leading by a goal and I can sixfold your stake"
+                "pickInfo": "Already leading by a goal and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+2x1",
-                "pickInfo": "Already leading by two goals and no extra stake offe"
+                "pickInfo": "Already leading by two goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+2x2",
-                "pickInfo": "Already leading by two goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by two goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+2x3",
-                "pickInfo": "Already leading by two goals and I can threefod your stake"
+                "pickInfo": "Already leading by two goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+2x4",
-                "pickInfo": "Already leading by two goals and I can fourfol your stake"
+                "pickInfo": "Already leading by two goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+2x5",
-                "pickInfo": "Already leading by two goals and I can fivefol your stake"
+                "pickInfo": "Already leading by two goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+2x6",
-                "pickInfo": "Already leading by two goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by two goals and I can sixfold your stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+3x1",
-                "pickInfo": "Already leading by three goals and no extra stake offe"
+                "pickInfo": "Already leading by three goals and no extra stake offre",
+                "stake": 1
             },
             {
                 "oddsPick": "+3x2",
-                "pickInfo": "Already leading by three goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by three goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+3x3",
-                "pickInfo": "Already leading by three goals and I can threefod your stake"
+                "pickInfo": "Already leading by three goals and I can threefod your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+3x4",
-                "pickInfo": "Already leading by three goals and I can fourfol your stake"
+                "pickInfo": "Already leading by three goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+3x5",
-                "pickInfo": "Already leading by three goals and I can fivefol your stake"
+                "pickInfo": "Already leading by three goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+3x6",
-                "pickInfo": "Already leading by three goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by three goals and I can sixfoldyour stake",
+                "stake": 6
             },
             {
                 "oddsPick": "+4x1",
-                "pickInfo": "Already leading by four goals and no extra stake offe"
+                "pickInfo": "Already leading by four goals and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "+4x2",
-                "pickInfo": "Already leading by four goals and I can twofoldyour stake"
+                "pickInfo": "Already leading by four goals and I can twofold your stake",
+                "stake": 2
             },
             {
                 "oddsPick": "+4x3",
-                "pickInfo": "Already leading by four goals and I can threefod your stake"
+                "pickInfo": "Already leading by four goals and I can threefold your stake",
+                "stake": 3
             },
             {
                 "oddsPick": "+4x4",
-                "pickInfo": "Already leading by four goals and I can fourfol your stake"
+                "pickInfo": "Already leading by four goals and I can fourfold your stake",
+                "stake": 4
             },
             {
                 "oddsPick": "+4x5",
-                "pickInfo": "Already leading by four goals and I can fivefol your stake"
+                "pickInfo": "Already leading by four goals and I can fivefold your stake",
+                "stake": 5
             },
             {
                 "oddsPick": "+4x6",
-                "pickInfo": "Already leading by four goals and I can sixfoldyour stake"
+                "pickInfo": "Already leading by four goals and I can sixfoldyour stake",
+                "stake": 6
             }
         ]
     },
@@ -16880,7 +17257,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -17176,7 +17554,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -17472,7 +17851,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -17768,7 +18148,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -18060,7 +18441,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -18152,7 +18534,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-4x2",
@@ -18304,7 +18687,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -18600,7 +18984,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -18896,7 +19281,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",
@@ -19192,7 +19578,8 @@
             },
             {
                 "oddsPick": "-4x1",
-                "pickInfo": "Four goals down and no extra stake offer"
+                "pickInfo": "Four goals down and no extra stake offer",
+                "stake": 1
             },
             {
                 "oddsPick": "-0x2",

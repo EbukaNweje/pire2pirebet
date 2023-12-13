@@ -123,6 +123,49 @@
   padding: 5px;
 }
 
+.OddsBodyPopUp{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #000000d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 7px;
+}
+
+.OddsBodyPopUpContent{
+  /* padding: 10px; */
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  position: relative;
+border-radius: 7px;
+
+}
+
+.OddsBodyPopUpCancel{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.MdOutlineCancel{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 
 /* End of Media Query Styling For Desktop Device */
 

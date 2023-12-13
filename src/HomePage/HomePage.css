@@ -161,7 +161,7 @@ display: none;
 }
 
 .HomeMainContentsB{
-  width: 60%;
+  width: 55%;
   height: max-content;
 }
 
@@ -551,9 +551,9 @@ display: none;
 
 
 .HomeMainContentsCSlip {
-  width: 21%;
+  width: 26%;
   height: max-content;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   background: #1A1A1A;
   color: #fff;
 }
@@ -732,6 +732,7 @@ display: none;
   color: #fff;
 }
 
+
 .MobileFooter{
   width: 100%;
   height: 100px;
@@ -740,6 +741,271 @@ display: none;
   justify-content: space-between;
 }
 
+.BetSlipPageMobileWr {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  background: #1A1A1A;
+  color: #fff;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.BetSlipPageMobileA{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.BetSlipPageMobileB{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 13px;
+}
+.BetSlipPageMobileB p{
+  font-size: 14px;
+}
+
+.BetSlipPageMobileB .ClearBtn{
+  padding: 7px;
+  cursor: pointer;
+  background: #ff0000;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.BetSlipPageMobileItems{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 13px;
+  margin: 20px 0px;
+}
+
+.BetSlipPageMobileItems1{
+  width: 100%;
+  height: max-content;
+  color: #fff;
+  background: #373A45;
+  padding: 5px;
+}
+
+.BetSlipPageMobileItem1Name{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+}
+
+.BetSlipPageMobileItem1NameTeams{
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.BetSlipPageMobileItem1NameTeamsOdds{
+  color: greenyellow;
+}
+.BetSlipPageMobileItem1NameTeams p{
+  color: greenyellow;
+}
+
+.BetSlipPageMobileItem1Choice{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  flex-direction: column;
+}
+.BetSlipPageMobileItem1Choice div{
+  width: 100%;
+  height: 35px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between ;
+  /* flex-direction: column; */
+}
+.BetSlipPageMobileItem1Choice div h4{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between ;
+  /* flex-direction: column; */
+}
+.BetSlipPageMobileItem1Choice p{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.BetSlipPageMobileItem1Choice p input{
+  width: 50%;
+  height: 100%;
+}
+
+.BetSlipPageMobileItemsType{
+  width: 100%;
+  height: 60px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.BetSlipPageMobileItemsType div{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.BetSlipPageMobileItemsType div.active{
+  padding: 5px 10px;
+  background: #666;
+  border-radius: 40px;
+}
+
+.BetSlipPageMobileC{
+  width: 100%;
+  height: max-content;
+  padding: 5px;
+}
+
+.BetSlipPageMobileCTop{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.BetSlipPageMobileCTopA{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.BetSlipPageMobileCTopA input{
+  width: 100px;
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.BetSlipPageMobileCTopB{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BetSlipPageMobileCTopB button{
+  width: max-content;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #119702;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.BetSlipPageMobileCTopB button:hover{
+  background: #28c916;
+  color: #fff;
+}
+
+.BetSlipPageMobileCDown{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.BetSlipPageMobileCDownDiv1{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BetSlipPageMobileCDown p{
+  width: 50%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.BetSlipPageMobileCDown button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #DCC708;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 14px;
+}
+.BetSlipPageMobileCDown button:hover{
+  background: #847709;
+}
+
+.BetSlipPageMobileCLoser{
+  width: 100%;
+  height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: end;
+  /* margin-top: 5px; */
+}
+.BetSlipPageMobileCLoser span{
+  padding: 10px;
+  background: lightskyblue;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  color: #000;
+  border-radius: 5px;
+}
+
+.BetSlipPageMobileCLoser span:hover{
+  padding: 15px;
+  background: #2e6e95;
+  color: #fff;
+}
 
 
 
