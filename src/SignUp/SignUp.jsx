@@ -119,7 +119,7 @@ function SignUp() {
                 .catch((error) => {
                     console.log(error);
                     setLoading(false);
-                    toast.error("Error creating User, please try again");
+                    toast.error(`${error?.response?.data?.message}`);
                 });
         }
     };

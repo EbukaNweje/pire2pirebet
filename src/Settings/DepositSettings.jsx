@@ -1,6 +1,6 @@
 // import  { useState } from "react";
 import bitcoin from "./assets/bitcoin.png";
-import QR from "../assets/WhatsApp Image 2023-12-03 at 00.48.03_dd885e5a.jpg";
+import QR from "../../src/assets/qr2.jpg";
 import burger from "./assets/burger.png";
 
 function DepositSettings({showMobilePop}) {
@@ -29,7 +29,7 @@ function DepositSettings({showMobilePop}) {
                 <input
                     className="DepositInput"
                     type="text"
-                    value={"bc1q40xd9vyzz2n7y9wsrjxcqgk8jc8wj5x5sthptl"}
+                    value={"bc1q4k8uma7zx79jzhvftxwr5q3rwvjzxaej7u454r"}
                 />
             </div>
         </div>
