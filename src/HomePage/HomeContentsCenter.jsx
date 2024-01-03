@@ -1,9 +1,9 @@
-import { FaAngleLeft, FaAngleRight, FaHome } from "react-icons/fa";
+import {FaAngleLeft, FaAngleRight, FaHome} from "react-icons/fa";
 import "./HomePage.css";
-import { MdOutlineSportsSoccer } from "react-icons/md";
+import {MdOutlineSportsSoccer} from "react-icons/md";
 // import { NavLink } from "react-router-dom";
-import { LuFileSearch2 } from "react-icons/lu";
-import { useEffect, useState } from "react";
+import {LuFileSearch2} from "react-icons/lu";
+import {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {betSlip, clearSlip, removeSingle} from "../Redux/Features";
 import {useNavigate} from "react-router-dom";
@@ -16,6 +16,7 @@ import ArsenalFanPage from "./ArsenalFanPage";
 import CityFanPage from "./CityFanPage";
 import ChealseaFanPage from "./ChealseaFanPage";
 import axios from "axios";
+import {Modal} from "antd";
 
 const HomeContentsCenter = ({
     showChelseaFan,
@@ -132,9 +133,28 @@ const HomeContentsCenter = ({
     const totalReturnBTC = calculateTotalReturns() / exchangeRate;
     const roundedTotalReturn = parseFloat(totalReturnBTC.toFixed(8));
 
+    const [openModal, setOpenModal] = useState(false);
+
+    const handleBookBet = () => {
+        setOpenModal(true);
+    };
+    const handleCloseModal = () => {
+        setOpenModal(false);
+        dispatch(clearSlip());
+    };
+
     return (
         <>
-            {" "}
+            <Modal
+                title="Booked Succesfull"
+                open={openModal}
+                onCancel={handleCloseModal}
+                footer={null}
+                closeIcon={true}
+                maskClosable={false}
+            >
+                Bet Booked Successful
+            </Modal>{" "}
             <div className="HomeMainContentsB">
                 <div className="HomeMainContentsBCarousel">
                     <div className="HomeMainContentsBCarouselImgDiv">
@@ -556,7 +576,9 @@ const HomeContentsCenter = ({
                                         </p>
                                     </div>
 
-                                    <button>Book bet</button>
+                                    <button onClick={handleBookBet}>
+                                        Book bet
+                                    </button>
                                 </div>
                             </div>
                         </div>
