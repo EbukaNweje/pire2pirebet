@@ -17,6 +17,10 @@ import CityFanPage from "./CityFanPage";
 import ChealseaFanPage from "./ChealseaFanPage";
 import axios from "axios";
 import {Modal} from "antd";
+import Cr1 from "./my1.jpg"
+import Cr2 from "./my2.jpg"
+import Cr3 from "./my3.jpg"
+import Cr4 from "./m4.jpg"
 
 const HomeContentsCenter = ({
     showChelseaFan,
@@ -35,10 +39,13 @@ const HomeContentsCenter = ({
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const imageArray = [
-        "https://cdn3.f-cdn.com//files/download/80772190/Facebook-Cover-Design-4.png?width=780&height=403&fit=crop",
-        "https://img.freepik.com/premium-vector/woman-basketball-banner-sports-banner-design-premium-template-vector_356357-70.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc_SDVxiMfHA2PEhZZJaPE-xAua07vZD0hA&usqp=CAU",
-        "https://img.freepik.com/free-vector/gradient-halftone-basketball-twitch-banner_23-2149346315.jpg",
+        Cr1,
+        Cr2,
+        Cr3,
+        Cr4,
+        // "https://img.freepik.com/premium-vector/woman-basketball-banner-sports-banner-design-premium-template-vector_356357-70.jpg",
+        // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc_SDVxiMfHA2PEhZZJaPE-xAua07vZD0hA&usqp=CAU",
+        // "https://img.freepik.com/free-vector/gradient-halftone-basketball-twitch-banner_23-2149346315.jpg",
     ];
     const totalImages = imageArray.length;
 
