@@ -285,8 +285,8 @@ const HomeContentsCenter = ({
                 ) : ShowFanPicksA ? (
                     <>
                         <div className="HomeMainContentsBNavGames">
-                            <h3>Top Games for the day</h3>
-                            <div className="HomeMainContentsBNavGamesItem">
+                            <h3>No Selected Pick For Champions League</h3>
+                            {/* <div className="HomeMainContentsBNavGamesItem">
                                 <div className="HomeMainContentsBNavGamesItemTop">
                                     <p>WHO WILL WIN?</p>
                                 </div>
@@ -399,7 +399,7 @@ const HomeContentsCenter = ({
                                         <p>Manchester United</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </>
                 ) : null}

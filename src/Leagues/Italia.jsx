@@ -14,7 +14,7 @@ const Italia = () => {
                 <span>
                     <FaAngleLeft />
                 </span>
-                <p>Galatasary</p>
+                <p>Napoli</p>
             </div>
             <div className="HomeMainContentsBNavGamesItem1B">
                 <div className="HomeMainContentsBNavGamesItem1B1st">
@@ -31,7 +31,7 @@ const Italia = () => {
                 </div>
             </div>
             <div className="HomeMainContentsBNavGamesItem1C">
-                <p>Manchester United</p>
+                <p>Salernitana</p>
                 <span>
                     <FaAngleRight />
                 </span>
@@ -44,81 +44,28 @@ const Italia = () => {
         </div>
         <div className="HomeMainContentsBNavGamesItem1">
             <div className="HomeMainContentsBNavGamesItem1A">
-                <p>Galatasary</p>
+                <p>Monza</p>
             </div>
             <div className="HomeMainContentsBNavGamesItem1B">
                 <div className="HomeMainContentsBNavGamesItem1B1st">
-                    <p>42%</p>
+                    <p>10%</p>
                     <span></span>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1B2nd">
-                    <p>44%</p>
+                    <p>30%</p>
                     <span></span>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1B3rd">
-                    <p>11%</p>
+                    <p>60%</p>
                     <span></span>
                 </div>
             </div>
             <div className="HomeMainContentsBNavGamesItem1C">
-                <p>Manchester United</p>
+                <p>Inter</p>
             </div>
         </div>
     </div>
-    <div className="HomeMainContentsBNavGamesItem">
-        <div className="HomeMainContentsBNavGamesItemTop">
-            <p>WHO WILL WIN?</p>
-        </div>
-        <div className="HomeMainContentsBNavGamesItem1">
-            <div className="HomeMainContentsBNavGamesItem1A">
-                <p>Galatasary</p>
-            </div>
-            <div className="HomeMainContentsBNavGamesItem1B">
-                <div className="HomeMainContentsBNavGamesItem1B1st">
-                    <p>42%</p>
-                    <span></span>
-                </div>
-                <div className="HomeMainContentsBNavGamesItem1B2nd">
-                    <p>44%</p>
-                    <span></span>
-                </div>
-                <div className="HomeMainContentsBNavGamesItem1B3rd">
-                    <p>11%</p>
-                    <span></span>
-                </div>
-            </div>
-            <div className="HomeMainContentsBNavGamesItem1C">
-                <p>Manchester United</p>
-            </div>
-        </div>
-    </div>
-    <div className="HomeMainContentsBNavGamesItem">
-        <div className="HomeMainContentsBNavGamesItemTop">
-            <p>WHO WILL WIN?</p>
-        </div>
-        <div className="HomeMainContentsBNavGamesItem1">
-            <div className="HomeMainContentsBNavGamesItem1A">
-                <p>Galatasary</p>
-            </div>
-            <div className="HomeMainContentsBNavGamesItem1B">
-                <div className="HomeMainContentsBNavGamesItem1B1st">
-                    <p>42%</p>
-                    <span></span>
-                </div>
-                <div className="HomeMainContentsBNavGamesItem1B2nd">
-                    <p>44%</p>
-                    <span></span>
-                </div>
-                <div className="HomeMainContentsBNavGamesItem1B3rd">
-                    <p>11%</p>
-                    <span></span>
-                </div>
-            </div>
-            <div className="HomeMainContentsBNavGamesItem1C">
-                <p>Manchester United</p>
-            </div>
-        </div>
-    </div>
+    
 </div>
   )
 }
