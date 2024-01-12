@@ -17,10 +17,15 @@ import CityFanPage from "./CityFanPage";
 import ChealseaFanPage from "./ChealseaFanPage";
 import axios from "axios";
 import {Modal} from "antd";
-import Cr1 from "./my1.jpg"
-import Cr2 from "./my2.jpg"
-import Cr3 from "./my3.jpg"
-import Cr4 from "./m4.jpg"
+import Cr1 from "./my1.jpg";
+import Cr2 from "./my2.jpg";
+import Cr3 from "./my3.jpg";
+import Cr4 from "./m4.jpg";
+import Laliga from "../Leagues/Laliga";
+import Bundesliga from "../Leagues/Bundesliga";
+import Premier from "../Leagues/Premier";
+import Italia from "../Leagues/Italia";
+import French from "../Leagues/French";
 
 const HomeContentsCenter = ({
     showChelseaFan,
@@ -32,6 +37,11 @@ const HomeContentsCenter = ({
     showMadridFan,
     ShowMainContentB,
     ShowFanPicksA,
+    showPremier,
+    showLaliga,
+    showItalia,
+    showBundes,
+    showFrench,
 }) => {
     // console.log(data);
 
@@ -250,6 +260,16 @@ const HomeContentsCenter = ({
                     //     </div>
                     // </>
                     <ChealseaFanPage />
+                ) : showLaliga ? (
+                    <Laliga />
+                ) : showBundes ? (
+                    <Bundesliga />
+                ) : showPremier ? (
+                    <Premier />
+                ) : showItalia ? (
+                    <Italia />
+                ) : showFrench ? (
+                    <French />
                 ) : showBarcaFan ? (
                     <BarcaFanPage />
                 ) : showMadridFan ? (

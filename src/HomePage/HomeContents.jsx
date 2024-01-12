@@ -20,7 +20,11 @@ const HomeContents = () => {
     const [showManUFan, setShowManUFan] = useState(false)
     const [showPoolFan, setShowPoolFan] = useState(false)
     const [showFanPick, setShowFanPick] = useState(true);
-    console.log(showFanPick); 
+    const [laliga, setShowLaliga] = useState(false)
+    const [premier, setPremier] = useState(false)
+    const [bundesliga, setBundesliga] = useState(false)
+    const [italia, setItalia] = useState(false)
+    const [french, setFrench] = useState(false)
     const dispatch = useDispatch();
 
     const handleShowFanDrop = () => {
@@ -35,6 +39,86 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+    };
+    const handleShowLaliga= () => {
+        setShowFanPick(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+        setShowLaliga(true)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+    };
+    const handleShowPremier = () => {
+        setShowFanPick(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(true)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+    };
+    const handleShowBundes = () => {
+        setShowFanPick(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(true)
+        setItalia(false)
+        setFrench(false)
+    };
+    const handleShowItalia = () => {
+        setShowFanPick(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(true)
+        setFrench(false)
+    };
+    const handleShowFrench = () => {
+        setShowFanPick(false);
+        setShowChelseaFan(false);
+        setShowBarcaFan(false)
+        setShowCityFan(false)
+        setShowMadridFan(false)
+        setShowArsenalFan(false)
+        setShowManUFan(false)
+        setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(true)
     };
     const handleShowChelseaFan = () => {
         setShowChelseaFan(true);
@@ -45,6 +129,12 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowBarcaFan = () => {
         setShowChelseaFan(false);
@@ -55,6 +145,12 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowCityFan = () => {
         setShowChelseaFan(false);
@@ -65,6 +161,12 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowMadridFan = () => {
         setShowChelseaFan(false);
@@ -75,6 +177,12 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowManUFan = () => {
         setShowChelseaFan(false);
@@ -85,6 +193,12 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(true)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowArsenalFan = () => {
         setShowChelseaFan(false);
@@ -95,6 +209,12 @@ const HomeContents = () => {
         setShowArsenalFan(true)
         setShowManUFan(false)
         setShowPoolFan(false)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
+        
     };
     const handleShowPoolFan = () => {
         setShowChelseaFan(false);
@@ -105,6 +225,11 @@ const HomeContents = () => {
         setShowArsenalFan(false)
         setShowManUFan(false)
         setShowPoolFan(true)
+        setShowLaliga(false)
+        setPremier(false)
+        setBundesliga(false)
+        setItalia(false)
+        setFrench(false)
     };
 
     const [mainContentA, setMainContentA] = useState(true);
@@ -220,23 +345,23 @@ const HomeContents = () => {
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                             <p>UEFA Champions League</p>
                         </div>
-                        <div className="HomeMainContentsALinksItem">
+                        <div className="HomeMainContentsALinksItem" onClick={handleShowLaliga}>
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                            <p>UEFA Europa League</p>
+                            <p>Laliga</p>
                         </div>
-                        <div className="HomeMainContentsALinksItem">
+                        <div className="HomeMainContentsALinksItem" onClick={handleShowPremier}>
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                             <p>Premier League</p>
                         </div>
-                        <div className="HomeMainContentsALinksItem">
+                        <div className="HomeMainContentsALinksItem" onClick={handleShowItalia}>
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                             <p>Italy Seria A</p>
                         </div>
-                        <div className="HomeMainContentsALinksItem">
+                        <div className="HomeMainContentsALinksItem" onClick={handleShowBundes}>
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                             <p>German Bundesliga</p>
                         </div>
-                        <div className="HomeMainContentsALinksItem">
+                        <div className="HomeMainContentsALinksItem" onClick={handleShowFrench}>
                             <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                             <p>Franch League</p>
                         </div>
@@ -311,74 +436,18 @@ const HomeContents = () => {
                         showMadridFan={showMadridFan}
                         ShowMainContentB={showMainContentB}
                         ShowFanPicksA={handleShowFanPick}
+                        showPremier={premier}
+                        showLaliga={laliga}
+                        showItalia={italia}
+                        showBundes={bundesliga}
+                        showFrench={french}
                     />
                 ) : mainContentB ? (
                     <HomeOdds ShowMainContentA={showMainContentA} />
                 ) : null}
 
                 <div className="HomeMainContentsCSlip">
-                    {/* <div className="HomeMainContentsCSlipA">
-                        <h4>Betslip {betslipData.length}</h4>
-                    </div>
-                    <div className="HomeMainContentsCSlipB">
-                        <p>Accept odds changes</p>
-                        <p onClick={() => dispatch(clearSlip())} style={{cursor:'pointer', background:'red', padding:'3px', borderRadius:'3px'}}>Clear Betslip</p>
-                    </div>
-                    <div className="HomeMainContentsCSlipItems">
-                        {betslipData.length === 0 ? (
-                            <>
-                                {" "}
-                                <h3>Empty slip, Please select a odds from the fan page</h3>
-                            </>
-                        ) : (
-                            <>
-                            {
-                                betslipData.map((item, index)=>(
-                                    <div className="HomeMainContentsCSlipItems1" key={index}>
-                                    <div className="HomeMainContentsCSlipItem1Name">
-                                        <input type="checkbox" />
-                                        <div className="HomeMainContentsCSlipItem1NameTeams">
-                                           {item?.bettor}
-                                        </div>
-                                        <p>X</p>
-                                    </div>
-                                    <div className="HomeMainContentsCSlipItem1Choice">
-                                        <p>{item?.oddsSelected}</p>
-                                    </div>
-                                </div>
-                                ))
-                            }
-                               
-                            </>
-                        )}
-
-                        <div className="HomeMainContentsCSlipItemsType">
-                            <div className="active">Single</div>
-                            <div>Multiple</div>
-                            <div>System</div>
-                        </div>
-                    </div>
-                    <div className="HomeMainContentsCSlipC">
-                        <div className="HomeMainContentsCSlipCTop">
-                            <div className="HomeMainContentsCSlipCTopA">
-                                <p>All Single stakes are:</p>
-                                <input type="text" />
-                            </div>
-                            <div className="HomeMainContentsCSlipCTopB">
-                                <button>Clear</button>
-                                <button className="">$100</button>
-                                <button className="">$200</button>
-                                <button className="">$500</button>
-                                <button className="">$1,000</button>
-                            </div>
-                        </div>
-                        <div className="HomeMainContentsCSlipCDown">
-                            <p>
-                                Total Stake: <span>4,000.00</span>
-                            </p>
-                            <button>Book bet</button>
-                        </div>
-                    </div> */}
+                   
                      <div className="BetSlipPageMobileWr">
                             <div className="BetSlipPageMobileCLoser">
                                 <span >
