@@ -1,10 +1,10 @@
-import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
+// import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
 const Laliga = () => {
     return (
         <div className="HomeMainContentsBNavGames">
-            <h3>Top Laliga games</h3>
-            <div className="HomeMainContentsBNavGamesItem">
+            <h3>No selected pick for Laliga</h3>
+            {/* <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
                     <p>WHO WILL WIN?</p>
                 </div>
@@ -117,7 +117,7 @@ const Laliga = () => {
                         <p>Manchester United</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
