@@ -42,6 +42,8 @@ const HomeContentsCenter = ({
     showItalia,
     showBundes,
     showFrench,
+    handleShowChels,
+    handleShowCity,
 }) => {
     // console.log(data);
 
@@ -265,7 +267,7 @@ const HomeContentsCenter = ({
                 ) : showBundes ? (
                     <Bundesliga />
                 ) : showPremier ? (
-                    <Premier />
+                    <Premier handleShowChels={handleShowChels} handleShowCit={handleShowCity}/>
                 ) : showItalia ? (
                     <Italia />
                 ) : showFrench ? (

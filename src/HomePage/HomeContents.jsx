@@ -19,9 +19,9 @@ const HomeContents = () => {
     const [showArsenalFan, setShowArsenalFan] = useState(false)
     const [showManUFan, setShowManUFan] = useState(false)
     const [showPoolFan, setShowPoolFan] = useState(false)
-    const [showFanPick, setShowFanPick] = useState(true);
+    const [showFanPick, setShowFanPick] = useState(false);
     const [laliga, setShowLaliga] = useState(false)
-    const [premier, setPremier] = useState(false)
+    const [premier, setPremier] = useState(true)
     const [bundesliga, setBundesliga] = useState(false)
     const [italia, setItalia] = useState(false)
     const [french, setFrench] = useState(false)
@@ -441,6 +441,8 @@ const HomeContents = () => {
                         showItalia={italia}
                         showBundes={bundesliga}
                         showFrench={french}
+                        handleShowChels={handleShowChelseaFan}
+                        handleShowCity={handleShowCityFan}
                     />
                 ) : mainContentB ? (
                     <HomeOdds ShowMainContentA={showMainContentA} />
