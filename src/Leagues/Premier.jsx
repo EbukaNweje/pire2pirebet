@@ -1,12 +1,17 @@
 import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
-const Premier = ({handleShowChels, handleShowCit}) => {
+const Premier = ({handleShowChels, handleShowCity}) => {
     return (
         <div className="HomeMainContentsBNavGames">
             <h3>Top Premier League games</h3>
             <div className="HomeMainContentsBNavGamesItem">
-                <div className="HomeMainContentsBNavGamesItemTop">
+                <div
+                    className="HomeMainContentsBNavGamesItemTop"
+                    style={{padding: "0px 10px"}}
+                >
+                    <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
+                    <p>13-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
@@ -44,14 +49,22 @@ const Premier = ({handleShowChels, handleShowCit}) => {
                 </div>
             </div>
             <div className="HomeMainContentsBNavGamesItem">
-                <div className="HomeMainContentsBNavGamesItemTop">
+                <div
+                    className="HomeMainContentsBNavGamesItemTop"
+                    style={{padding: "0px 10px"}}
+                >
+                    <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
+                    <p>13-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
                         className="HomeMainContentsBNavGamesItem1A"
-                        onClick={handleShowCit}
+                        onClick={handleShowCity}
                     >
+                        <span>
+                            <FaAngleLeft />
+                        </span>
                         <p>Newcastle</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
@@ -70,9 +83,12 @@ const Premier = ({handleShowChels, handleShowCit}) => {
                     </div>
                     <div
                         className="HomeMainContentsBNavGamesItem1C"
-                        onClick={handleShowCit}
+                        onClick={handleShowCity}
                     >
                         <p>Manchester City</p>
+                        <span>
+                            <FaAngleRight />
+                        </span>
                     </div>
                 </div>
             </div>

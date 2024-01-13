@@ -27,6 +27,9 @@ import Premier from "../Leagues/Premier";
 import Italia from "../Leagues/Italia";
 import French from "../Leagues/French";
 import NapoliFanPage from "./NapoliFanPage";
+import LaligaFanPage from "./LaligaFanPage";
+import FrenchFanPage from "./FrenchFanPage";
+import GermanFanPage from "./GermanFanPage";
 
 const HomeContentsCenter = ({
     showChelseaFan,
@@ -46,7 +49,13 @@ const HomeContentsCenter = ({
     handleShowChels,
     handleShowCity,
     handleItaly,
+    handleFrench,
+    handleSpain,
+    handleGermany,
     showItaliaFan,
+    showGermanFan,
+    showLaligaFan,
+    showFrenchFan,
 }) => {
     // console.log(data);
 
@@ -266,18 +275,24 @@ const HomeContentsCenter = ({
                     // </>
                     <ChealseaFanPage />
                 ) : showLaliga ? (
-                    <Laliga handleItaly={handleItaly}/>
+                    <Laliga handleSpain={handleSpain} />
                 ) : showBundes ? (
-                    <Bundesliga handleItaly={handleItaly}/>
+                    <Bundesliga handleGermany={handleGermany}  />
                 ) : showPremier ? (
                     <Premier
                         handleShowChels={handleShowChels}
-                        handleShowCit={handleShowCity}
+                        handleShowCity={handleShowCity}
                     />
                 ) : showItalia ? (
-                    <Italia handleItaly={handleItaly}/>
+                    <Italia handleItaly={handleItaly} />
                 ) : showFrench ? (
-                    <French handleItaly={handleItaly}/>
+                    <French handleFrench={handleFrench} />
+                ) : showFrenchFan ? (
+                    <FrenchFanPage />
+                ) : showGermanFan ? (
+                    <GermanFanPage />
+                ) : showLaligaFan ? (
+                    <LaligaFanPage />
                 ) : showItaliaFan ? (
                     <NapoliFanPage />
                 ) : showBarcaFan ? (

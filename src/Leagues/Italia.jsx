@@ -5,8 +5,13 @@ const Italia = ({handleItaly}) => {
         <div className="HomeMainContentsBNavGames">
             <h3>Top Italia games</h3>
             <div className="HomeMainContentsBNavGamesItem">
-                <div className="HomeMainContentsBNavGamesItemTop">
+                <div
+                    className="HomeMainContentsBNavGamesItemTop"
+                    style={{padding: "0px 10px"}}
+                >
+                    <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
+                    <p>13-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
@@ -44,8 +49,13 @@ const Italia = ({handleItaly}) => {
                 </div>
             </div>
             <div className="HomeMainContentsBNavGamesItem">
-                <div className="HomeMainContentsBNavGamesItemTop">
+                <div
+                    className="HomeMainContentsBNavGamesItemTop"
+                    style={{padding: "0px 10px"}}
+                >
+                    <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
+                    <p>13-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div

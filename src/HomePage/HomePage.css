@@ -306,7 +306,7 @@ display: none;
   height: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: #ddd;
   font-size: 13px;
 }
@@ -1363,7 +1363,7 @@ display: none;
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   .HomeMainContentsBNavGamesItem1{

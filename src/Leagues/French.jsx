@@ -1,17 +1,19 @@
 import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
-const French = ({handleItaly}) => {
+const French = ({handleFrench}) => {
     return (
         <div className="HomeMainContentsBNavGames">
             <h3>Top French League games</h3>
             <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
+                    <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
+                    <p>13-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
                         className="HomeMainContentsBNavGamesItem1A"
-                        onClick={handleItaly}
+                        onClick={handleFrench}
                     >
                         <span>
                             <FaAngleLeft />
@@ -34,7 +36,7 @@ const French = ({handleItaly}) => {
                     </div>
                     <div
                         className="HomeMainContentsBNavGamesItem1C"
-                        onClick={handleItaly}
+                        onClick={handleFrench}
                     >
                         <p>Reims</p>
                         <span>

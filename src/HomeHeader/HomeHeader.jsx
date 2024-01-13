@@ -32,6 +32,10 @@ const HomeHeader = ({
     showItalia,
     showBundes,
     showFrench,
+    handleItaly,
+    handleFrench,
+    handleSpain,
+    handleGermany,
 }) => {
     const [openSide, setOpenSide] = useState(false);
 
@@ -94,6 +98,22 @@ const HomeHeader = ({
     const handleShowArsenalFan = () => {
         handleOpenSideBar();
         handleArsenalFan();
+    };
+    const handleShowSpanFan = () => {
+        handleOpenSideBar();
+        handleSpain();
+    };
+    const handleShowItalyFan = () => {
+        handleOpenSideBar();
+        handleItaly();
+    };
+    const handleShowGermanFan = () => {
+        handleOpenSideBar();
+        handleGermany();
+    };
+    const handleShowFrenchFan = () => {
+        handleOpenSideBar();
+        handleFrench();
     };
     const handleShowCity = () => {
         handleOpenSideBar();
@@ -444,6 +464,30 @@ const HomeHeader = ({
                             >
                                 Man City
                             </div>
+                            <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowFrenchFan}
+                                >
+                                    France
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowSpanFan}
+                                >
+                                    Spain
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowGermanFan}
+                                >
+                                    Germany
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowItalyFan}
+                                >
+                                    Italy
+                                </div>
                         </div>
                     </div>
                 </div>

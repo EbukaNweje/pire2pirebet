@@ -20,6 +20,9 @@ const HomeContents = () => {
     const [showManUFan, setShowManUFan] = useState(false);
     const [showPoolFan, setShowPoolFan] = useState(false);
     const [showItaliaFan, setShowItaliaFan] = useState(false);
+    const [showFrenchFan, setShowFrenchFan] = useState(false);
+    const [showGermanFan, setShowGermanFan] = useState(false);
+    const [showLaligaFan, setShowLaligaFan] = useState(false);
     const [showFanPick, setShowFanPick] = useState(false);
     const [laliga, setShowLaliga] = useState(false);
     const [premier, setPremier] = useState(true);
@@ -33,6 +36,9 @@ const HomeContents = () => {
     };
     const handleShowFanPick = () => {
         setShowFanPick(true);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -49,6 +55,9 @@ const HomeContents = () => {
     };
     const handleShowLaliga = () => {
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -65,6 +74,9 @@ const HomeContents = () => {
     };
     const handleShowPremier = () => {
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -81,6 +93,9 @@ const HomeContents = () => {
     };
     const handleShowBundes = () => {
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -97,6 +112,9 @@ const HomeContents = () => {
     };
     const handleShowItalia = () => {
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -113,6 +131,9 @@ const HomeContents = () => {
     };
     const handleShowFrench = () => {
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowChelseaFan(false);
         setShowBarcaFan(false);
@@ -130,6 +151,9 @@ const HomeContents = () => {
     const handleShowChelseaFan = () => {
         setShowChelseaFan(true);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
@@ -146,6 +170,9 @@ const HomeContents = () => {
     const handleShowBarcaFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(true);
         setShowCityFan(false);
@@ -162,6 +189,9 @@ const HomeContents = () => {
     const handleShowCityFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(true);
@@ -178,6 +208,9 @@ const HomeContents = () => {
     const handleShowMadridFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
@@ -194,6 +227,9 @@ const HomeContents = () => {
     const handleShowManUFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
@@ -210,6 +246,9 @@ const HomeContents = () => {
     const handleShowArsenalFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
@@ -226,6 +265,9 @@ const HomeContents = () => {
     const handleShowPoolFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
@@ -242,7 +284,67 @@ const HomeContents = () => {
     const handleShowItaliaFan = () => {
         setShowChelseaFan(false);
         setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
         setShowItaliaFan(true);
+        setShowBarcaFan(false);
+        setShowCityFan(false);
+        setShowMadridFan(false);
+        setShowArsenalFan(false);
+        setShowManUFan(false);
+        setShowPoolFan(false);
+        setShowLaliga(false);
+        setPremier(false);
+        setBundesliga(false);
+        setItalia(false);
+        setFrench(false);
+    };
+    const handleShowBundesFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(false);
+        setShowGermanFan(true);
+        setShowItaliaFan(false);
+        setShowBarcaFan(false);
+        setShowCityFan(false);
+        setShowMadridFan(false);
+        setShowArsenalFan(false);
+        setShowManUFan(false);
+        setShowPoolFan(false);
+        setShowLaliga(false);
+        setPremier(false);
+        setBundesliga(false);
+        setItalia(false);
+        setFrench(false);
+    };
+    const handleShowLaligaFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowFrenchFan(false);
+        setShowLaligaFan(true);
+        setShowGermanFan(false);
+        setShowItaliaFan(false);
+        setShowBarcaFan(false);
+        setShowCityFan(false);
+        setShowMadridFan(false);
+        setShowArsenalFan(false);
+        setShowManUFan(false);
+        setShowPoolFan(false);
+        setShowLaliga(false);
+        setPremier(false);
+        setBundesliga(false);
+        setItalia(false);
+        setFrench(false);
+    };
+    const handleShowFrenchFan = () => {
+        setShowChelseaFan(false);
+        setShowFanPick(false);
+        setShowFrenchFan(true);
+        setShowLaligaFan(false);
+        setShowGermanFan(false);
+        setShowItaliaFan(false);
         setShowBarcaFan(false);
         setShowCityFan(false);
         setShowMadridFan(false);
@@ -358,6 +460,10 @@ const HomeContents = () => {
                 showItalia={handleShowItalia}
                 showBundes={handleShowBundes}
                 showFrench={handleShowFrench}
+                handleItaly={handleShowItaliaFan}
+                handleFrench={handleShowFrenchFan}
+                handleSpain={handleShowLaligaFan}
+                handleGermany={handleShowBundesFan}
             />
             <div className="HomeMainContents">
                 <div className="HomeMainContentsA">
@@ -464,6 +570,30 @@ const HomeContents = () => {
                                 >
                                     Man City
                                 </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowFrenchFan}
+                                >
+                                    France
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowLaligaFan}
+                                >
+                                    Spain
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowBundesFan}
+                                >
+                                    Germany
+                                </div>
+                                <div
+                                    className="HomeMainContentsALinksItemFP1"
+                                    onClick={handleShowItaliaFan}
+                                >
+                                    Italy
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -483,11 +613,17 @@ const HomeContents = () => {
                         showLaliga={laliga}
                         showItalia={italia}
                         handleItaly={handleShowItaliaFan}
+                        handleFrench={handleShowFrenchFan}
+                        handleSpain={handleShowLaligaFan}
+                        handleGermany={handleShowBundesFan}
                         showBundes={bundesliga}
                         showFrench={french}
                         handleShowChels={handleShowChelseaFan}
-                        handleShowCit={handleShowCityFan}
+                        handleShowCity={handleShowCityFan}
                         showItaliaFan={showItaliaFan}
+                        showFrenchFan={showFrenchFan}
+                        showGermanFan={showGermanFan}
+                        showLaligaFan={showLaligaFan}
                     />
                 ) : mainContentB ? (
                     <HomeOdds ShowMainContentA={showMainContentA} />
