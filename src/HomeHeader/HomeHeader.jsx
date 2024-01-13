@@ -10,20 +10,34 @@ import {FaRegUserCircle} from "react-icons/fa";
 import Account from "../Settings/Account";
 import toast, {Toaster} from "react-hot-toast";
 import axios from "axios";
-import {useNavigate} from 'react-router-dom'
-import {useDispatch, useSelector} from 'react-redux'
-import { userData, isLoggedInUser,logOut  } from "../Redux/Features";
+import {useNavigate} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
+import {userData, isLoggedInUser, logOut} from "../Redux/Features";
 // import {FaHamburger} from "react-icons/fa";
 // import {FaAngleDown} from "react-icons/fa6";
 // import {MdOutlineSportsSoccer} from "react-icons/md";
 
-const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,handleArsenalFan,handleBarcaFan , handleManUFan, handleCityFan, handleMadridFan}) => {
+const HomeHeader = ({
+    accPops,
+    handleChelseaFan,
+    ShowFanPicksA,
+    handlePoolFan,
+    handleArsenalFan,
+    handleBarcaFan,
+    handleManUFan,
+    handleCityFan,
+    handleMadridFan,
+    showPremier,
+    showLaliga,
+    showItalia,
+    showBundes,
+    showFrench,
+}) => {
     const [openSide, setOpenSide] = useState(false);
 
     const handleOpenSideBar = () => {
         setOpenSide(!openSide);
     };
-    
 
     // const [isUser, setIsUser] = useState(true);
     // console.log(isUser);
@@ -40,11 +54,11 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
     };
 
     const [accPop, setAccPop] = useState(false);
-    
+
     const handleAccPopup = () => {
         setAccPop(!accPop);
     };
-    
+
     const handleCloseAccountPopup = () => {
         setAccPop(false);
         // Call the function passed as a prop to handle the closing of the popup
@@ -90,101 +104,128 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
         handleOpenSideBar();
         ShowFanPicksA();
     };
+    const handleShowPremier = () => {
+        handleOpenSideBar();
+        showPremier();
+    };
+    const handleShowLaliga = () => {
+        handleOpenSideBar();
+        showLaliga();
+    };
+    const handleShowFrench = () => {
+        handleOpenSideBar();
+        showFrench();
+    };
+    const handleShowBundesliga = () => {
+        handleOpenSideBar();
+        showBundes();
+    };
+    const handleShowItalia = () => {
+        handleOpenSideBar();
+        showItalia();
+    };
 
-      const [email, setEmail] = useState("");
-      const [password, setPassword] = useState("");
-      const [loading, setLoading] = useState(false);
-      //   const [error, setError] = useState(false)
-      const nav = useNavigate()
-      const dispatch = useDispatch()
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(false);
+    //   const [error, setError] = useState(false)
+    const nav = useNavigate();
+    const dispatch = useDispatch();
 
-      if (email){
-        localStorage.setItem("email", email)
+    if (email) {
+        localStorage.setItem("email", email);
     }
 
-      const handleResendOTP = () =>{
+    const handleResendOTP = () => {
         // toast.loading("generating OTP code")
-        toast.loading("Generating OTP...")
-        const url = "https://pier2pier.onrender.com/api/user/resend-verification-otp"
-        const data = {email:email}
-        axios.post(url, data)
-             .then((response)=>{
+        toast.loading("Generating OTP...");
+        const url =
+            "https://pier2pier.onrender.com/api/user/resend-verification-otp";
+        const data = {email: email};
+        axios
+            .post(url, data)
+            .then((response) => {
                 console.log(response);
-                toast.success(`${response?.data?.message}`)
-                localStorage.setItem("verifyToken", response?.data?.token)
+                toast.success(`${response?.data?.message}`);
+                localStorage.setItem("verifyToken", response?.data?.token);
                 setTimeout(() => {
                     nav(`/register-info/${data.email}`);
                 }, 2000);
-             })
-             .catch((error)=>{
+            })
+            .catch((error) => {
                 console.log(error);
-                toast.error("Error sending code, please try again")
-             })
-    }
+                toast.error("Error sending code, please try again");
+            });
+    };
 
     const handleLogIn = (e) => {
-        e.preventDefault()
-          setLoading(true);
-          if (email === "" || password === "") {
-              // alert('Please enter all fields to log in')
-              setLoading(false);
-              toast.error("Please enter all fields to log in");
-          } else {
-              setLoading(true);
-              const loadingToast = toast.loading("Logging In...")
-              const url =
-                  "https://pire2pirebet-back-end.vercel.app/api/sign-in";
-              const data = {email: email, password: password};
-              axios
-                  .post(url, data)
-                  .then((response) => {
-                      dispatch(userData(response?.data))
-                      dispatch(isLoggedInUser(true))
-                      console.log(response);
-                      toast.success(`Welcome back ${response?.data?.user?.firstName}`);
-                      setLoading(false)
-                      toast.dismiss(loadingToast);
-                  })
-                  .catch((error) => {
-                      console.log(error);
-                      toast.error(`${error?.response?.data?.message}`);
-                      setLoading(false);
-                      if (error.response.data.message === "Email Not Verified, Please verify your email to log in."){
-                        handleResendOTP()
-                      }
-                  });
-          }
-      };
+        e.preventDefault();
+        setLoading(true);
+        if (email === "" || password === "") {
+            // alert('Please enter all fields to log in')
+            setLoading(false);
+            toast.error("Please enter all fields to log in");
+        } else {
+            setLoading(true);
+            const loadingToast = toast.loading("Logging In...");
+            const url = "https://pire2pirebet-back-end.vercel.app/api/sign-in";
+            const data = {email: email, password: password};
+            axios
+                .post(url, data)
+                .then((response) => {
+                    dispatch(userData(response?.data));
+                    dispatch(isLoggedInUser(true));
+                    console.log(response);
+                    toast.success(
+                        `Welcome back ${response?.data?.user?.firstName}`
+                    );
+                    setLoading(false);
+                    toast.dismiss(loadingToast);
+                })
+                .catch((error) => {
+                    console.log(error);
+                    toast.error(`${error?.response?.data?.message}`);
+                    setLoading(false);
+                    if (
+                        error.response.data.message ===
+                        "Email Not Verified, Please verify your email to log in."
+                    ) {
+                        handleResendOTP();
+                    }
+                });
+        }
+    };
 
-      const user = useSelector((state) => state.Pier.user);
-      const handleLogout = () =>{
-        const loadingToast = toast.loading("logging out...")
-        const url = 'https://pire2pirebet-back-end.vercel.app/api/sign-out'
+    const user = useSelector((state) => state.Pier.user);
+    const handleLogout = () => {
+        const loadingToast = toast.loading("logging out...");
+        const url = "https://pire2pirebet-back-end.vercel.app/api/sign-out";
         const token = user.token;
         const data = {
-            signOut: "SignOut User"}
+            signOut: "SignOut User",
+        };
         const headers = {
             Authorization: `Bearer ${token}`,
         };
-        axios.post(url, data, {headers})
-             .then((response)=>{
+        axios
+            .post(url, data, {headers})
+            .then((response) => {
                 toast.dismiss(loadingToast);
                 console.log(response);
-                dispatch(logOut())
-                dispatch(isLoggedInUser(false))
-                toast.success(response?.data?.message)
-                setShowDrop(false)
-             })
-             .catch((error)=>{
+                dispatch(logOut());
+                dispatch(isLoggedInUser(false));
+                toast.success(response?.data?.message);
+                setShowDrop(false);
+            })
+            .catch((error) => {
                 console.log(error);
-             })
-      }
+            });
+    };
 
     //   console.log(user);
-      
-      const isLoggedIn = useSelector((state) => state.Pier.isLoggedIn);
-    // console.log(isLoggedIn);
 
+    const isLoggedIn = useSelector((state) => state.Pier.isLoggedIn);
+    // console.log(isLoggedIn);
 
     return (
         <div className="HomeHeader">
@@ -213,11 +254,25 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
                                     <div className="HeaderTextLMyaccContents">
                                         <div className="HeaderTextLMyaccContentsA">
                                             <p>{user?.user?.firstName}</p>
-                                            <p>ID:{user?.user?._id.slice(0, 6).toUpperCase()}</p>
+                                            <p>
+                                                ID:
+                                                {user?.user?._id
+                                                    .slice(0, 6)
+                                                    .toUpperCase()}
+                                            </p>
                                         </div>
                                         <div className="HeaderTextLMyaccContentsB">
                                             <p>Account Balance</p>
-                                            <p style={{display:'flex', justifyContent:'space-between', width:'100%'}}>$200 <span>0.00319 BTC</span></p>
+                                            <p
+                                                style={{
+                                                    display: "flex",
+                                                    justifyContent:
+                                                        "space-between",
+                                                    width: "100%",
+                                                }}
+                                            >
+                                                $200 <span>0.00319 BTC</span>
+                                            </p>
                                         </div>
                                         <div
                                             className="HeaderTextLMyaccContentsC"
@@ -228,7 +283,10 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
                                         <div className="HeaderTextLMyaccContentsD">
                                             My Slip
                                         </div>
-                                        <div className="HeaderTextLMyaccContentsE" onClick={handleLogout}>
+                                        <div
+                                            className="HeaderTextLMyaccContentsE"
+                                            onClick={handleLogout}
+                                        >
                                             Logout
                                         </div>
                                     </div>
@@ -300,27 +358,35 @@ const HomeHeader = ({accPops, handleChelseaFan, ShowFanPicksA, handlePoolFan ,ha
                     </div>
                     <div className="HomeMainContentsALinksItem">
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
+                        <p>Laliga</p>
                     </div>
-                    <div className="HomeMainContentsALinksItem">
+                    <div
+                        className="HomeMainContentsALinksItem"
+                        onClick={handleShowPremier}
+                    >
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
+                        <p>Premier League</p>
                     </div>
-                    <div className="HomeMainContentsALinksItem">
+                    <div
+                        className="HomeMainContentsALinksItem"
+                        onClick={handleShowItalia}
+                    >
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
+                        <p>Italy Seria A</p>
                     </div>
-                    <div className="HomeMainContentsALinksItem">
+                    <div
+                        className="HomeMainContentsALinksItem"
+                        onClick={handleShowBundesliga}
+                    >
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
+                        <p>German Bundesliga</p>
                     </div>
-                    <div className="HomeMainContentsALinksItem">
+                    <div
+                        className="HomeMainContentsALinksItem"
+                        onClick={handleShowFrench}
+                    >
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
-                    </div>
-                    <div className="HomeMainContentsALinksItem">
-                        <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
-                        <p>UEFA Champions League</p>
+                        <p>French League</p>
                     </div>
 
                     <div className="HomeMainContentsALinksItemFan">

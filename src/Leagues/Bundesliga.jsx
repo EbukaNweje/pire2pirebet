@@ -1,7 +1,7 @@
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 
 
-const Bundesliga = () => {
+const Bundesliga = ({handleItaly}) => {
   return (
     <div className="HomeMainContentsBNavGames">
     <h3>Top Bundesliga games</h3>
@@ -10,7 +10,7 @@ const Bundesliga = () => {
             <p>WHO WILL WIN?</p>
         </div>
         <div className="HomeMainContentsBNavGamesItem1">
-            <div className="HomeMainContentsBNavGamesItem1A">
+            <div className="HomeMainContentsBNavGamesItem1A" onClick={handleItaly}>
                 <span>
                     <FaAngleLeft />
                 </span>
@@ -30,7 +30,7 @@ const Bundesliga = () => {
                     <span></span>
                 </div>
             </div>
-            <div className="HomeMainContentsBNavGamesItem1C">
+            <div className="HomeMainContentsBNavGamesItem1C" onClick={handleItaly}>
                 <p>Dortmund</p>
                 <span>
                     <FaAngleRight />
@@ -43,7 +43,7 @@ const Bundesliga = () => {
             <p>WHO WILL WIN?</p>
         </div>
         <div className="HomeMainContentsBNavGamesItem1">
-            <div className="HomeMainContentsBNavGamesItem1A">
+            <div className="HomeMainContentsBNavGamesItem1A" onClick={handleItaly}>
                 <p>Augsburg</p>
             </div>
             <div className="HomeMainContentsBNavGamesItem1B">
@@ -60,7 +60,7 @@ const Bundesliga = () => {
                     <span></span>
                 </div>
             </div>
-            <div className="HomeMainContentsBNavGamesItem1C">
+            <div className="HomeMainContentsBNavGamesItem1C" onClick={handleItaly}>
                 <p>Bayer Leverkusen</p>
             </div>
         </div>

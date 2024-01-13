@@ -266,9 +266,9 @@ const HomeContentsCenter = ({
                     // </>
                     <ChealseaFanPage />
                 ) : showLaliga ? (
-                    <Laliga />
+                    <Laliga handleItaly={handleItaly}/>
                 ) : showBundes ? (
-                    <Bundesliga />
+                    <Bundesliga handleItaly={handleItaly}/>
                 ) : showPremier ? (
                     <Premier
                         handleShowChels={handleShowChels}
@@ -277,7 +277,7 @@ const HomeContentsCenter = ({
                 ) : showItalia ? (
                     <Italia handleItaly={handleItaly}/>
                 ) : showFrench ? (
-                    <French />
+                    <French handleItaly={handleItaly}/>
                 ) : showItaliaFan ? (
                     <NapoliFanPage />
                 ) : showBarcaFan ? (

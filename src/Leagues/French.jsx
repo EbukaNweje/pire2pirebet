@@ -1,6 +1,6 @@
 import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
-const French = () => {
+const French = ({handleItaly}) => {
     return (
         <div className="HomeMainContentsBNavGames">
             <h3>Top French League games</h3>
@@ -9,7 +9,10 @@ const French = () => {
                     <p>WHO WILL WIN?</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
-                    <div className="HomeMainContentsBNavGamesItem1A">
+                    <div
+                        className="HomeMainContentsBNavGamesItem1A"
+                        onClick={handleItaly}
+                    >
                         <span>
                             <FaAngleLeft />
                         </span>
@@ -29,7 +32,10 @@ const French = () => {
                             <span></span>
                         </div>
                     </div>
-                    <div className="HomeMainContentsBNavGamesItem1C">
+                    <div
+                        className="HomeMainContentsBNavGamesItem1C"
+                        onClick={handleItaly}
+                    >
                         <p>Reims</p>
                         <span>
                             <FaAngleRight />
