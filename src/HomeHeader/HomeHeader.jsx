@@ -376,7 +376,10 @@ const HomeHeader = ({
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                         <p>UEFA Champions League</p>
                     </div>
-                    <div className="HomeMainContentsALinksItem">
+                    <div
+                        className="HomeMainContentsALinksItem"
+                        onClick={handleShowLaliga}
+                    >
                         <MdOutlineSportsSoccer className="HomeMainContentsALinksItemIcon" />
                         <p>Laliga</p>
                     </div>
@@ -465,29 +468,29 @@ const HomeHeader = ({
                                 Man City
                             </div>
                             <div
-                                    className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowFrenchFan}
-                                >
-                                    France
-                                </div>
-                                <div
-                                    className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowSpanFan}
-                                >
-                                    Spain
-                                </div>
-                                <div
-                                    className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowGermanFan}
-                                >
-                                    Germany
-                                </div>
-                                <div
-                                    className="HomeMainContentsALinksItemFP1"
-                                    onClick={handleShowItalyFan}
-                                >
-                                    Italy
-                                </div>
+                                className="HomeMainContentsALinksItemFP1"
+                                onClick={handleShowFrenchFan}
+                            >
+                                France
+                            </div>
+                            <div
+                                className="HomeMainContentsALinksItemFP1"
+                                onClick={handleShowSpanFan}
+                            >
+                                Spain
+                            </div>
+                            <div
+                                className="HomeMainContentsALinksItemFP1"
+                                onClick={handleShowGermanFan}
+                            >
+                                Germany
+                            </div>
+                            <div
+                                className="HomeMainContentsALinksItemFP1"
+                                onClick={handleShowItalyFan}
+                            >
+                                Italy
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -65,7 +65,7 @@ const Italia = ({handleItaly}) => {
                         <p>Monza</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
-                        <div className="HomeMainContentsBNavGamesItem1B1st">
+                        <div className="HomeMainContentsBNavGamesItem1B3rd">
                             <p>10%</p>
                             <span></span>
                         </div>
@@ -73,7 +73,7 @@ const Italia = ({handleItaly}) => {
                             <p>30%</p>
                             <span></span>
                         </div>
-                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                        <div className=" HomeMainContentsBNavGamesItem1B1st">
                             <p>60%</p>
                             <span></span>
                         </div>

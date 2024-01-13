@@ -68,7 +68,7 @@ const Premier = ({handleShowChels, handleShowCity}) => {
                         <p>Newcastle</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
-                        <div className="HomeMainContentsBNavGamesItem1B1st">
+                        <div className="HomeMainContentsBNavGamesItem1B3rd">
                             <p>11%</p>
                             <span></span>
                         </div>
@@ -76,7 +76,7 @@ const Premier = ({handleShowChels, handleShowCity}) => {
                             <p>44%</p>
                             <span></span>
                         </div>
-                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                        <div className=" HomeMainContentsBNavGamesItem1B1st">
                             <p>42%</p>
                             <span></span>
                         </div>

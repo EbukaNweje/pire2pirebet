@@ -21,7 +21,7 @@ const Bundesliga = ({handleGermany}) => {
                         <p>Darmstadt</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
-                        <div className="HomeMainContentsBNavGamesItem1B1st">
+                        <div className="HomeMainContentsBNavGamesItem1B3rd">
                             <p>11%</p>
                             <span></span>
                         </div>
@@ -29,7 +29,7 @@ const Bundesliga = ({handleGermany}) => {
                             <p>44%</p>
                             <span></span>
                         </div>
-                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                        <div className=" HomeMainContentsBNavGamesItem1B1st">
                             <p>42%</p>
                             <span></span>
                         </div>
@@ -59,7 +59,7 @@ const Bundesliga = ({handleGermany}) => {
                         <p>Augsburg</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
-                        <div className="HomeMainContentsBNavGamesItem1B1st">
+                        <div className=" HomeMainContentsBNavGamesItem1B3rd">
                             <p>11%</p>
                             <span></span>
                         </div>
@@ -67,7 +67,7 @@ const Bundesliga = ({handleGermany}) => {
                             <p>44%</p>
                             <span></span>
                         </div>
-                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                        <div className="HomeMainContentsBNavGamesItem1B1st">
                             <p>42%</p>
                             <span></span>
                         </div>
