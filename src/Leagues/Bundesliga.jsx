@@ -6,9 +6,9 @@ const Bundesliga = ({handleGermany}) => {
             <h3>Top Bundesliga games</h3>
             <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
-                    <p>13:30PM</p>
+                    <p>15:30PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>13-01-2024</p>
+                    <p>27-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
@@ -18,7 +18,7 @@ const Bundesliga = ({handleGermany}) => {
                         <span>
                             <FaAngleLeft />
                         </span>
-                        <p>Darmstadt</p>
+                        <p>Augsburg</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
                         <div className="HomeMainContentsBNavGamesItem1B3rd">
@@ -38,7 +38,7 @@ const Bundesliga = ({handleGermany}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleGermany}
                     >
-                        <p>Dortmund</p>
+                        <p>Bayern Munich</p>
                         <span>
                             <FaAngleRight />
                         </span>
@@ -47,16 +47,16 @@ const Bundesliga = ({handleGermany}) => {
             </div>
             <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
-                    <p>13:30PM</p>
+                    <p>15:30PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>13-01-2024</p>
+                    <p>27-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
                         className="HomeMainContentsBNavGamesItem1A"
                         onClick={handleGermany}
                     >
-                        <p>Augsburg</p>
+                        <p>Stuttgart</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
                         <div className=" HomeMainContentsBNavGamesItem1B3rd">
@@ -76,7 +76,7 @@ const Bundesliga = ({handleGermany}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleGermany}
                     >
-                        <p>Bayer Leverkusen</p>
+                        <p>RB Leipzig</p>
                     </div>
                 </div>
             </div>

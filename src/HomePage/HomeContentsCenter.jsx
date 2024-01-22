@@ -510,7 +510,7 @@ const HomeContentsCenter = ({
                                                         <p>
                                                             USD
                                                             <input
-                                                                type="text"
+                                                                type="number"
                                                                 placeholder="stake"
                                                                 value={
                                                                     stakeAmounts[
@@ -597,7 +597,7 @@ const HomeContentsCenter = ({
                                                 : "is"}
                                         </p>
                                         <input
-                                            type="text"
+                                            type="number"
                                             value={calculateTotalStake()}
                                             readOnly
                                         />

@@ -9,9 +9,9 @@ const Italia = ({handleItaly}) => {
                     className="HomeMainContentsBNavGamesItemTop"
                     style={{padding: "0px 10px"}}
                 >
-                    <p>13:30PM</p>
+                    <p>18:00PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>13-01-2024</p>
+                    <p>27-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
@@ -21,7 +21,7 @@ const Italia = ({handleItaly}) => {
                         <span>
                             <FaAngleLeft />
                         </span>
-                        <p>Napoli</p>
+                        <p>Juventus</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
                         <div className="HomeMainContentsBNavGamesItem1B1st">
@@ -41,7 +41,7 @@ const Italia = ({handleItaly}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleItaly}
                     >
-                        <p>Salernitana</p>
+                        <p>Empoli</p>
                         <span>
                             <FaAngleRight />
                         </span>
@@ -55,17 +55,17 @@ const Italia = ({handleItaly}) => {
                 >
                     <p>13:30PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>13-01-2024</p>
+                    <p>27-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
                         className="HomeMainContentsBNavGamesItem1A"
                         onClick={handleItaly}
                     >
-                        <p>Monza</p>
+                        <p>AC Milan</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
-                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                        <div className="HomeMainContentsBNavGamesItem1B1st">
                             <p>10%</p>
                             <span></span>
                         </div>
@@ -73,7 +73,7 @@ const Italia = ({handleItaly}) => {
                             <p>30%</p>
                             <span></span>
                         </div>
-                        <div className=" HomeMainContentsBNavGamesItem1B1st">
+                        <div className="  HomeMainContentsBNavGamesItem1B3rd">
                             <p>60%</p>
                             <span></span>
                         </div>
@@ -82,7 +82,7 @@ const Italia = ({handleItaly}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleItaly}
                     >
-                        <p>Inter</p>
+                        <p>Bologna</p>
                     </div>
                 </div>
             </div>

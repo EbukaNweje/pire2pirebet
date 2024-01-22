@@ -5,7 +5,8 @@ const Premier = ({handleShowChels, handleShowCity}) => {
         <div className="HomeMainContentsBNavGames">
             <h3>Top Premier League games</h3>
             <div className="HomeMainContentsBNavGamesItem">
-                <div
+                <p style={{display:'flex', alignItems:'center', justifyContent:'center', color:"white"}}>No Premier League Match</p>
+                {/* <div
                     className="HomeMainContentsBNavGamesItemTop"
                     style={{padding: "0px 10px"}}
                 >
@@ -46,9 +47,9 @@ const Premier = ({handleShowChels, handleShowCity}) => {
                             <FaAngleRight />
                         </span>
                     </div>
-                </div>
+                </div> */}
             </div>
-            <div className="HomeMainContentsBNavGamesItem">
+            {/* <div className="HomeMainContentsBNavGamesItem">
                 <div
                     className="HomeMainContentsBNavGamesItemTop"
                     style={{padding: "0px 10px"}}
@@ -91,7 +92,7 @@ const Premier = ({handleShowChels, handleShowCity}) => {
                         </span>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

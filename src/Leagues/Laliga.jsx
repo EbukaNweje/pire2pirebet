@@ -8,9 +8,9 @@ const Laliga = ({handleSpain}) => {
             <h3>No selected pick for Laliga</h3>
             <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
-                    <p>13:30PM</p>
+                    <p>16:15PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>13-01-2024</p>
+                    <p>22-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div
@@ -20,10 +20,51 @@ const Laliga = ({handleSpain}) => {
                         <span>
                             <FaAngleLeft />
                         </span>
-                        <p>Real Madrid</p>
+                        <p>Las Palmas</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
+                        <div className=" HomeMainContentsBNavGamesItem1B3rd">
+                            <p>11%</p>
+                            <span></span>
+                        </div>
+                        <div className="HomeMainContentsBNavGamesItem1B2nd">
+                            <p>44%</p>
+                            <span></span>
+                        </div>
                         <div className="HomeMainContentsBNavGamesItem1B1st">
+                            <p>42%</p>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div
+                        className="HomeMainContentsBNavGamesItem1C"
+                        onClick={handleSpain}
+                    >
+                        <p>Real Madrid</p>
+                        <span>
+                            <FaAngleRight />
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div className="HomeMainContentsBNavGamesItem">
+                <div className="HomeMainContentsBNavGamesItemTop">
+                    <p>18:30PM</p>
+                    <p>WHO WILL WIN?</p>
+                    <p>27-01-2024</p>
+                </div>
+                <div className="HomeMainContentsBNavGamesItem1">
+                    <div
+                        className="HomeMainContentsBNavGamesItem1A"
+                        onClick={handleSpain}
+                    >
+                        <span>
+                            <FaAngleLeft />
+                        </span>
+                        <p>Barcelona</p>
+                    </div>
+                    <div className="HomeMainContentsBNavGamesItem1B">
+                        <div className=" HomeMainContentsBNavGamesItem1B1st">
                             <p>42%</p>
                             <span></span>
                         </div>
@@ -40,7 +81,7 @@ const Laliga = ({handleSpain}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleSpain}
                     >
-                        <p>Barcelona</p>
+                        <p>Villareal</p>
                         <span>
                             <FaAngleRight />
                         </span>

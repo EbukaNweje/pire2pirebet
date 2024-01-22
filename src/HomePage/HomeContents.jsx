@@ -688,7 +688,8 @@ const HomeContents = () => {
                                                     <p>
                                                         USD
                                                         <input
-                                                            type="text"
+                                                            type="number"
+                                                            min={0}
                                                             placeholder="stake"
                                                             value={
                                                                 stakeAmounts[

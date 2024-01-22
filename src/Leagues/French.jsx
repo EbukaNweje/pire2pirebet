@@ -18,7 +18,7 @@ const French = ({handleFrench}) => {
                         <span>
                             <FaAngleLeft />
                         </span>
-                        <p>Monaco</p>
+                        <p>PSG</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
                         <div className="HomeMainContentsBNavGamesItem1B1st">
@@ -38,7 +38,48 @@ const French = ({handleFrench}) => {
                         className="HomeMainContentsBNavGamesItem1C"
                         onClick={handleFrench}
                     >
-                        <p>Reims</p>
+                        <p>Brest</p>
+                        <span>
+                            <FaAngleRight />
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div className="HomeMainContentsBNavGamesItem">
+                <div className="HomeMainContentsBNavGamesItemTop">
+                    <p>21:00PM</p>
+                    <p>WHO WILL WIN?</p>
+                    <p>27-01-2024</p>
+                </div>
+                <div className="HomeMainContentsBNavGamesItem1">
+                    <div
+                        className="HomeMainContentsBNavGamesItem1A"
+                        onClick={handleFrench}
+                    >
+                        <span>
+                            <FaAngleLeft />
+                        </span>
+                        <p>Marseille</p>
+                    </div>
+                    <div className="HomeMainContentsBNavGamesItem1B">
+                        <div className="HomeMainContentsBNavGamesItem1B1st">
+                            <p>42%</p>
+                            <span></span>
+                        </div>
+                        <div className="HomeMainContentsBNavGamesItem1B2nd">
+                            <p>44%</p>
+                            <span></span>
+                        </div>
+                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                            <p>11%</p>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div
+                        className="HomeMainContentsBNavGamesItem1C"
+                        onClick={handleFrench}
+                    >
+                        <p>Monacco</p>
                         <span>
                             <FaAngleRight />
                         </span>
