@@ -5,12 +5,12 @@ import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 const Laliga = ({handleSpain}) => {
     return (
         <div className="HomeMainContentsBNavGames">
-            <h3>No selected pick for Laliga</h3>
+            <h3>Top  picks for Laliga</h3>
             <div className="HomeMainContentsBNavGamesItem">
                 <div className="HomeMainContentsBNavGamesItemTop">
                     <p>16:15PM</p>
                     <p>WHO WILL WIN?</p>
-                    <p>22-01-2024</p>
+                    <p>27-01-2024</p>
                 </div>
                 <div className="HomeMainContentsBNavGamesItem1">
                     <div

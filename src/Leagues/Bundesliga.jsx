@@ -56,6 +56,9 @@ const Bundesliga = ({handleGermany}) => {
                         className="HomeMainContentsBNavGamesItem1A"
                         onClick={handleGermany}
                     >
+                        <span>
+                            <FaAngleLeft />
+                        </span>
                         <p>Stuttgart</p>
                     </div>
                     <div className="HomeMainContentsBNavGamesItem1B">
@@ -77,6 +80,50 @@ const Bundesliga = ({handleGermany}) => {
                         onClick={handleGermany}
                     >
                         <p>RB Leipzig</p>
+                        <span>
+                            <FaAngleRight />
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div className="HomeMainContentsBNavGamesItem">
+                <div className="HomeMainContentsBNavGamesItemTop">
+                    <p>17:30PM</p>
+                    <p>WHO WILL WIN?</p>
+                    <p>28-01-2024</p>
+                </div>
+                <div className="HomeMainContentsBNavGamesItem1">
+                    <div
+                        className="HomeMainContentsBNavGamesItem1A"
+                        onClick={handleGermany}
+                    >
+                        <span>
+                            <FaAngleLeft />
+                        </span>
+                        <p>Dortmund</p>
+                    </div>
+                    <div className="HomeMainContentsBNavGamesItem1B">
+                        <div className="  HomeMainContentsBNavGamesItem1B1st">
+                            <p>42%</p>
+                            <span></span>
+                        </div>
+                        <div className="HomeMainContentsBNavGamesItem1B2nd">
+                            <p>44%</p>
+                            <span></span>
+                        </div>
+                        <div className="HomeMainContentsBNavGamesItem1B3rd">
+                            <p>11%</p>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div
+                        className="HomeMainContentsBNavGamesItem1C"
+                        onClick={handleGermany}
+                    >
+                        <p>Bochum</p>
+                        <span>
+                            <FaAngleRight />
+                        </span>
                     </div>
                 </div>
             </div>

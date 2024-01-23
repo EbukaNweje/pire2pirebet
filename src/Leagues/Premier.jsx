@@ -3,9 +3,9 @@ import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 const Premier = ({handleShowChels, handleShowCity}) => {
     return (
         <div className="HomeMainContentsBNavGames">
-            <h3>Top Premier League games</h3>
+            <h3>No Selected picks for premier league games</h3>
             <div className="HomeMainContentsBNavGamesItem">
-                <p style={{display:'flex', alignItems:'center', justifyContent:'center', color:"white"}}>No Premier League Match</p>
+                {/* <p style={{display:'flex', alignItems:'center', justifyContent:'center', color:"white"}}>No Premier League Match</p> */}
                 {/* <div
                     className="HomeMainContentsBNavGamesItemTop"
                     style={{padding: "0px 10px"}}
